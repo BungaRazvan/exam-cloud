@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState } from "react";
 import Question from "./Question";
 import { isEqual, sortBy } from "lodash";
 
@@ -1267,20 +1267,30 @@ export default function Quiz() {
     if (isEqual(sortBy(correctAnswers), sortBy(answer))) {
       setScore((prevScore) => prevScore + 1);
     } else {
-      setScore((prevScore) => prevScore - 1);
+      setScore((prevScore) => {
+        if (prevScore == 0) {
+          return 0;
+        }
+        prevScore - 1;
+      });
     }
+  };
 
+  const nextQuestion = () => {
     // Move to the next question
     if (currentQuestionIndex < totalQuestions - 1) {
       setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
+      return;
     }
   };
   return (
     <>
+      <h2>Score: {score}</h2>
       <Question
         question={questions[currentQuestionIndex]}
         number={currentQuestionIndex + 1}
         handleAnswer={handleAnswer}
+        nextQuestion={nextQuestion}
       />
     </>
   );

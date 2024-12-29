@@ -1,6 +1,7 @@
 "use client";
 
-import { useForm } from "react-hook-form";
+import { FormEvent, useState } from "react";
+import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
 import { Button } from "@/components/ui/button";
 import {
   Form,
@@ -14,21 +15,36 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { map } from "lodash";
-import { FileDiff } from "lucide-react";
+import classNames from "classnames";
+
+type FormData = {
+  type: string;
+};
 
 const RadioOption = (props) => {
-  const { item, index, field } = props;
+  const { item, index, field, correctAnswers, formSubmitted } = props;
   const letter = String.fromCharCode(65 + index);
 
   return (
     <FormItem className="flex items-center space-x-3 space-y-0">
       <FormControl>
         <RadioGroupItem
+          disabled={formSubmitted}
           value={item.value}
           checked={field.value == item.value}
         />
       </FormControl>
-      <FormLabel className="font-normal text-lg">
+      <FormLabel
+        className={classNames("font-normal text-lg", {
+          "text-red-500":
+            field.value &&
+            item.value == field.value &&
+            !correctAnswers.includes(item.value) &&
+            formSubmitted,
+          "text-green-500":
+            correctAnswers.includes(item.value) && formSubmitted,
+        })}
+      >
         {letter} {item.label}
       </FormLabel>
     </FormItem>
@@ -36,12 +52,14 @@ const RadioOption = (props) => {
 };
 
 export default function SingleAnswer(props) {
-  const { items, handleAnswer, correctAnswers } = props;
-  console.log("rerender");
+  const { items, handleAnswer, correctAnswers, nextQuestion } = props;
+
+  const [formSubmitted, setFormSubmitted] = useState(false);
+
   const FormSchema = z.object({
     // @ts-ignore
     type: z.enum(map(items, "value"), {
-      required_error: "",
+      required_error: "Please Choose one option",
     }),
   });
 
@@ -50,7 +68,20 @@ export default function SingleAnswer(props) {
   });
 
   function onSubmit(data) {
-    handleAnswer();
+    setFormSubmitted(true);
+
+    handleAnswer([data.type]);
+  }
+
+  function onNext(e: FormEvent) {
+    e.preventDefault();
+
+    if (!formSubmitted) {
+      return;
+    }
+
+    setFormSubmitted(false);
+    nextQuestion();
     form.reset();
   }
 
@@ -73,6 +104,8 @@ export default function SingleAnswer(props) {
                       item={item}
                       index={index}
                       field={field}
+                      correctAnswers={correctAnswers}
+                      formSubmitted={formSubmitted}
                     />
                   ))}
                 </RadioGroup>
@@ -84,7 +117,10 @@ export default function SingleAnswer(props) {
         <Button className="text-xl mr-2" type="submit">
           Submit
         </Button>
-        <Button className="text-xl">Next</Button>
+
+        <Button className="text-xl" onClick={onNext}>
+          Next
+        </Button>
       </form>
     </Form>
   );

@@ -11,7 +11,7 @@ import {
 import { shuffle } from "lodash";
 
 export default function Question(props) {
-  const { question, number, handleAnswer } = props;
+  const { question, number, handleAnswer, nextQuestion } = props;
 
   return (
     <div className="flex h-screen">
@@ -25,6 +25,7 @@ export default function Question(props) {
               items={shuffle(question.options)}
               handleAnswer={handleAnswer}
               correctAnswers={question.correctAnswers}
+              nextQuestion={nextQuestion}
             />
           </CardContent>
         </Card>
