@@ -50,7 +50,7 @@ const FormSchema = z.object({
   }),
 });
 
-export default function multipleAnswerQuestion() {
+export default function MultipleAnswers() {
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
     defaultValues: {
@@ -77,12 +77,6 @@ export default function multipleAnswerQuestion() {
           name="items"
           render={() => (
             <FormItem>
-              <div className="mb-4">
-                <FormLabel className="text-base">Sidebar</FormLabel>
-                <FormDescription>
-                  Select the items you want to display in the sidebar.
-                </FormDescription>
-              </div>
               {items.map((item) => (
                 <FormField
                   key={item.id}
@@ -108,7 +102,7 @@ export default function multipleAnswerQuestion() {
                             }}
                           />
                         </FormControl>
-                        <FormLabel className="font-normal">
+                        <FormLabel className="font-normal text-lg">
                           {item.label}
                         </FormLabel>
                       </FormItem>
@@ -120,7 +114,7 @@ export default function multipleAnswerQuestion() {
             </FormItem>
           )}
         />
-        <Button type="submit">Submit</Button>
+        <Button type="submit">Next</Button>
       </form>
     </Form>
   );
