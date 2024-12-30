@@ -17,10 +17,6 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { map } from "lodash";
 import classNames from "classnames";
 
-type FormData = {
-  type: string;
-};
-
 const RadioOption = (props) => {
   const { item, index, field, correctAnswers, formSubmitted } = props;
   const letter = String.fromCharCode(65 + index);
