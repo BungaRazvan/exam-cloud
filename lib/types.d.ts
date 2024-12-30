@@ -5,6 +5,13 @@ export type AnswerOptionItem = {
   label: string;
 };
 
+export type Question = {
+  text: string;
+  options: AnswerOptionItem[];
+  correctAnswers: string[];
+  exam: string;
+};
+
 export type AnswerProps = {
   items: AnswerOptionItem[];
   handleAnswer: (answer: str) => void;
@@ -21,13 +28,12 @@ export type AnswerOptionProps = {
 };
 
 export type QuestionProps = {
-  question: {
-    text: string;
-    options: AnswerOptionItem[];
-    correctAnswers: string[];
-    exam: string;
-  };
+  question: Question;
   number: numeber;
   handleAnswer: (answer: str) => void;
   nextQuestion: () => void;
+};
+
+export type QuizProps = {
+  questions: Question[];
 };

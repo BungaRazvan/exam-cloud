@@ -15,7 +15,7 @@ const Question: React.FC<QuestionProps> = (props) => {
   );
 
   return (
-    <div className="flex h-screen">
+    <div className="flex h-[90vh]">
       <div className="m-auto">
         <Card className="w-[980px]">
           <CardHeader>

@@ -3,8 +3,9 @@
 import React, { useState } from "react";
 import Question from "./Question";
 import { isEqual, sortBy } from "lodash";
+import { QuizProps } from "@/lib/types";
 
-const Quiz: React.FC<{}> = (props) => {
+const Quiz: React.FC<QuizProps> = (props) => {
   const [questions, setQuestions] = useState(props.questions);
 
   const [score, setScore] = useState(0);
@@ -47,7 +48,6 @@ const Quiz: React.FC<{}> = (props) => {
         handleAnswer={handleAnswer}
         nextQuestion={nextQuestion}
       />
-      ,
     </>
   );
 };

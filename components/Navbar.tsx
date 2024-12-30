@@ -10,6 +10,7 @@ import {
   MenubarTrigger,
 } from "@/components/ui/menubar";
 import Link from "next/link";
+import { ModeToggle } from "./ThemeToggle";
 
 const AWSCloudPractitionerPractiseExams = () => {
   const links = [];
@@ -52,6 +53,8 @@ const Navbar = () => {
             </MenubarSubContent>
           </MenubarSub>
         </MenubarContent>
+
+        <ModeToggle />
       </MenubarMenu>
     </Menubar>
   );
