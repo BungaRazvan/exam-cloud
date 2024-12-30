@@ -19,3 +19,15 @@ export type AnswerOptionProps = {
   correctAnswers: string[];
   formSubmitted: boolean;
 };
+
+export type QuestionProps = {
+  question: {
+    text: string;
+    options: AnswerOptionItem[];
+    correctAnswers: string[];
+    exam: string;
+  };
+  number: numeber;
+  handleAnswer: (answer: str) => void;
+  nextQuestion: () => void;
+};

@@ -1,17 +1,13 @@
 "use client";
 
+import React from "react";
 import MultipleAnswers from "./MultipleAnswers";
 import SingleAnswer from "./SingleAnswer";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "./ui/card";
+import { Card, CardContent, CardHeader } from "./ui/card";
 import { shuffle } from "lodash";
+import { QuestionProps } from "@/lib/types";
 
-export default function Question(props) {
+const Question: React.FC<QuestionProps> = (props) => {
   const { question, number, handleAnswer, nextQuestion } = props;
 
   return (
@@ -42,4 +38,6 @@ export default function Question(props) {
       </div>
     </div>
   );
-}
+};
+
+export default Question;

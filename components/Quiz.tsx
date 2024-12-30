@@ -1213,7 +1213,6 @@ export default function Quiz() {
   };
   return (
     <>
-      <h2>Score: {score}</h2>
       <Question
         question={questions[currentQuestionIndex]}
         number={currentQuestionIndex + 1}
