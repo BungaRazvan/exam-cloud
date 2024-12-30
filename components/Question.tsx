@@ -1,5 +1,6 @@
 "use client";
 
+import MultipleAnswers from "./MultipleAnswers";
 import SingleAnswer from "./SingleAnswer";
 import {
   Card,
@@ -21,12 +22,21 @@ export default function Question(props) {
             {number}. {question.text}
           </CardHeader>
           <CardContent>
-            <SingleAnswer
-              items={shuffle(question.options)}
-              handleAnswer={handleAnswer}
-              correctAnswers={question.correctAnswers}
-              nextQuestion={nextQuestion}
-            />
+            {question.correctAnswers.length > 1 ? (
+              <MultipleAnswers
+                items={shuffle(question.options)}
+                handleAnswer={handleAnswer}
+                correctAnswers={question.correctAnswers}
+                nextQuestion={nextQuestion}
+              />
+            ) : (
+              <SingleAnswer
+                items={shuffle(question.options)}
+                handleAnswer={handleAnswer}
+                correctAnswers={question.correctAnswers}
+                nextQuestion={nextQuestion}
+              />
+            )}
           </CardContent>
         </Card>
       </div>

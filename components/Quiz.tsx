@@ -7,78 +7,6 @@ import { isEqual, sortBy } from "lodash";
 export default function Quiz() {
   const [questions, setQuestions] = useState([
     {
-      text: "AWS allows users to manage their resources using a web based user interface. What is the name of this interface?",
-      options: [
-        {
-          value: "A",
-          label: "AWS CLI.",
-        },
-        {
-          value: "B",
-          label: "AWS API.",
-        },
-        {
-          value: "C",
-          label: "AWS SDK.",
-        },
-        {
-          value: "D",
-          label: "AWS Management Console.",
-        },
-      ],
-      correctAnswers: ["D"],
-      exam: "1",
-    },
-    {
-      text: "Which of the following is an example of horizontal scaling in the AWS Cloud?",
-      options: [
-        {
-          value: "A",
-          label:
-            "Replacing an existing EC2 instance with a larger, more powerful one.",
-        },
-        {
-          value: "B",
-          label:
-            "Increasing the compute capacity of a single EC2 instance to address the growing demands of an application.",
-        },
-        {
-          value: "C",
-          label: "Adding more RAM capacity to an EC2 instance.",
-        },
-        {
-          value: "D",
-          label:
-            "Adding more EC2 instances of the same size to handle an increase in traffic.",
-        },
-      ],
-      correctAnswers: ["D"],
-      exam: "1",
-    },
-    {
-      text: "You have noticed that several critical Amazon EC2 instances have been terminated. Which of the following AWS services would help you determine who took this action?",
-      options: [
-        {
-          value: "A",
-          label: "Amazon Inspector.",
-        },
-        {
-          value: "B",
-          label: "AWS CloudTrail.",
-        },
-        {
-          value: "C",
-          label: "AWS Trusted Advisor.",
-        },
-        {
-          value: "D",
-          label: "EC2 Instance Usage Report.",
-        },
-      ],
-      correctAnswers: ["B"],
-      exam: "1",
-    },
-    {
       text: "Which of the below options are related to the reliability of AWS? (Choose TWO)",
       options: [
         {
@@ -1268,10 +1196,10 @@ export default function Quiz() {
       setScore((prevScore) => prevScore + 1);
     } else {
       setScore((prevScore) => {
-        if (prevScore == 0) {
+        if (prevScore === 0) {
           return 0;
         }
-        prevScore - 1;
+        return prevScore - 1;
       });
     }
   };

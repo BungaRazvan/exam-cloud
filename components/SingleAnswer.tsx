@@ -1,7 +1,7 @@
 "use client";
 
-import { FormEvent, useState } from "react";
-import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
+import React, { FormEvent, useState } from "react";
+import { useForm } from "react-hook-form";
 import { Button } from "@/components/ui/button";
 import {
   Form,
@@ -16,8 +16,9 @@ import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { map } from "lodash";
 import classNames from "classnames";
+import { AnswerOptionProps, AnswerProps } from "@/lib/types";
 
-const RadioOption = (props) => {
+const RadioOption: React.FC<AnswerOptionProps> = (props) => {
   const { item, index, field, correctAnswers, formSubmitted } = props;
   const letter = String.fromCharCode(65 + index);
 
@@ -41,13 +42,13 @@ const RadioOption = (props) => {
             correctAnswers.includes(item.value) && formSubmitted,
         })}
       >
-        {letter} {item.label}
+        {letter}. {item.label}
       </FormLabel>
     </FormItem>
   );
 };
 
-export default function SingleAnswer(props) {
+const SingleAnswer: React.FC<AnswerProps> = (props) => {
   const { items, handleAnswer, correctAnswers, nextQuestion } = props;
 
   const [formSubmitted, setFormSubmitted] = useState(false);
@@ -63,7 +64,7 @@ export default function SingleAnswer(props) {
     resolver: zodResolver(FormSchema),
   });
 
-  function onSubmit(data) {
+  function onSubmit(data: z.infer<typeof FormSchema>) {
     setFormSubmitted(true);
 
     handleAnswer([data.type]);
@@ -83,6 +84,7 @@ export default function SingleAnswer(props) {
 
   return (
     <Form {...form}>
+      {/* @ts-ignore */}
       <form onSubmit={form.handleSubmit(onSubmit)} className="w-2/3 space-y-6">
         <FormField
           control={form.control}
@@ -96,7 +98,7 @@ export default function SingleAnswer(props) {
                 >
                   {items.map((item, index) => (
                     <RadioOption
-                      key={item + index}
+                      key={item.value + index}
                       item={item}
                       index={index}
                       field={field}
@@ -120,4 +122,6 @@ export default function SingleAnswer(props) {
       </form>
     </Form>
   );
-}
+};
+
+export default SingleAnswer;
