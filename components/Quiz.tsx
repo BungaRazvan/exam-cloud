@@ -7,7 +7,7 @@ import { QuizProps } from "@/lib/types";
 import Score from "./Score";
 
 const Quiz: React.FC<QuizProps> = (props) => {
-  const [questions, setQuestions] = useState([props.questions[0]]);
+  const [questions, setQuestions] = useState(props.questions);
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [showScore, setShowScore] = useState(false);
