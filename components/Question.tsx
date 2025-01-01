@@ -15,32 +15,28 @@ const Question: React.FC<QuestionProps> = (props) => {
   );
 
   return (
-    <div className="flex h-[90vh]">
-      <div className="m-auto">
-        <Card className="w-[980px]">
-          <CardHeader>
-            {number}. {question.text}
-          </CardHeader>
-          <CardContent>
-            {question.correctAnswers.length > 1 ? (
-              <MultipleAnswers
-                items={suffledOptions}
-                handleAnswer={handleAnswer}
-                correctAnswers={question.correctAnswers}
-                nextQuestion={nextQuestion}
-              />
-            ) : (
-              <SingleAnswer
-                items={suffledOptions}
-                handleAnswer={handleAnswer}
-                correctAnswers={question.correctAnswers}
-                nextQuestion={nextQuestion}
-              />
-            )}
-          </CardContent>
-        </Card>
-      </div>
-    </div>
+    <Card className="max-w-[980px]">
+      <CardHeader>
+        {number}. {question.text}
+      </CardHeader>
+      <CardContent>
+        {question.correctAnswers.length > 1 ? (
+          <MultipleAnswers
+            items={suffledOptions}
+            handleAnswer={handleAnswer}
+            correctAnswers={question.correctAnswers}
+            nextQuestion={nextQuestion}
+          />
+        ) : (
+          <SingleAnswer
+            items={suffledOptions}
+            handleAnswer={handleAnswer}
+            correctAnswers={question.correctAnswers}
+            nextQuestion={nextQuestion}
+          />
+        )}
+      </CardContent>
+    </Card>
   );
 };
 
