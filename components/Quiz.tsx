@@ -7,7 +7,7 @@ import { QuizProps } from "@/lib/types";
 import Score from "./Score";
 
 const Quiz: React.FC<QuizProps> = (props) => {
-  const [questions, setQuestions] = useState(props.questions);
+  const [questions, setQue_stions] = useState(props.questions);
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [showScore, setShowScore] = useState(false);
@@ -18,7 +18,7 @@ const Quiz: React.FC<QuizProps> = (props) => {
   const minScore = 100;
   const maxScore = 1000;
   const passingScore = 700;
-  const [score, setScore] = useState(200);
+  const [score, setScore] = useState(minScore);
 
   // Compute step size for scoring adjustment
   const step = (maxScore - minScore) / questions.length;

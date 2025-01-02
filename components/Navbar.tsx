@@ -40,9 +40,11 @@ const Navbar = () => {
           <MenubarSeparator />
           <MenubarSub>
             <MenubarSubTrigger>Cloud Practitioner</MenubarSubTrigger>
-            <MenubarSubContent>
+            <MenubarSubContent className="h-[90vh] overflow-y-visible">
               <MenubarItem>
-                <Link href="/">Random Exam</Link>
+                <Link href="/aws/cloud-practitioner/random-exam/">
+                  Random Exam
+                </Link>
               </MenubarItem>
               <MenubarSeparator />
               <MenubarItem>
