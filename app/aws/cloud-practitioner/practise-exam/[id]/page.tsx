@@ -36,7 +36,7 @@ const PractiseExamPage: React.FC<PractiseExamProps> = async (props) => {
   if (!questions) {
     return notFound();
   }
-  return <Quiz questions={questions} />;
+  return <Quiz questions={questions} isTimed={false} />;
 };
 
 export default PractiseExamPage;

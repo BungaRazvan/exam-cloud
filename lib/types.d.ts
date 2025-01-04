@@ -36,4 +36,5 @@ export type QuestionProps = {
 
 export type QuizProps = {
   questions: Question[];
+  isTimed: boolean;
 };

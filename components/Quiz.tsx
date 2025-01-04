@@ -1,24 +1,46 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Question from "./Question";
 import { isEqual, sortBy } from "lodash";
 import { QuizProps } from "@/lib/types";
 import Score from "./Score";
 
 const Quiz: React.FC<QuizProps> = (props) => {
-  const [questions, setQue_stions] = useState(props.questions);
+  const { isTimed, questions } = props;
+  const [quizQuestions, setQuizQuestions] = useState(questions);
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [showScore, setShowScore] = useState(false);
-  const [timeLeft, setTimeLeft] = useState(60 * 90);
   const [isTimeUp, setIsTimeUp] = useState(false);
 
   const totalQuestions = questions.length;
   const minScore = 100;
   const maxScore = 1000;
   const passingScore = 700;
+  const timerRef = useRef<NodeJS.Timeout | null>(null);
+  const examTime = 60 * 90;
+
   const [score, setScore] = useState(minScore);
+  const [timeLeft, setTimeLeft] = useState(60 * 90);
+
+  useEffect(() => {
+    if (!isTimed) {
+      return () => {};
+    }
+
+    const timer = setInterval(() => {
+      setTimeLeft((prevTime) => Math.max(prevTime - 1, 0));
+    }, 1000);
+    timerRef.current = timer;
+
+    if (timeLeft === 0) {
+      clearInterval(timer);
+      setIsTimeUp(true);
+    }
+
+    return () => clearInterval(timer);
+  }, [timeLeft, isTimed]);
 
   // Compute step size for scoring adjustment
   const step = (maxScore - minScore) / questions.length;
@@ -43,10 +65,19 @@ const Quiz: React.FC<QuizProps> = (props) => {
     }
 
     setShowScore(true);
+
+    if (isTimed) {
+      clearInterval(timerRef.current!);
+    }
   };
 
   const onRetry = () => {
+    if (isTimed) {
+      setTimeLeft(examTime);
+    }
+
     setCurrentQuestionIndex(0);
+    setIsTimeUp(false);
     setShowScore(false);
     setScore(minScore);
   };
@@ -54,6 +85,9 @@ const Quiz: React.FC<QuizProps> = (props) => {
   return (
     <div className="flex h-[90vh]">
       <div className="m-auto">
+        <h3>
+          Time Left: {Math.floor(timeLeft / 60)}:{timeLeft % 60}
+        </h3>
         {showScore ? (
           <Score
             score={score}
@@ -63,7 +97,7 @@ const Quiz: React.FC<QuizProps> = (props) => {
           />
         ) : (
           <Question
-            question={questions[currentQuestionIndex]}
+            question={quizQuestions[currentQuestionIndex]}
             number={currentQuestionIndex + 1}
             handleAnswer={handleAnswer}
             nextQuestion={nextQuestion}

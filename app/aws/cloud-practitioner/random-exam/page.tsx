@@ -51,7 +51,7 @@ const RandomExamPage: React.FC = () => {
 
   const randomQuestions = getRandomItems(questions, 65);
 
-  return <Quiz questions={randomQuestions} />;
+  return <Quiz questions={randomQuestions} isTimed={true} />;
 };
 
 export default RandomExamPage;
