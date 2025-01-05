@@ -11,7 +11,7 @@ const Question: React.FC<QuestionProps> = (props) => {
   const { question, number, handleAnswer, nextQuestion } = props;
   const suffledOptions = useMemo(
     () => shuffle(question.options),
-    [question.text]
+    [question.options]
   );
 
   return (

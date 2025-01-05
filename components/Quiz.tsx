@@ -8,11 +8,11 @@ import Score from "./Score";
 
 const Quiz: React.FC<QuizProps> = (props) => {
   const { isTimed, questions } = props;
-  const [quizQuestions, setQuizQuestions] = useState(questions);
+  const [quizQuestions, _setQuizQuestions] = useState(questions);
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [showScore, setShowScore] = useState(false);
-  const [isTimeUp, setIsTimeUp] = useState(false);
+  const [_isTimeUp, setIsTimeUp] = useState(false);
 
   const totalQuestions = questions.length;
   const minScore = 100;
