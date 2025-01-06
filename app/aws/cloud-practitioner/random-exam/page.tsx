@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import Quiz from "@/components/Quiz";
 import { Question } from "@/lib/types";
 
-const RandomExamPage: React.FC<{ isTimed?: boolean }> = (props) => {
+const RandomExamPage: React.FC<{ isTimed?: boolean | undefined }> = (props) => {
   const { isTimed = true } = props;
 
   const getQuestions = () => {
