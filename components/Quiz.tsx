@@ -19,10 +19,10 @@ const Quiz: React.FC<QuizProps> = (props) => {
   const maxScore = 1000;
   const passingScore = 700;
   const timerRef = useRef<NodeJS.Timeout | null>(null);
-  const examTime = 60 * 90;
+  const examTime = 60 * 60;
 
   const [score, setScore] = useState(minScore);
-  const [timeLeft, setTimeLeft] = useState(60 * 90);
+  const [timeLeft, setTimeLeft] = useState(examTime);
 
   useEffect(() => {
     if (!isTimed) {
@@ -83,7 +83,7 @@ const Quiz: React.FC<QuizProps> = (props) => {
   };
 
   return (
-    <div className="flex h-[90vh]">
+    <div className="flex items-center justify-center h-[90vh]">
       <div className="m-auto">
         {isTimed && (
           <h3>

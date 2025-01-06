@@ -15,9 +15,9 @@ import {
   FormLabel,
   FormMessage,
 } from "@/components/ui/form";
-import classNames from "classnames";
 import { AnswerOptionProps, AnswerOptionItem, AnswerProps } from "@/lib/types";
 import { CheckedState } from "@radix-ui/react-checkbox";
+import { cn } from "@/lib/utils";
 
 const FormSchema = z.object({
   items: z.array(z.string()).refine((value) => value.some((item) => item), {
@@ -61,7 +61,7 @@ const CheckboxOption: React.FC<AnswerOptionProps> = (props) => {
         />
       </FormControl>
       <FormLabel
-        className={classNames("font-normal text-lg", {
+        className={cn("font-normal text-lg", {
           "text-red-500":
             field.value?.includes(item.value) &&
             !correctAnswers.includes(item.value) &&

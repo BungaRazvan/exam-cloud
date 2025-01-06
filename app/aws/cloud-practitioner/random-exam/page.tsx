@@ -5,7 +5,9 @@ import { notFound } from "next/navigation";
 import Quiz from "@/components/Quiz";
 import { Question } from "@/lib/types";
 
-const RandomExamPage: React.FC = () => {
+const RandomExamPage: React.FC<{ isTimed?: boolean }> = (props) => {
+  const { isTimed = true } = props;
+
   const getQuestions = () => {
     let questions: Question[] = [];
     const folderPath = path.join(
@@ -51,7 +53,7 @@ const RandomExamPage: React.FC = () => {
 
   const randomQuestions = getRandomItems(questions, 50);
 
-  return <Quiz questions={randomQuestions} isTimed={true} />;
+  return <Quiz questions={randomQuestions} isTimed={isTimed} />;
 };
 
 export default RandomExamPage;

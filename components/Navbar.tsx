@@ -18,11 +18,9 @@ const AWSCloudPractitionerPractiseExams = () => {
 
   while (count <= 23) {
     links.push(
-      <MenubarItem>
-        <Link href={`/aws/cloud-practitioner/practise-exam/${count}`}>
-          Practise Exam #{count}
-        </Link>
-      </MenubarItem>
+      <Link href={`/aws/cloud-practitioner/practise-exam/${count}`}>
+        <MenubarItem>Practise Exam #{count}</MenubarItem>
+      </Link>
     );
     count++;
   }
@@ -41,15 +39,14 @@ const Navbar = () => {
           <MenubarSub>
             <MenubarSubTrigger>Cloud Practitioner</MenubarSubTrigger>
             <MenubarSubContent className="max-h-[90vh] overflow-y-visible">
-              <MenubarItem>
-                <Link href="/aws/cloud-practitioner/random-exam/">
-                  Random Exam
-                </Link>
-              </MenubarItem>
+              <Link href="/aws/cloud-practitioner/random-exam/">
+                <MenubarItem>Random Exam</MenubarItem>
+              </Link>
+
               <MenubarSeparator />
-              <MenubarItem>
-                <Link href="/">Practise Random Exam</Link>
-              </MenubarItem>
+              <Link href="/aws/cloud-practitioner/practise-random-exam">
+                <MenubarItem>Practise Random Exam</MenubarItem>
+              </Link>
               <MenubarSeparator />
               <AWSCloudPractitionerPractiseExams />
             </MenubarSubContent>

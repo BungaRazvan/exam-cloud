@@ -15,8 +15,8 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { map } from "lodash";
-import classNames from "classnames";
 import { AnswerOptionProps, AnswerProps } from "@/lib/types";
+import { cn } from "@/lib/utils";
 
 const RadioOption: React.FC<AnswerOptionProps> = (props) => {
   const { item, index, field, correctAnswers, formSubmitted } = props;
@@ -32,7 +32,7 @@ const RadioOption: React.FC<AnswerOptionProps> = (props) => {
         />
       </FormControl>
       <FormLabel
-        className={classNames("font-normal text-lg", {
+        className={cn("font-normal text-lg", {
           "text-red-500":
             field.value &&
             item.value == field.value &&

@@ -1,4 +1,4 @@
-import classNames from "classnames";
+import { cn } from "@/lib/utils";
 
 interface ScoreProps {
   score: number; // Scaled score (100–1,000)
@@ -19,7 +19,7 @@ const Score: React.FC<ScoreProps> = (props) => {
   return (
     <div className="flex flex-col m-auto items-center space-y-10 p-12 rounded-lg max-w-sm">
       <h2
-        className={classNames("text-2xl font-semibold", {
+        className={cn("text-2xl font-semibold", {
           "text-green-500": hasPassed,
           "text-red-500": !hasPassed,
         })}
