@@ -36,7 +36,7 @@ const Quiz: React.FC<QuizProps> = (props) => {
 
     if (timeLeft === 0) {
       clearInterval(timer);
-      setIsTimeUp(true);
+      setShowScore(true);
     }
 
     return () => clearInterval(timer);
@@ -85,9 +85,11 @@ const Quiz: React.FC<QuizProps> = (props) => {
   return (
     <div className="flex h-[90vh]">
       <div className="m-auto">
-        <h3>
-          Time Left: {Math.floor(timeLeft / 60)}:{timeLeft % 60}
-        </h3>
+        {isTimed && (
+          <h3>
+            Time Left: {Math.floor(timeLeft / 60)}:{timeLeft % 60}
+          </h3>
+        )}
         {showScore ? (
           <Score
             score={score}

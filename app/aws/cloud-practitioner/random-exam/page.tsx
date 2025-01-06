@@ -31,7 +31,7 @@ const RandomExamPage: React.FC = () => {
 
   const questions = getQuestions();
 
-  if (questions.length < 65) {
+  if (questions.length < 50) {
     return notFound();
   }
 
@@ -49,7 +49,7 @@ const RandomExamPage: React.FC = () => {
     return shuffled.slice(0, count);
   };
 
-  const randomQuestions = getRandomItems(questions, 65);
+  const randomQuestions = getRandomItems(questions, 50);
 
   return <Quiz questions={randomQuestions} isTimed={true} />;
 };

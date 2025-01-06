@@ -15,7 +15,7 @@ const Question: React.FC<QuestionProps> = (props) => {
   );
 
   return (
-    <Card className="max-w-[980px]">
+    <Card className="m-auto w-3/4">
       <CardHeader>
         {number}. {question.text}
       </CardHeader>
