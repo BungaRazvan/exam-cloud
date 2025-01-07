@@ -1,7 +1,7 @@
-import RandomExamPage from "../random-exam/page";
+import RandomExam from "@/components/RandomExam";
 
 const PractiseRandomExamPage: React.FC = () => {
-  return <RandomExamPage isTimed={false} />;
+  return <RandomExam isTimed={false} />;
 };
 
 export default PractiseRandomExamPage;
