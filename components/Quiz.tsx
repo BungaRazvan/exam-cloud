@@ -12,7 +12,6 @@ const Quiz: React.FC<QuizProps> = (props) => {
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [showScore, setShowScore] = useState(false);
-  const [_isTimeUp, setIsTimeUp] = useState(false);
 
   const totalQuestions = questions.length;
   const minScore = 100;
@@ -77,7 +76,6 @@ const Quiz: React.FC<QuizProps> = (props) => {
     }
 
     setCurrentQuestionIndex(0);
-    setIsTimeUp(false);
     setShowScore(false);
     setScore(minScore);
   };
@@ -85,8 +83,8 @@ const Quiz: React.FC<QuizProps> = (props) => {
   return (
     <div className="flex items-center justify-center h-[90vh]">
       <div className="m-auto">
-        {isTimed && (
-          <h3>
+        {isTimed && !showScore && (
+          <h3 className="justify-end">
             Time Left: {Math.floor(timeLeft / 60)}:{timeLeft % 60}
           </h3>
         )}

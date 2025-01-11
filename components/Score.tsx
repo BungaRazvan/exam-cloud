@@ -30,7 +30,7 @@ const Score: React.FC<ScoreProps> = (props) => {
       <div className="relative m-0">
         <svg
           width="500"
-          height="500"
+          height="250"
           viewBox="0 0 100 50"
           className="overflow-visible"
         >
@@ -52,8 +52,8 @@ const Score: React.FC<ScoreProps> = (props) => {
           />
         </svg>
         {/* Score Label */}
-        <div className="absolute left-1/2  top-[250px] text-[100px] transform -translate-x-1/2 -translate-y-1/2 text-xl font-bold">
-          {Math.floor(percentage)}%
+        <div className="absolute left-1/2 top-[125px] text-[75px] transform -translate-x-1/2 -translate-y-1/2 font-bold">
+          {Math.floor(70)}%
         </div>
       </div>
 

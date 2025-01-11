@@ -23,6 +23,7 @@ const Question: React.FC<QuestionProps> = (props) => {
         {question.correctAnswers.length > 1 ? (
           <MultipleAnswers
             items={suffledOptions}
+            questionText={question.text}
             handleAnswer={handleAnswer}
             correctAnswers={question.correctAnswers}
             nextQuestion={nextQuestion}
@@ -32,6 +33,7 @@ const Question: React.FC<QuestionProps> = (props) => {
             items={suffledOptions}
             handleAnswer={handleAnswer}
             correctAnswers={question.correctAnswers}
+            questionText={question.text}
             nextQuestion={nextQuestion}
           />
         )}

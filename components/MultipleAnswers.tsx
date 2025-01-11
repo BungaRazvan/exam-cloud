@@ -77,12 +77,14 @@ const CheckboxOption: React.FC<AnswerOptionProps> = (props) => {
 };
 
 const MultipleAnswers: React.FC<AnswerProps> = (props) => {
-  const { items, handleAnswer, correctAnswers, nextQuestion } = props;
+  const { items, handleAnswer, correctAnswers, nextQuestion, questionText } =
+    props;
 
   const [formSubmitted, setFormSubmitted] = useState(false);
 
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
+    defaultValues: { items: [] },
   });
 
   function onSubmit(data: z.infer<typeof FormSchema>) {
@@ -98,9 +100,9 @@ const MultipleAnswers: React.FC<AnswerProps> = (props) => {
       return;
     }
 
+    form.reset();
     setFormSubmitted(false);
     nextQuestion();
-    form.reset();
   }
 
   return (
@@ -110,7 +112,7 @@ const MultipleAnswers: React.FC<AnswerProps> = (props) => {
           control={form.control}
           name="items"
           render={() => (
-            <FormItem>
+            <FormItem key={questionText}>
               {items.map((item, index) => (
                 <FormField
                   key={item.value + index}

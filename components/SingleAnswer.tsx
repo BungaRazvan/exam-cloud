@@ -49,7 +49,8 @@ const RadioOption: React.FC<AnswerOptionProps> = (props) => {
 };
 
 const SingleAnswer: React.FC<AnswerProps> = (props) => {
-  const { items, handleAnswer, correctAnswers, nextQuestion } = props;
+  const { items, handleAnswer, correctAnswers, nextQuestion, questionText } =
+    props;
 
   const [formSubmitted, setFormSubmitted] = useState(false);
 
@@ -77,9 +78,9 @@ const SingleAnswer: React.FC<AnswerProps> = (props) => {
       return;
     }
 
+    form.reset();
     setFormSubmitted(false);
     nextQuestion();
-    form.reset();
   }
 
   return (
@@ -95,6 +96,7 @@ const SingleAnswer: React.FC<AnswerProps> = (props) => {
                 <RadioGroup
                   onValueChange={field.onChange}
                   className="flex flex-col space-y-1 text-xl"
+                  key={questionText}
                 >
                   {items.map((item, index) => (
                     <RadioOption
