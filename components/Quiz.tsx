@@ -7,18 +7,22 @@ import { QuizProps } from "@/lib/types";
 import Score from "./Score";
 
 const Quiz: React.FC<QuizProps> = (props) => {
-  const { isTimed, questions } = props;
+  const {
+    isTimed,
+    questions,
+    onEndQuiz,
+    minScore,
+    maxScore,
+    passingScore,
+    examTime,
+  } = props;
   const [quizQuestions, _setQuizQuestions] = useState(questions);
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [showScore, setShowScore] = useState(false);
 
-  const totalQuestions = questions.length;
-  const minScore = 100;
-  const maxScore = 1000;
-  const passingScore = 700;
+  const totalQuestions = quizQuestions.length;
   const timerRef = useRef<NodeJS.Timeout | null>(null);
-  const examTime = 60 * 60;
 
   const [score, setScore] = useState(minScore);
   const [timeLeft, setTimeLeft] = useState(examTime);
@@ -29,7 +33,7 @@ const Quiz: React.FC<QuizProps> = (props) => {
     }
 
     const timer = setInterval(() => {
-      setTimeLeft((prevTime) => Math.max(prevTime - 1, 0));
+      setTimeLeft((prevTime) => Math.max(prevTime! - 1, 0));
     }, 1000);
     timerRef.current = timer;
 
@@ -57,16 +61,29 @@ const Quiz: React.FC<QuizProps> = (props) => {
   };
 
   const nextQuestion = () => {
-    // Move to the next question
-    if (currentQuestionIndex < totalQuestions - 1) {
-      setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
-      return;
+    if (hasMoreQuestions()) {
+      goToNextQuestion();
+    } else {
+      handleEndOfQuiz();
     }
+  };
 
+  const hasMoreQuestions = () => {
+    return currentQuestionIndex < totalQuestions - 1;
+  };
+
+  const goToNextQuestion = () => {
+    setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
+  };
+
+  const handleEndOfQuiz = () => {
     setShowScore(true);
 
     if (isTimed) {
       clearInterval(timerRef.current!);
+    }
+    if (onEndQuiz) {
+      onEndQuiz(score);
     }
   };
 
@@ -85,7 +102,7 @@ const Quiz: React.FC<QuizProps> = (props) => {
       <div className="m-auto">
         {isTimed && !showScore && (
           <h3 className="justify-end">
-            Time Left: {Math.floor(timeLeft / 60)}:{timeLeft % 60}
+            Time Left: {Math.floor(timeLeft! / 60)}:{timeLeft! % 60}
           </h3>
         )}
         {showScore ? (

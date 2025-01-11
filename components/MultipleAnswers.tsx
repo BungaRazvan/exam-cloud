@@ -15,7 +15,7 @@ import {
   FormLabel,
   FormMessage,
 } from "@/components/ui/form";
-import { AnswerOptionProps, AnswerOptionItem, AnswerProps } from "@/lib/types";
+import { AnswerOptionProps, AnswerOptionType, AnswerProps } from "@/lib/types";
 import { CheckedState } from "@radix-ui/react-checkbox";
 import { cn } from "@/lib/utils";
 
@@ -32,7 +32,7 @@ const CheckboxOption: React.FC<AnswerOptionProps> = (props) => {
   function onCheckedChange(
     field: FieldValues,
     checked: CheckedState,
-    item: AnswerOptionItem
+    item: AnswerOptionType
   ) {
     let arr;
 

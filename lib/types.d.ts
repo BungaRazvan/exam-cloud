@@ -1,26 +1,27 @@
 import { FieldValues } from "react-hook-form";
 
-export type AnswerOptionItem = {
+export type AnswerOptionType = {
   value: string;
   label: string;
 };
 
-export type Question = {
+export type QuestionType = {
   text: string;
-  options: AnswerOptionItem[];
+  options: AnswerOptionType[];
   correctAnswers: string[];
   exam: string;
 };
 
 export type AnswerProps = {
-  items: AnswerOptionItem[];
+  items: AnswerOptionType[];
+  questionText: string;
   handleAnswer: (answer: str) => void;
   correctAnswers: string[];
   nextQuestion: () => void;
 };
 
 export type AnswerOptionProps = {
-  item: AnswerOptionItem;
+  item: AnswerOptionType;
   index: number;
   field: FieldValues;
   correctAnswers: string[];
@@ -28,13 +29,20 @@ export type AnswerOptionProps = {
 };
 
 export type QuestionProps = {
-  question: Question;
+  question: QuestionType;
   number: numeber;
   handleAnswer: (answer: str) => void;
   nextQuestion: () => void;
 };
 
 export type QuizProps = {
-  questions: Question[];
+  questions: QuestionType[];
   isTimed: boolean;
+  minScore: number;
+  maxScore: number;
+  passingScore: number;
+  examTime: null | number;
+  onEndQuiz?: (score: number) => void;
 };
+
+type DataType = "obj" | null;

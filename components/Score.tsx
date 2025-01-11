@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import { Button } from "./ui/button";
 
 interface ScoreProps {
   score: number; // Scaled score (100–1,000)
@@ -53,17 +54,19 @@ const Score: React.FC<ScoreProps> = (props) => {
         </svg>
         {/* Score Label */}
         <div className="absolute left-1/2 top-[125px] text-[75px] transform -translate-x-1/2 -translate-y-1/2 font-bold">
-          {Math.floor(70)}%
+          {Math.floor(percentage)}%
         </div>
       </div>
 
       {!hasPassed && (
-        <button
+        <Button
+          style={{ margin: "0px !important" }}
+          className="p-5 text-white text-xl"
           onClick={onRetry}
-          className="px-3 py-3 text-white rounded-lg hover:bg-blue-600 transition-colors"
+          variant={"outline"}
         >
           Retry
-        </button>
+        </Button>
       )}
     </div>
   );

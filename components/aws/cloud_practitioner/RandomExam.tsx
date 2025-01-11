@@ -2,8 +2,8 @@ import fs from "fs";
 import path from "path";
 import { map, filter } from "lodash";
 import { notFound } from "next/navigation";
-import Quiz from "@/components/Quiz";
-import { Question } from "@/lib/types";
+import { QuestionType } from "@/lib/types";
+import { QuizWrapper } from "./QuizWrapper";
 
 interface RandomExamProps {
   isTimed: boolean;
@@ -12,7 +12,7 @@ const RandomExam: React.FC<RandomExamProps> = (props) => {
   const { isTimed } = props;
 
   const getQuestions = () => {
-    let questions: Question[] = [];
+    let questions: QuestionType[] = [];
     const folderPath = path.join(
       process.cwd(),
       "exams",
@@ -56,7 +56,14 @@ const RandomExam: React.FC<RandomExamProps> = (props) => {
 
   const randomQuestions = getRandomItems(questions, 50);
 
-  return <Quiz questions={randomQuestions} isTimed={isTimed} />;
+  return (
+    <QuizWrapper
+      questions={randomQuestions}
+      isTimed={isTimed}
+      examId={""}
+      resultPath={null}
+    />
+  );
 };
 
 export default RandomExam;

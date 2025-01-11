@@ -1,3 +1,4 @@
+"use client";
 import {
   Menubar,
   MenubarContent,
@@ -10,23 +11,8 @@ import {
   MenubarTrigger,
 } from "@/components/ui/menubar";
 import Link from "next/link";
-import { ModeToggle } from "./ThemeToggle";
-
-const AWSCloudPractitionerPractiseExams = () => {
-  const links = [];
-  let count = 1;
-
-  while (count <= 23) {
-    links.push(
-      <Link href={`/aws/cloud-practitioner/practise-exam/${count}`}>
-        <MenubarItem>Practise Exam #{count}</MenubarItem>
-      </Link>
-    );
-    count++;
-  }
-
-  return links;
-};
+import { ModeToggle } from "../ThemeToggle";
+import AWSCloudPractitionerPractiseExams from "../aws/cloud_practitioner/NavbarLinks";
 
 const Navbar = () => {
   return (
