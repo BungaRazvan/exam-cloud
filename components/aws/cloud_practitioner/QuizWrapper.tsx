@@ -3,16 +3,17 @@
 import React from "react";
 import { setExamResult } from "@/lib/utils";
 import Quiz from "@/components/Quiz";
+import { QuestionType } from "@/lib/types";
 
 interface QuizWrapperProps {
-  questions: any;
+  questions: QuestionType[];
   examId: string;
   resultPath: string | null;
-  isTimed: boolean;
+  examMode: boolean;
 }
 
 export const QuizWrapper: React.FC<QuizWrapperProps> = (props) => {
-  const { questions, examId, resultPath, isTimed } = props;
+  const { questions, examId, resultPath, examMode } = props;
   const passingScore = 700;
 
   const onEndQuiz = (finalScore: number) => {
@@ -30,7 +31,7 @@ export const QuizWrapper: React.FC<QuizWrapperProps> = (props) => {
   return (
     <Quiz
       questions={questions}
-      isTimed={isTimed}
+      examMode={examMode}
       minScore={100}
       maxScore={1000}
       passingScore={passingScore}

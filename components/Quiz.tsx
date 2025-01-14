@@ -8,15 +8,15 @@ import Score from "./Score";
 
 const Quiz: React.FC<QuizProps> = (props) => {
   const {
-    isTimed,
     questions,
-    onEndQuiz,
     minScore,
     maxScore,
     passingScore,
     examTime,
+    examMode,
+    onEndQuiz,
   } = props;
-  const [quizQuestions, _setQuizQuestions] = useState(questions);
+  const [quizQuestions, _] = useState([questions[0]]);
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [showScore, setShowScore] = useState(false);
@@ -28,7 +28,7 @@ const Quiz: React.FC<QuizProps> = (props) => {
   const [timeLeft, setTimeLeft] = useState(examTime);
 
   useEffect(() => {
-    if (!isTimed) {
+    if (!examMode) {
       return () => {};
     }
 
@@ -43,13 +43,13 @@ const Quiz: React.FC<QuizProps> = (props) => {
     }
 
     return () => clearInterval(timer);
-  }, [timeLeft, isTimed]);
+  }, [timeLeft, examMode]);
 
   // Compute step size for scoring adjustment
-  const step = (maxScore - minScore) / questions.length;
+  const step = (maxScore - minScore) / quizQuestions.length;
 
   const handleAnswer = (answer: string[]) => {
-    const correctAnswers = questions[currentQuestionIndex].correctAnswers;
+    const correctAnswers = quizQuestions[currentQuestionIndex].correctAnswers;
 
     setScore((prevScore) => {
       if (isEqual(sortBy(correctAnswers), sortBy(answer))) {
@@ -79,7 +79,7 @@ const Quiz: React.FC<QuizProps> = (props) => {
   const handleEndOfQuiz = () => {
     setShowScore(true);
 
-    if (isTimed) {
+    if (examMode) {
       clearInterval(timerRef.current!);
     }
     if (onEndQuiz) {
@@ -88,7 +88,7 @@ const Quiz: React.FC<QuizProps> = (props) => {
   };
 
   const onRetry = () => {
-    if (isTimed) {
+    if (examMode) {
       setTimeLeft(examTime);
     }
 
@@ -100,7 +100,7 @@ const Quiz: React.FC<QuizProps> = (props) => {
   return (
     <div className="flex items-center justify-center h-[90vh]">
       <div className="m-auto">
-        {isTimed && !showScore && (
+        {examMode && !showScore && (
           <h3 className="justify-end">
             Time Left: {Math.floor(timeLeft! / 60)}:{timeLeft! % 60}
           </h3>
@@ -111,6 +111,7 @@ const Quiz: React.FC<QuizProps> = (props) => {
             maxScore={maxScore}
             passingScore={passingScore}
             onRetry={onRetry}
+            examMode={examMode}
           />
         ) : (
           <Question
@@ -118,6 +119,7 @@ const Quiz: React.FC<QuizProps> = (props) => {
             number={currentQuestionIndex + 1}
             handleAnswer={handleAnswer}
             nextQuestion={nextQuestion}
+            examMode={examMode}
           />
         )}
       </div>

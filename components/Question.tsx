@@ -8,7 +8,7 @@ import { shuffle } from "lodash";
 import { QuestionProps } from "@/lib/types";
 
 const Question: React.FC<QuestionProps> = (props) => {
-  const { question, number, handleAnswer, nextQuestion } = props;
+  const { question, number, examMode, handleAnswer, nextQuestion } = props;
   const suffledOptions = useMemo(
     () => shuffle(question.options),
     [question.options]
@@ -27,6 +27,7 @@ const Question: React.FC<QuestionProps> = (props) => {
             handleAnswer={handleAnswer}
             correctAnswers={question.correctAnswers}
             nextQuestion={nextQuestion}
+            examMode={examMode}
           />
         ) : (
           <SingleAnswer
@@ -35,6 +36,7 @@ const Question: React.FC<QuestionProps> = (props) => {
             correctAnswers={question.correctAnswers}
             questionText={question.text}
             nextQuestion={nextQuestion}
+            examMode={examMode}
           />
         )}
       </CardContent>

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { FormEvent, useState } from "react";
+import React, { useState } from "react";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { FieldValues, useForm } from "react-hook-form";
 import { z } from "zod";
@@ -77,8 +77,14 @@ const CheckboxOption: React.FC<AnswerOptionProps> = (props) => {
 };
 
 const MultipleAnswers: React.FC<AnswerProps> = (props) => {
-  const { items, handleAnswer, correctAnswers, nextQuestion, questionText } =
-    props;
+  const {
+    items,
+    examMode,
+    questionText,
+    correctAnswers,
+    handleAnswer,
+    nextQuestion,
+  } = props;
 
   const [formSubmitted, setFormSubmitted] = useState(false);
 
@@ -88,14 +94,19 @@ const MultipleAnswers: React.FC<AnswerProps> = (props) => {
   });
 
   function onSubmit(data: z.infer<typeof FormSchema>) {
-    setFormSubmitted(true);
+    if (!examMode) {
+      setFormSubmitted(true);
+    }
 
     handleAnswer(data.items);
+
+    if (examMode) {
+      form.reset();
+      nextQuestion();
+    }
   }
 
-  function onNext(e: FormEvent) {
-    e.preventDefault();
-
+  function onNext() {
     if (!formSubmitted) {
       return;
     }
@@ -136,9 +147,12 @@ const MultipleAnswers: React.FC<AnswerProps> = (props) => {
         <Button className="text-xl mr-2" type="submit">
           Submit
         </Button>
-        <Button className="text-xl" onClick={onNext}>
-          Next
-        </Button>
+
+        {!examMode && (
+          <Button className="text-xl" type="button" onClick={onNext}>
+            Next
+          </Button>
+        )}
       </form>
     </Form>
   );

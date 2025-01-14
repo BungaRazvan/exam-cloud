@@ -1,6 +1,6 @@
 "use client";
 
-import React, { FormEvent, useState } from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { Button } from "@/components/ui/button";
 import {
@@ -49,13 +49,19 @@ const RadioOption: React.FC<AnswerOptionProps> = (props) => {
 };
 
 const SingleAnswer: React.FC<AnswerProps> = (props) => {
-  const { items, handleAnswer, correctAnswers, nextQuestion, questionText } =
-    props;
+  const {
+    items,
+    examMode,
+    correctAnswers,
+    questionText,
+    handleAnswer,
+    nextQuestion,
+  } = props;
 
   const [formSubmitted, setFormSubmitted] = useState(false);
 
   const FormSchema = z.object({
-    // @ts-ignore
+    // @ts-expect-error foo_
     type: z.enum(map(items, "value"), {
       required_error: "Please Choose one option",
     }),
@@ -66,14 +72,19 @@ const SingleAnswer: React.FC<AnswerProps> = (props) => {
   });
 
   function onSubmit(data: z.infer<typeof FormSchema>) {
-    setFormSubmitted(true);
+    if (!examMode) {
+      setFormSubmitted(true);
+    }
 
     handleAnswer([data.type]);
+
+    if (examMode) {
+      form.reset();
+      nextQuestion();
+    }
   }
 
-  function onNext(e: FormEvent) {
-    e.preventDefault();
-
+  function onNext() {
     if (!formSubmitted) {
       return;
     }
@@ -85,7 +96,7 @@ const SingleAnswer: React.FC<AnswerProps> = (props) => {
 
   return (
     <Form {...form}>
-      {/* @ts-ignore */}
+      {/* @ts-expect-error foo */}
       <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
         <FormField
           control={form.control}
@@ -114,13 +125,16 @@ const SingleAnswer: React.FC<AnswerProps> = (props) => {
             </FormItem>
           )}
         />
+
         <Button className="text-xl mr-2" type="submit">
           Submit
         </Button>
 
-        <Button className="text-xl" onClick={onNext}>
-          Next
-        </Button>
+        {!examMode && (
+          <Button className="text-xl" type="button" onClick={onNext}>
+            Next
+          </Button>
+        )}
       </form>
     </Form>
   );

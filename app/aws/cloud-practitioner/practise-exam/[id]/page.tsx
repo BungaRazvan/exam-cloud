@@ -28,6 +28,7 @@ const PractiseExamPage: React.FC<PractiseExamProps> = async (props) => {
       isTimed={false}
       examId={id}
       resultPath={awsCloudPractitionerResultsPath}
+      displayCorrectAnswers={true}
     />
   );
 };

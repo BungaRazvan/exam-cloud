@@ -15,8 +15,9 @@ export type QuestionType = {
 export type AnswerProps = {
   items: AnswerOptionType[];
   questionText: string;
-  handleAnswer: (answer: str) => void;
+  examMode: boolean;
   correctAnswers: string[];
+  handleAnswer: (answer: str) => void;
   nextQuestion: () => void;
 };
 
@@ -31,13 +32,14 @@ export type AnswerOptionProps = {
 export type QuestionProps = {
   question: QuestionType;
   number: numeber;
+  examMode: boolean;
   handleAnswer: (answer: str) => void;
   nextQuestion: () => void;
 };
 
 export type QuizProps = {
   questions: QuestionType[];
-  isTimed: boolean;
+  examMode: boolean;
   minScore: number;
   maxScore: number;
   passingScore: number;

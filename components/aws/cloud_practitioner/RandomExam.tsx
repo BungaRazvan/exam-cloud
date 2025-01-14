@@ -6,10 +6,10 @@ import { QuestionType } from "@/lib/types";
 import { QuizWrapper } from "./QuizWrapper";
 
 interface RandomExamProps {
-  isTimed: boolean;
+  examMode: boolean;
 }
 const RandomExam: React.FC<RandomExamProps> = (props) => {
-  const { isTimed } = props;
+  const { examMode } = props;
 
   const getQuestions = () => {
     let questions: QuestionType[] = [];
@@ -59,9 +59,9 @@ const RandomExam: React.FC<RandomExamProps> = (props) => {
   return (
     <QuizWrapper
       questions={randomQuestions}
-      isTimed={isTimed}
       examId={""}
       resultPath={null}
+      examMode={examMode}
     />
   );
 };

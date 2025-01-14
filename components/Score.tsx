@@ -1,17 +1,17 @@
 import { cn } from "@/lib/utils";
 import { Button } from "./ui/button";
 
-interface ScoreProps {
+interface ScoreScreenProps {
   score: number; // Scaled score (100–1,000)
   maxScore: number; // Maximum score (1,000)
   passingScore: number; // Passing threshold (e.g., 700)
+  examMode: boolean;
   onRetry: () => void; // Function to handle retry (reset score and quiz state)
 }
 
-const Score: React.FC<ScoreProps> = (props) => {
-  const { score, maxScore, passingScore, onRetry } = props;
+const Result: React.FC<ScoreScreenProps> = (props) => {
+  const { score, maxScore, hasPassed } = props;
   const percentage = ((score - 100) / (maxScore - 100)) * 100; // Normalized percentage
-  const hasPassed = score >= passingScore;
 
   const radius = 40; // Radius of the semi-circle
   const circumference = Math.PI * radius; // Circumference of the semi-circle
@@ -57,19 +57,60 @@ const Score: React.FC<ScoreProps> = (props) => {
           {Math.floor(percentage)}%
         </div>
       </div>
-
-      {!hasPassed && (
-        <Button
-          style={{ margin: "0px !important" }}
-          className="p-5 text-white text-xl"
-          onClick={onRetry}
-          variant={"outline"}
-        >
-          Retry
-        </Button>
-      )}
     </div>
   );
 };
 
-export default Score;
+const ScoreScreen: React.FC<ScoreScreenProps> = (props) => {
+  const { score, maxScore, passingScore, examMode, onRetry } = props;
+
+  const hasPassed = score >= passingScore;
+
+  return (
+    <>
+      <Result
+        score={score}
+        maxScore={maxScore}
+        passingScore={passingScore}
+        hasPassed={hasPassed}
+      />
+
+      <div className="flex justify-around">
+        {!hasPassed && (
+          <Button
+            style={{ margin: "0px !important" }}
+            className="p-5 text-white text-xl"
+            onClick={onRetry}
+            variant={"outline"}
+          >
+            Retry
+          </Button>
+        )}
+
+        {!examMode && (
+          <Button
+            style={{ margin: "0px !important" }}
+            className="p-5 text-white text-xl"
+            onClick={onRetry}
+            variant={"outline"}
+          >
+            Answers
+          </Button>
+        )}
+
+        {examMode && (
+          <Button
+            style={{ margin: "0px !important" }}
+            className="p-5 text-white text-xl"
+            onClick={onRetry}
+            variant={"outline"}
+          >
+            Answers
+          </Button>
+        )}
+      </div>
+    </>
+  );
+};
+
+export default ScoreScreen;
