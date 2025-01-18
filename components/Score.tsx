@@ -62,7 +62,8 @@ const Result: React.FC<ScoreScreenProps> = (props) => {
 };
 
 const ScoreScreen: React.FC<ScoreScreenProps> = (props) => {
-  const { score, maxScore, passingScore, examMode, onRetry } = props;
+  const { score, maxScore, passingScore, examMode, onRetry, toggleAnswers } =
+    props;
 
   const hasPassed = score >= passingScore;
 
@@ -91,7 +92,7 @@ const ScoreScreen: React.FC<ScoreScreenProps> = (props) => {
           <Button
             style={{ margin: "0px !important" }}
             className="p-5 text-white text-xl"
-            onClick={onRetry}
+            onClick={toggleAnswers}
             variant={"outline"}
           >
             Answers

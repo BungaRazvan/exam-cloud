@@ -2,9 +2,10 @@
 
 import React, { useEffect, useRef, useState } from "react";
 import Question from "./Question";
-import { isEqual, sortBy } from "lodash";
+import { isEqual, sortBy, shuffle } from "lodash";
 import { QuizProps } from "@/lib/types";
 import Score from "./Score";
+import Answers from "./Answers";
 
 const Quiz: React.FC<QuizProps> = (props) => {
   const {
@@ -16,10 +17,13 @@ const Quiz: React.FC<QuizProps> = (props) => {
     examMode,
     onEndQuiz,
   } = props;
-  const [quizQuestions, _] = useState([questions[0]]);
+  const [quizQuestions, setQuizQuestions] = useState([questions[0]]);
+  const [answersedQuestion, setAnswersedQuestion] = useState([]);
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+
   const [showScore, setShowScore] = useState(false);
+  const [showAnswers, setShowAnswers] = useState(false);
 
   const totalQuestions = quizQuestions.length;
   const timerRef = useRef<NodeJS.Timeout | null>(null);
@@ -45,12 +49,25 @@ const Quiz: React.FC<QuizProps> = (props) => {
     return () => clearInterval(timer);
   }, [timeLeft, examMode]);
 
+  useEffect(() => {
+    const shuffled = quizQuestions.map((question) => ({
+      ...question,
+      options: shuffle(question.options),
+    }));
+
+    setQuizQuestions(shuffled);
+  }, [questions]);
+
   // Compute step size for scoring adjustment
   const step = (maxScore - minScore) / quizQuestions.length;
 
   const handleAnswer = (answer: string[]) => {
     const correctAnswers = quizQuestions[currentQuestionIndex].correctAnswers;
 
+    setAnswersedQuestion([
+      ...answersedQuestion,
+      { ...quizQuestions[currentQuestionIndex], userAnswer: answer },
+    ]);
     setScore((prevScore) => {
       if (isEqual(sortBy(correctAnswers), sortBy(answer))) {
         return Math.min(prevScore + step, maxScore); // Cap at maxScore
@@ -95,6 +112,8 @@ const Quiz: React.FC<QuizProps> = (props) => {
     setCurrentQuestionIndex(0);
     setShowScore(false);
     setScore(minScore);
+    setAnswersedQuestion([]);
+    setShowAnswers(false);
   };
 
   return (
@@ -106,13 +125,18 @@ const Quiz: React.FC<QuizProps> = (props) => {
           </h3>
         )}
         {showScore ? (
-          <Score
-            score={score}
-            maxScore={maxScore}
-            passingScore={passingScore}
-            onRetry={onRetry}
-            examMode={examMode}
-          />
+          <>
+            <Score
+              score={score}
+              maxScore={maxScore}
+              passingScore={passingScore}
+              onRetry={onRetry}
+              toggleAnswers={() => setShowAnswers(!showAnswers)}
+              examMode={examMode}
+            />
+
+            {showAnswers && <Answers answersedQuestion={answersedQuestion} />}
+          </>
         ) : (
           <Question
             question={quizQuestions[currentQuestionIndex]}
