@@ -82,6 +82,7 @@ const MultipleAnswers: React.FC<AnswerProps> = (props) => {
     examMode,
     questionText,
     correctAnswers,
+    userAnswer,
     handleAnswer,
     nextQuestion,
   } = props;
@@ -90,7 +91,7 @@ const MultipleAnswers: React.FC<AnswerProps> = (props) => {
 
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
-    defaultValues: { items: [] },
+    defaultValues: { items: userAnswer ? userAnswer : [] },
   });
 
   function onSubmit(data: z.infer<typeof FormSchema>) {

@@ -7,7 +7,8 @@ import { Card, CardContent, CardHeader } from "./ui/card";
 import { QuestionProps } from "@/lib/types";
 
 const Question: React.FC<QuestionProps> = (props) => {
-  const { question, number, examMode, handleAnswer, nextQuestion } = props;
+  const { question, number, examMode, readonly, handleAnswer, nextQuestion } =
+    props;
 
   return (
     <Card className="md:w-[920px]">
@@ -23,6 +24,8 @@ const Question: React.FC<QuestionProps> = (props) => {
             correctAnswers={question.correctAnswers}
             nextQuestion={nextQuestion}
             examMode={examMode}
+            userAnswer={question.userAnswer}
+            readonly={readonly}
           />
         ) : (
           <SingleAnswer
@@ -32,6 +35,8 @@ const Question: React.FC<QuestionProps> = (props) => {
             questionText={question.text}
             nextQuestion={nextQuestion}
             examMode={examMode}
+            userAnswer={question.userAnswer}
+            readonly={readonly}
           />
         )}
       </CardContent>

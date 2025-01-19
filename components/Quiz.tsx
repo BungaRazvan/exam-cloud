@@ -17,7 +17,7 @@ const Quiz: React.FC<QuizProps> = (props) => {
     examMode,
     onEndQuiz,
   } = props;
-  const [quizQuestions, setQuizQuestions] = useState([questions[0]]);
+  const [quizQuestions, setQuizQuestions] = useState(questions);
   const [answersedQuestion, setAnswersedQuestion] = useState([]);
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -64,12 +64,18 @@ const Quiz: React.FC<QuizProps> = (props) => {
   const handleAnswer = (answer: string[]) => {
     const correctAnswers = quizQuestions[currentQuestionIndex].correctAnswers;
 
+    const isCorrect = isEqual(sortBy(correctAnswers), sortBy(answer));
+
     setAnswersedQuestion([
       ...answersedQuestion,
-      { ...quizQuestions[currentQuestionIndex], userAnswer: answer },
+      {
+        ...quizQuestions[currentQuestionIndex],
+        userAnswer: answer,
+        correct: isCorrect,
+      },
     ]);
     setScore((prevScore) => {
-      if (isEqual(sortBy(correctAnswers), sortBy(answer))) {
+      if (isCorrect) {
         return Math.min(prevScore + step, maxScore); // Cap at maxScore
       } else {
         return Math.max(prevScore - step, minScore); // Floor at minScore
@@ -135,10 +141,16 @@ const Quiz: React.FC<QuizProps> = (props) => {
               examMode={examMode}
             />
 
-            {showAnswers && <Answers answersedQuestion={answersedQuestion} />}
+            {showAnswers && (
+              <Answers
+                answersedQuestion={answersedQuestion}
+                examMode={examMode}
+              />
+            )}
           </>
         ) : (
           <Question
+            key={"Question"}
             question={quizQuestions[currentQuestionIndex]}
             number={currentQuestionIndex + 1}
             handleAnswer={handleAnswer}

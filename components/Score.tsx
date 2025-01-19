@@ -18,7 +18,7 @@ const Result: React.FC<ScoreScreenProps> = (props) => {
   const offset = circumference - (percentage / 100) * circumference;
 
   return (
-    <div className="flex flex-col m-auto items-center space-y-10 p-12 rounded-lg max-w-sm">
+    <div className="flex flex-col m-auto items-center space-y-10 rounded-lg max-w-sm">
       <h2
         className={cn("text-2xl font-semibold", {
           "text-green-500": hasPassed,

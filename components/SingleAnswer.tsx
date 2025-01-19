@@ -19,14 +19,14 @@ import { AnswerOptionProps, AnswerProps } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
 const RadioOption: React.FC<AnswerOptionProps> = (props) => {
-  const { item, index, field, correctAnswers, formSubmitted } = props;
+  const { item, index, field, correctAnswers, readonly, formSubmitted } = props;
   const letter = String.fromCharCode(65 + index);
 
   return (
     <FormItem className="flex items-center space-x-3 space-y-0">
       <FormControl>
         <RadioGroupItem
-          disabled={formSubmitted}
+          disabled={formSubmitted || readonly}
           value={item.value}
           checked={field.value == item.value}
         />
@@ -37,9 +37,9 @@ const RadioOption: React.FC<AnswerOptionProps> = (props) => {
             field.value &&
             item.value == field.value &&
             !correctAnswers.includes(item.value) &&
-            formSubmitted,
+            (formSubmitted || readonly),
           "text-green-500":
-            correctAnswers.includes(item.value) && formSubmitted,
+            correctAnswers.includes(item.value) && (formSubmitted || readonly),
         })}
       >
         {letter}. {item.label}
@@ -54,10 +54,13 @@ const SingleAnswer: React.FC<AnswerProps> = (props) => {
     examMode,
     correctAnswers,
     questionText,
+    userAnswer,
+    readonly,
     handleAnswer,
     nextQuestion,
   } = props;
 
+  console.log(userAnswer);
   const [formSubmitted, setFormSubmitted] = useState(false);
 
   const FormSchema = z.object({
@@ -69,6 +72,7 @@ const SingleAnswer: React.FC<AnswerProps> = (props) => {
 
   const form = useForm({
     resolver: zodResolver(FormSchema),
+    defaultValues: { type: userAnswer ? userAnswer[0] : null },
   });
 
   function onSubmit(data: z.infer<typeof FormSchema>) {
@@ -117,6 +121,7 @@ const SingleAnswer: React.FC<AnswerProps> = (props) => {
                       field={field}
                       correctAnswers={correctAnswers}
                       formSubmitted={formSubmitted}
+                      readonly={readonly}
                     />
                   ))}
                 </RadioGroup>
@@ -126,11 +131,13 @@ const SingleAnswer: React.FC<AnswerProps> = (props) => {
           )}
         />
 
-        <Button className="text-xl mr-2" type="submit">
-          Submit
-        </Button>
+        {!readonly && (
+          <Button className="text-xl mr-2" type="submit">
+            Submit
+          </Button>
+        )}
 
-        {!examMode && (
+        {!examMode && !readonly && (
           <Button className="text-xl" type="button" onClick={onNext}>
             Next
           </Button>
