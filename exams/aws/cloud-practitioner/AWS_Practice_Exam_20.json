@@ -19,7 +19,9 @@
         "label": "Amazon CloudWatch"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "20"
   },
   {
@@ -42,7 +44,9 @@
         "label": "AWS Service Catalog"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "20"
   },
   {
@@ -65,7 +69,9 @@
         "label": "Amazon RDS for MariaDB"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "20"
   },
   {
@@ -88,7 +94,9 @@
         "label": "Amazon QuickSight"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "20"
   },
   {
@@ -111,7 +119,9 @@
         "label": "Managing the guest operating system, including updates and security patches"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "20"
   },
   {
@@ -134,7 +144,9 @@
         "label": "AWS Transit Gateway"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "20"
   },
   {
@@ -161,7 +173,9 @@
         "label": "Avoid using IAM roles to delegate permissions"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AD"
+    ],
     "exam": "20"
   },
   {
@@ -184,7 +198,9 @@
         "label": "AWS CloudTrail"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "20"
   },
   {
@@ -215,7 +231,9 @@
         "label": "S Global Accelerator continually monitors the health of your application endpoints and redirects traffic to healthy endpoints in less than 30 seconds."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "20"
   },
   {
@@ -242,7 +260,9 @@
         "label": "Use Amazon GuardDuty to validate configuration changes made to AWS resources"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "Ac"
+    ],
     "exam": "20"
   },
   {
@@ -265,7 +285,9 @@
         "label": "AWS IAM"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "20"
   },
   {
@@ -288,7 +310,9 @@
         "label": "Implement the least permissive rules for security groups"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "20"
   },
   {
@@ -315,7 +339,9 @@
         "label": "Amazon API Gateway"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AD"
+    ],
     "exam": "20"
   },
   {
@@ -338,7 +364,9 @@
         "label": "Run the application on a bare metal EC2 instance."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "20"
   },
   {
@@ -361,7 +389,9 @@
         "label": "Use Cost Explorer to combine costs from all accounts. Then replicate IAM policies across accounts."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "20"
   },
   {
@@ -384,7 +414,9 @@
         "label": "Agility"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "20"
   },
   {
@@ -407,7 +439,9 @@
         "label": "AWS Config"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "20"
   },
   {
@@ -430,7 +464,9 @@
         "label": "Amazon Pinpoint"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "20"
   },
   {
@@ -453,7 +489,9 @@
         "label": "Amazon Inspector"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "20"
   },
   {
@@ -492,7 +530,9 @@
         "label": "r files not cached at the edge locations and the regional edge caches, Amazon CloudFront keeps persistent connections with your origin servers so that those files can be fetched from the origin servers as quickly as possible."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "20"
   },
   {
@@ -515,7 +555,9 @@
         "label": "AWS Organizations"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "20"
   },
   {
@@ -538,7 +580,9 @@
         "label": "Amazon Inspector"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "20"
   },
   {
@@ -561,7 +605,9 @@
         "label": "They are provided at no charge to users."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "20"
   },
   {
@@ -588,7 +634,9 @@
         "label": "Security groups configuration"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "CE"
+    ],
     "exam": "20"
   },
   {
@@ -611,7 +659,9 @@
         "label": "Automatic scaling"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "20"
   },
   {
@@ -646,7 +696,9 @@
         "label": "ttps://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html>"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AE"
+    ],
     "exam": "20"
   },
   {
@@ -669,7 +721,9 @@
         "label": "AWS Artifact"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "20"
   },
   {
@@ -696,7 +750,9 @@
         "label": "Configuring a security group and a network access control list (NACL) for EC2"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BC"
+    ],
     "exam": "20"
   },
   {
@@ -719,7 +775,9 @@
         "label": "Automatically adjust the required compute capacity to maintain consistent performance."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "20"
   },
   {
@@ -742,7 +800,9 @@
         "label": "reserved storage pricing"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "20"
   },
   {
@@ -765,7 +825,9 @@
         "label": "Create a service to monitor all S3 uploads and remove any public uploads."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "20"
   },
   {
@@ -788,7 +850,9 @@
         "label": "Proceed with creating a new dashboard in Amazon QuickSight."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "20"
   },
   {
@@ -811,7 +875,9 @@
         "label": "Estimates CPU utilization"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "20"
   },
   {
@@ -834,7 +900,9 @@
         "label": "AWS Support"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "20"
   },
   {
@@ -861,7 +929,9 @@
         "label": "Amazon Redshift"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AB"
+    ],
     "exam": "20"
   },
   {
@@ -888,7 +958,9 @@
         "label": "Higher security of data stored on AWS"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BD"
+    ],
     "exam": "20"
   },
   {
@@ -911,7 +983,9 @@
         "label": "AWS Support"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "20"
   },
   {
@@ -946,7 +1020,9 @@
         "label": "th cloud computing, you can access as much or as little capacity as you need and dynamically scale to meet actual demand, while only paying for what you use."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "20"
   },
   {
@@ -969,7 +1045,9 @@
         "label": "Purchasing for the maximum possible load"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "20"
   },
   {
@@ -992,7 +1070,9 @@
         "label": "Installing operating system security patches for Amazon RDS database instances"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "20"
   },
   {
@@ -1019,7 +1099,9 @@
         "label": "Move data stored in Amazon S3 to a more cost-effective storage class."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BC"
+    ],
     "exam": "20"
   },
   {
@@ -1042,7 +1124,9 @@
         "label": "AWS Config"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "20"
   },
   {
@@ -1073,7 +1157,9 @@
         "label": "ttps://aws.amazon.com/iam/>"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "20"
   },
   {
@@ -1096,7 +1182,9 @@
         "label": "Amazon Inspector"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "20"
   },
   {
@@ -1119,7 +1207,9 @@
         "label": "Amazon Lex"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "20"
   },
   {
@@ -1142,7 +1232,9 @@
         "label": "Design all components using open-source code"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "20"
   },
   {
@@ -1165,7 +1257,9 @@
         "label": "IAM credential report"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "20"
   },
   {
@@ -1188,7 +1282,9 @@
         "label": "Reserved Instances"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "20"
   },
   {
@@ -1231,7 +1327,9 @@
         "label": "r dynamic data, many CDNs can be configured to retrieve data from the origin servers."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "20"
   },
   {
@@ -1254,7 +1352,9 @@
         "label": "Cost optimization"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "20"
   }
 ]

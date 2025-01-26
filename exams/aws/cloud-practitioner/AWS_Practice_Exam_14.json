@@ -19,7 +19,9 @@
         "label": "Amazon Simple Storage Service (Amazon S3)"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "14"
   },
   {
@@ -42,7 +44,9 @@
         "label": "Spot Instances"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "14"
   },
   {
@@ -65,7 +69,9 @@
         "label": "Environmental risk management"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "14"
   },
   {
@@ -88,7 +94,9 @@
         "label": "Amazon DynamoDB"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "14"
   },
   {
@@ -111,7 +119,9 @@
         "label": "Amazon Redshift"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "14"
   },
   {
@@ -134,7 +144,9 @@
         "label": "It automatically adjusts the number of Amazon EC2 instances to support incoming traffic."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "14"
   },
   {
@@ -161,7 +173,9 @@
         "label": "Hybrid"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AC"
+    ],
     "exam": "14"
   },
   {
@@ -184,7 +198,9 @@
         "label": "pay-as-you-go pricing."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "14"
   },
   {
@@ -219,7 +235,9 @@
         "label": "ttps://aws.amazon.com/cloudfront/>"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BE"
+    ],
     "exam": "14"
   },
   {
@@ -242,7 +260,9 @@
         "label": "Infrastructure as a service"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "14"
   },
   {
@@ -273,7 +293,9 @@
         "label": "itical security patches are applied immediately, while others are applied based on the patch schedule you request. Backups of Stacks are automated using Amazon Elastic Block Store (EBS) and RDS snapshots, and can be restored in the event of a failure or outage, ensuring business continuity"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "14"
   },
   {
@@ -296,7 +318,9 @@
         "label": "Amazon S3"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "14"
   },
   {
@@ -331,7 +355,9 @@
         "label": "r more information, see Signing AWS API Requests in the Amazon Web Services General Reference."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "14"
   },
   {
@@ -362,7 +388,9 @@
         "label": "netration testing is not correct, because it can be done by customers on their own resources."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BC"
+    ],
     "exam": "14"
   },
   {
@@ -397,7 +425,9 @@
         "label": "frees you to focus on your applications so you can give them the fast performance, high availability, security and compatibility they need."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "14"
   },
   {
@@ -440,7 +470,9 @@
         "label": "r the most demanding workloads, Amazon EFS can support performance over 10 GB/sec and up to 500,000 IOPS."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "14"
   },
   {
@@ -471,7 +503,9 @@
         "label": "ttps://d1.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf>"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "14"
   },
   {
@@ -510,7 +544,9 @@
         "label": "azon Snowball is a petabyte-scale data transfer service that provides cost efficient data transfer to AWS from tamper proof physical devices. Similarly, Elastic block storage offers persistent block storage volumes for EC2 instances."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "14"
   },
   {
@@ -557,7 +593,9 @@
         "label": "e AWS network provides significant protection against traditional network security issues and the customer can implement further protection"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "14"
   },
   {
@@ -584,7 +622,9 @@
         "label": "S Marketplace is a digital catalog with thousands of software listings from independent software vendors that make it easy to find, test, buy, and deploy software that runs on AWS."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "14"
   },
   {
@@ -615,7 +655,9 @@
         "label": "e remaining benefits were driven by the flexibility and agility of Amazon cloud infrastructure services, which make it easier to trial new business models, support revenue-generating applications, and provide more reliable services to end users."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "14"
   },
   {
@@ -650,7 +692,9 @@
         "label": "a result, Dedicated Hosts enable you to use your existing server-bound software licenses like Windows Server and address corporate compliance and regulatory requirements."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "14"
   },
   {
@@ -685,7 +729,9 @@
         "label": "is file serves as the single source of truth for your cloud environment."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "14"
   },
   {
@@ -724,7 +770,9 @@
         "label": "is enables you to simplify compliance auditing, security analysis, change management, and operational troubleshooting."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "14"
   },
   {
@@ -759,7 +807,9 @@
         "label": "you put your own custom metrics into the repository, you can retrieve statistics on these metrics as well."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "14"
   },
   {
@@ -810,7 +860,9 @@
         "label": "extra fee Consolidated billing is offered at no additional cost."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "14"
   },
   {
@@ -845,7 +897,9 @@
         "label": "ttps://aws.amazon.com/blogs/aws/opsworks-on-prem-and-existing-instances/>"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BC"
+    ],
     "exam": "14"
   },
   {
@@ -872,7 +926,9 @@
         "label": "the new model, the Spot prices are more predictable, updated less frequently, and are determined by supply and demand for Amazon EC2 spare capacity, not bid prices."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "14"
   },
   {
@@ -899,7 +955,9 @@
         "label": "Design for scalability."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "CE"
+    ],
     "exam": "14"
   },
   {
@@ -922,7 +980,9 @@
         "label": "Basic"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "14"
   },
   {
@@ -961,7 +1021,9 @@
         "label": "other useful document is the Executive Briefing within the AWS FedRAMP Partner Package."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "14"
   },
   {
@@ -984,7 +1046,9 @@
         "label": "Amazon CloudWatch"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "14"
   },
   {
@@ -1015,7 +1079,9 @@
         "label": "S combines usage from all accounts in the organization to qualify you for volume pricing discounts."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "14"
   },
   {
@@ -1042,7 +1108,9 @@
         "label": "S customers are welcome to carry out security assessments or penetration tests against their AWS infrastructure without prior approval for 8 services."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "14"
   },
   {
@@ -1089,7 +1157,9 @@
         "label": "y only for the resources that you actually consume, like instance-hours or data transfer."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "14"
   },
   {
@@ -1124,7 +1194,9 @@
         "label": "at way, you can make changes for everyone in a group in just one place. As people move around in your company, you can"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "14"
   },
   {
@@ -1155,7 +1227,9 @@
         "label": "u can also load your cost and usage information into Amazon Athena, Amazon Redshift, AWS QuickSight, or a tool of your choice."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "14"
   },
   {
@@ -1182,7 +1256,9 @@
         "label": "AWS Management Console"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BE"
+    ],
     "exam": "14"
   },
   {
@@ -1221,7 +1297,9 @@
         "label": ", for example, if a process that is reading messages from the queue fails, messages can still be added to the queue to be processed when the system recovers."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "14"
   },
   {
@@ -1260,7 +1338,9 @@
         "label": "r example, if a monitoring tool and a release management tool both require access to your AWS environment, create two separate service accounts with two separate policies that define the minimum set of permissions for each tool."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BE"
+    ],
     "exam": "14"
   },
   {
@@ -1291,7 +1371,9 @@
         "label": "ese include moving tape backups to the cloud, reducing on-premises storage with cloud-backed file shares, providing low latency access to data in AWS for on- premises applications, as well as various migration, archiving,"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "14"
   },
   {
@@ -1318,7 +1400,9 @@
         "label": "e customer is responsible for managing, support, patching and control of the guest operating system and AWS services provided like EC2."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "14"
   },
   {
@@ -1349,7 +1433,9 @@
         "label": "ult isolation improvement can be made to traditional horizontal scaling by sharding (a method of grouping instances into groups called shards, instead of sending the traffic from all users to every node like in the traditional IT structure.)"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "14"
   },
   {
@@ -1376,7 +1462,9 @@
         "label": "e enterprise support plans supports technical account manager. Developer and business support plans are devoid of this facility."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "14"
   },
   {
@@ -1399,7 +1487,9 @@
         "label": "AWS manages the database type."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "14"
   },
   {
@@ -1434,7 +1524,9 @@
         "label": "tabase query results caching, persistent session caching, and full-page caching are all popular examples of caching with ElastiCache for Redis."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "14"
   },
   {
@@ -1461,7 +1553,9 @@
         "label": "course, Amazon is responsible for auditing physical data center assets and resources since it is the property of Amazon Inc. Customers have no access to physical sites, hence they are not responsible for maintaining physical data center assets."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "14"
   },
   {
@@ -1504,7 +1598,10 @@
         "label": "ether you're just starting out, building on existing IT skills, or sharpening your cloud knowledge, AWS Training and Certification can help you be more effective and do more in the cloud."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B",
+      "E"
+    ],
     "exam": "14"
   },
   {
@@ -1555,7 +1652,9 @@
         "label": "u can leverage multiple layers of security, including security groups and network access control lists, to help control access to Amazon EC2 instances in each subnet."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "CD"
+    ],
     "exam": "14"
   },
   {
@@ -1578,7 +1677,9 @@
         "label": "Put all invoices into one Amazon Simple Storage Service (Amazon S3) bucket, load data into Amazon Redshift, and then run a billing report."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "14"
   }
 ]

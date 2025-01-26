@@ -475,7 +475,7 @@
     "exam": "12"
   },
   {
-    "text": "A Cloud Practitioner must determine if any security groups in an AW account have been provisioned to allow unrestricted access for specific ports What is the SIMPLEST way to do this?",
+    "text": "A Cloud Practitioner must determine if any security groups in an AWS account have been provisioned to allow unrestricted access for specific ports. What is the SIMPLEST way to do this?",
     "options": [
       {
         "value": "A",

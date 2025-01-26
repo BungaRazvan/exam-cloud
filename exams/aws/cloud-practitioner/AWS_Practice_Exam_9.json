@@ -1098,7 +1098,9 @@
         "label": "itical security patches are applied immediately, while others are applied based on the patch schedule you request. Backups of Stacks are automated using Amazon Elastic Block Store (EBS) and RDS snapshots, and can be restored in the event of a failure or outage, ensuring business continuity"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "9"
   },
   {

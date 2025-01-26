@@ -19,7 +19,9 @@
         "label": "Increased reliability in the underlying hardware of Amazon EC2 instances"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "15"
   },
   {
@@ -58,7 +60,9 @@
         "label": "e solution also features a dashboard that visualizes your account activity in real-time."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "CE"
+    ],
     "exam": "15"
   },
   {
@@ -85,7 +89,9 @@
         "label": "Running penetration tests"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AC"
+    ],
     "exam": "15"
   },
   {
@@ -108,7 +114,9 @@
         "label": "A company has a number of infrequent, interruptible jobs that are currently using On-Demand Instances."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "15"
   },
   {
@@ -159,7 +167,9 @@
         "label": "Impact during patching the instances"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "15"
   },
   {
@@ -182,7 +192,9 @@
         "label": "Basic"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "15"
   },
   {
@@ -213,7 +225,9 @@
         "label": "ey might also contain client-side scripts. By contrast, a dynamic website relies on server-side processing, including server-side scripts such as PHP, JSP, or ASP.NET. Amazon S3 does not support server-side scripting."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "15"
   },
   {
@@ -236,7 +250,9 @@
         "label": "It automates the resource request process from a company's IT vendor list."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "15"
   },
   {
@@ -267,7 +283,9 @@
         "label": "oudFront delivers your content through a worldwide network of data centers called edge locations."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BD"
+    ],
     "exam": "15"
   },
   {
@@ -298,7 +316,9 @@
         "label": "u can grant user-level permissions on either an AWS Identity and Access Management (IAM) policy or another statement in the bucket policy."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "15"
   },
   {
@@ -321,7 +341,9 @@
         "label": "Design for failure"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "15"
   },
   {
@@ -352,7 +374,9 @@
         "label": "customer's poorly coded applications, misconfigured operating systems, or insecure firewall settings will not affect the hypervisor, it will only affect the customer's virtual machines running on that hypervisor."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "15"
   },
   {
@@ -387,7 +411,9 @@
         "label": "a Capacity Reservation is partially utilized, you pay for the instance usage and for the unused portion of the Capacity Reservation."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "15"
   },
   {
@@ -418,7 +444,9 @@
         "label": "ese accelerators reduce hundreds of manual procedures into just a few steps, so you can build your production environment quickly and start using it immediately."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "15"
   },
   {
@@ -457,7 +485,9 @@
         "label": "stead, AWS handles all of these capabilities for you. Serverless platform includes: AWS lambda, Amazon S3, DynamoDB, API gateway, Amazon SNS, AWS step functions, Amazon kinesis and developing tools and services."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "15"
   },
   {
@@ -496,7 +526,9 @@
         "label": "rverless platform includes: AWS lambda, Amazon S3, DynamoDB, API gateway, Amazon SNS, AWS step functions, Amazon kinesis and developing tools and services."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "15"
   },
   {
@@ -551,7 +583,9 @@
         "label": "rvice and Communications Protection or Zone Security which may require a customer to route or zone data within specific security environments."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "15"
   },
   {
@@ -586,7 +620,9 @@
         "label": "en a user requests content that you're serving with CloudFront, the user is routed to the edge location that provides the lowest latency (time delay), so that content is delivered with the best possible performance."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BD"
+    ],
     "exam": "15"
   },
   {
@@ -629,7 +665,9 @@
         "label": "th AWS Auto Scaling, your applications always have the right resources at the right time."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "15"
   },
   {
@@ -656,7 +694,9 @@
         "label": "Amazon DynamoDB"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AD"
+    ],
     "exam": "15"
   },
   {
@@ -695,7 +735,9 @@
         "label": "reements available in AWS Artifact include the Business Associate Addendum (BAA) and the Nondisclosure Agreement (NDA)."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "15"
   },
   {
@@ -722,7 +764,9 @@
         "label": "Ensuring that hardware is disposed of properly"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AC"
+    ],
     "exam": "15"
   },
   {
@@ -745,7 +789,9 @@
         "label": "Amazon ECS"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "15"
   },
   {
@@ -768,7 +814,9 @@
         "label": "Amazon EC2 Reserved Instances"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "15"
   },
   {
@@ -795,7 +843,9 @@
         "label": "business credit lines for stratups."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AC"
+    ],
     "exam": "15"
   },
   {
@@ -818,7 +868,9 @@
         "label": "Development of an IAM password policy"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "15"
   },
   {
@@ -861,7 +913,10 @@
         "label": "u can take advantage of these logical connections to improve security, differentiate traffic, and achieve compliance requirements."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A",
+      "D"
+    ],
     "exam": "15"
   },
   {
@@ -888,7 +943,9 @@
         "label": "S Lambda is an integral part of coding on AWS. It reduces physical compute footprint by utilizing aws cloud services to run code."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "15"
   },
   {
@@ -919,7 +976,9 @@
         "label": "ile the Service Health Dashboard displays the general status of AWS services, Personal Health Dashboard gives you a personalized view into the performance and availability of the AWS services underlying your AWS resources."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "15"
   },
   {
@@ -950,7 +1009,9 @@
         "label": "ke your customized cloud expert, AWS Trusted Advisor analyzes your AWS environment and provides best practice recommendations in five categories: cost optimization, performance, security, fault tolerance and service limits."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AD"
+    ],
     "exam": "15"
   },
   {
@@ -973,7 +1034,9 @@
         "label": "e customer is responsible for managing, support, patching and control of the guest operating system and AWS services provided like EC2."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "15"
   },
   {
@@ -996,7 +1059,9 @@
         "label": "Elimination of upfront capital expense (capex) and elimination of variable operational expense (opex)"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "15"
   },
   {
@@ -1023,7 +1088,9 @@
         "label": "u can use Cost explorer which is part of Cost and Usage report to forecast future costs of running an application."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "15"
   },
   {
@@ -1046,7 +1113,9 @@
         "label": "Basic"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "15"
   },
   {
@@ -1077,7 +1146,9 @@
         "label": "tch management is a shared responsibility. That leaves us with edge location management and since this out of the control of the customer, AWS is the one responsible for it."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "15"
   },
   {
@@ -1108,7 +1179,9 @@
         "label": "r example, you could have a group called Admins and give that group the types of permissions that administrators typically need."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "15"
   },
   {
@@ -1151,7 +1224,9 @@
         "label": "is highly important as already enterprises have a lot of bequest, politics and hierarchies which act as barriers in their businesses."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BC"
+    ],
     "exam": "15"
   },
   {
@@ -1182,7 +1257,9 @@
         "label": "cannot be used on computers that are not joined to the directory."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "15"
   },
   {
@@ -1221,7 +1298,9 @@
         "label": "provides a high-bandwidth backbone to the AWS infrastructure and is ideal for latency-sensitive applications, for example machine learning."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "15"
   },
   {
@@ -1248,7 +1327,9 @@
         "label": "It will adopt new compliance frameworks as they become relevant to customer workloads."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AB"
+    ],
     "exam": "15"
   },
   {
@@ -1287,7 +1368,9 @@
         "label": "reements available in AWS Artifact include the Business Associate Addendum (BAA) and the Nondisclosure Agreement (NDA)."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "15"
   },
   {
@@ -1310,7 +1393,9 @@
         "label": "User and access management"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "15"
   },
   {
@@ -1337,7 +1422,9 @@
         "label": "Antivirus software license"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "CD"
+    ],
     "exam": "15"
   },
   {
@@ -1376,7 +1463,9 @@
         "label": "l hardware related jobs have nothing to do with the customer."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BC"
+    ],
     "exam": "15"
   },
   {
@@ -1403,7 +1492,9 @@
         "label": "Having the ability to create and govern environments using code."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AB"
+    ],
     "exam": "15"
   },
   {
@@ -1450,7 +1541,9 @@
         "label": "fact, spot instances will be stopped if the resources are needed elsewhere."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "15"
   },
   {
@@ -1477,7 +1570,9 @@
         "label": "Database engine capacity"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BC"
+    ],
     "exam": "15"
   },
   {
@@ -1520,7 +1615,9 @@
         "label": "e AWS Lambda pricing depends on the amount of memory that the user used to allocate to the function."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "15"
   },
   {
@@ -1563,7 +1660,9 @@
         "label": "do this, you can write the corresponding code or use the Amazon EC2 console to make the process easier."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "15"
   },
   {
@@ -1614,7 +1713,9 @@
         "label": "wever, by running two separate environments simultaneously, you will obviously incur much higher costs."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "15"
   }
 ]

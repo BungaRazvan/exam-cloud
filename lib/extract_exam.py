@@ -42,11 +42,13 @@ def extract(no, markdown_content):
     questions = []
     current_question = None
     correct_answer_prefix = "Correct answer:"
+    correct_answer_prefix_2 = "Correct Answer:"
 
     # Split content into lines for processing
     lines = markdown_content.split("\n")
 
     for line in lines:
+        print(correct_answer_prefix in line, line)
         line = line.strip()
 
         # Match any question number (1., 2., 3., etc.)
@@ -73,6 +75,9 @@ def extract(no, markdown_content):
             # Extract the correct answer(s)
             correct_answers = line.split(correct_answer_prefix)[1].strip()
             current_question["correctAnswers"] = correct_answers.split(", ")
+        elif correct_answer_prefix_2 in line:
+            correct_answers = line.split(correct_answer_prefix_2)[1].strip()
+            current_question["correctAnswers"] = correct_answers.split(", ")
 
     # Add the last question if exists
     if current_question:
@@ -82,7 +87,7 @@ def extract(no, markdown_content):
     output_json = json.dumps(questions, indent=2)
 
     # Save the JSON to a file
-    output_file_path = f"./AWS_Practice_Exam_{no}.json"
+    output_file_path = f"./exams/aws/cloud-practitioner/AWS_Practice_Exam_{no}.json"
     with open(output_file_path, "w") as file:
         file.write(output_json)
 
