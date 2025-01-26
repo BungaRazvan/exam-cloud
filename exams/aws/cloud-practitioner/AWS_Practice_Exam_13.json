@@ -19,7 +19,9 @@
         "label": "AWS Marketplace"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "13"
   },
   {
@@ -42,7 +44,9 @@
         "label": "Amazon EBS"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "13"
   },
   {
@@ -65,11 +69,13 @@
         "label": "AWS Account Managers"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "13"
   },
   {
-    "text": "A customer would like to design and build a new workload on AWS Cloud but does not have the AWS- related software technical expertise in-hous. <br/>Which of the following AWS programs can a customer take advantage of to achieve that outcome?",
+    "text": "A customer would like to design and build a new workload on AWS Cloud but does not have the AWS-related software technical expertise in-house. <br/>Which of the following AWS programs can a customer take advantage of to achieve that outcome?",
     "options": [
       {
         "value": "A",
@@ -88,7 +94,9 @@
         "label": "AWS Service Catalog"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "13"
   },
   {
@@ -111,7 +119,9 @@
         "label": "Implement elasticity."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "13"
   },
   {
@@ -138,7 +148,9 @@
         "label": "Amazon S3"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AB"
+    ],
     "exam": "13"
   },
   {
@@ -161,7 +173,9 @@
         "label": "Detailed billing"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "13"
   },
   {
@@ -184,7 +198,9 @@
         "label": "On-Demand Instances"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "13"
   },
   {
@@ -211,7 +227,9 @@
         "label": "Reliability"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "CD"
+    ],
     "exam": "13"
   },
   {
@@ -234,7 +252,9 @@
         "label": "AWS Health"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "13"
   },
   {
@@ -261,7 +281,9 @@
         "label": "A durable storage system"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BE"
+    ],
     "exam": "13"
   },
   {
@@ -296,7 +318,9 @@
         "label": "u can also use CloudWatch in hybrid cloud architectures by using the CloudWatch Agent or API to monitor your on-premises resources"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AB"
+    ],
     "exam": "13"
   },
   {
@@ -319,7 +343,9 @@
         "label": "Software development"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "13"
   },
   {
@@ -342,7 +368,9 @@
         "label": "Amazon EC2 with Amazon Elastic Block Store (Amazon EBS)"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "13"
   },
   {
@@ -365,7 +393,9 @@
         "label": "Edge locations contain regions."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "13"
   },
   {
@@ -392,7 +422,9 @@
         "label": "Cost Eliminator"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BCD"
+    ],
     "exam": "13"
   },
   {
@@ -419,7 +451,9 @@
         "label": "The automatic extension of the master account's AWS support plan to all accounts"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AD"
+    ],
     "exam": "13"
   },
   {
@@ -442,7 +476,9 @@
         "label": "Three-year, No Upfront, Convertible RI pricing"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "13"
   },
   {
@@ -465,7 +501,9 @@
         "label": "lower variable costs and lower upfront costs."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "13"
   },
   {
@@ -488,7 +526,9 @@
         "label": "refresh data changes daily."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "13"
   },
   {
@@ -511,7 +551,9 @@
         "label": "Security Groups"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "13"
   },
   {
@@ -534,7 +576,9 @@
         "label": "Attending AWS classes at a local university"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "13"
   },
   {
@@ -557,7 +601,9 @@
         "label": "Standard RIs"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "13"
   },
   {
@@ -580,7 +626,9 @@
         "label": "Encryption"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "13"
   },
   {
@@ -603,7 +651,9 @@
         "label": "AWS Direct Connect"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "13"
   },
   {
@@ -626,7 +676,9 @@
         "label": "AWS Certificate Manager"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "13"
   },
   {
@@ -653,7 +705,9 @@
         "label": "Maintaining environmental controls within a data center"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BD"
+    ],
     "exam": "13"
   },
   {
@@ -676,7 +730,9 @@
         "label": "Use a monolithic application that handles all operations."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "13"
   },
   {
@@ -699,7 +755,9 @@
         "label": "Use frequently coupled components."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "13"
   },
   {
@@ -726,7 +784,9 @@
         "label": "Enforcing password strength and expiration"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "DE"
+    ],
     "exam": "13"
   },
   {
@@ -753,7 +813,9 @@
         "label": "Amazon EFS"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BE"
+    ],
     "exam": "13"
   },
   {
@@ -784,7 +846,9 @@
         "label": "ttps://aws.amazon.com/rds/>"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "13"
   },
   {
@@ -807,7 +871,9 @@
         "label": "Amazon ElastiCache"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "13"
   },
   {
@@ -830,7 +896,9 @@
         "label": "Private networking"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "13"
   },
   {
@@ -853,7 +921,9 @@
         "label": "Awareness and training"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "13"
   },
   {
@@ -876,7 +946,9 @@
         "label": "A minimum of four or more"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "13"
   },
   {
@@ -899,7 +971,9 @@
         "label": "it allows the business to leave servers unpatched."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "13"
   },
   {
@@ -922,7 +996,9 @@
         "label": "Amazon EC2 Instance Store"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "13"
   },
   {
@@ -945,7 +1021,9 @@
         "label": "SSH keys"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "13"
   },
   {
@@ -968,7 +1046,9 @@
         "label": "Amazon S3"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "13"
   },
   {
@@ -991,7 +1071,9 @@
         "label": "Decreased acquisition time for new compute resources"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "13"
   },
   {
@@ -1014,7 +1096,9 @@
         "label": "AWS Config"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "13"
   },
   {
@@ -1037,7 +1121,9 @@
         "label": "Using a large GPU instance type"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "13"
   },
   {
@@ -1060,7 +1146,9 @@
         "label": "AWS CloudTrail Logs"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "13"
   },
   {
@@ -1087,7 +1175,9 @@
         "label": "obal Reach will support an international company using Cloud-Front."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "13"
   },
   {
@@ -1110,7 +1200,9 @@
         "label": "Patching network infrastructure"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "13"
   },
   {
@@ -1133,7 +1225,9 @@
         "label": "Sign up for the AWS Enterprise support plan to get volume discounts."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "13"
   },
   {
@@ -1160,7 +1254,9 @@
         "label": "Adjustable retention"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "DE"
+    ],
     "exam": "13"
   },
   {
@@ -1183,7 +1279,9 @@
         "label": "Amazon Lightsail"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "13"
   },
   {
@@ -1210,7 +1308,9 @@
         "label": "Proximity to the customer's office for on-site visits"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AC"
+    ],
     "exam": "13"
   }
 ]

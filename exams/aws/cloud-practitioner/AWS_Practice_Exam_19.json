@@ -19,7 +19,9 @@
         "label": "AWS Marketplace"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "19"
   },
   {
@@ -42,7 +44,9 @@
         "label": "Amazon Virtual Private Cloud (Amazon VPC."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "19"
   },
   {
@@ -65,7 +69,9 @@
         "label": "Managing custom Amazon Machine Images (AMIs)"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "19"
   },
   {
@@ -88,7 +94,9 @@
         "label": "Amazon Virtual Private Cloud (Amazon VPC."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "19"
   },
   {
@@ -111,7 +119,9 @@
         "label": "Enable AWS CloudTrail"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "19"
   },
   {
@@ -134,7 +144,9 @@
         "label": "AWS Identity and Access Management (AWS IAM)"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "19"
   },
   {
@@ -157,7 +169,9 @@
         "label": "Amazon Route 53"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "19"
   },
   {
@@ -180,7 +194,9 @@
         "label": "AWS Acceptable Use Policy"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "19"
   },
   {
@@ -215,7 +231,9 @@
         "label": "th AWS you are not bound to multi-year agreements or complicated licensing models."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "19"
   },
   {
@@ -242,7 +260,9 @@
         "label": "Distributed resources across multiple AWS points of presence"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AC"
+    ],
     "exam": "19"
   },
   {
@@ -273,7 +293,9 @@
         "label": "stribute traffic across multiple resources or services to allow your workload to take advantage of the elasticity that AWS provides."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "19"
   },
   {
@@ -300,7 +322,9 @@
         "label": "Disable multi-factor authentication (MFA) for IAM users"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AB"
+    ],
     "exam": "19"
   },
   {
@@ -327,7 +351,9 @@
         "label": "Use Amazon Connect to create a new request for proposal (RFP) for expert assistance in migrating to the AWS Cloud."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "CD"
+    ],
     "exam": "19"
   },
   {
@@ -350,7 +376,9 @@
         "label": "Answering questions regarding technical support cases"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "19"
   },
   {
@@ -373,7 +401,9 @@
         "label": "having elasticity"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "19"
   },
   {
@@ -396,7 +426,9 @@
         "label": "placement groups"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "19"
   },
   {
@@ -419,7 +451,9 @@
         "label": "Cost Explorer"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "19"
   },
   {
@@ -442,7 +476,9 @@
         "label": "Enable Reserved Instance sharing in the AWS Billing and Cost Management console."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "19"
   },
   {
@@ -465,7 +501,9 @@
         "label": "A user needs to change payment methods due to a compromise"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "19"
   },
   {
@@ -492,7 +530,9 @@
         "label": "AWS Lambda"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BD"
+    ],
     "exam": "19"
   },
   {
@@ -515,7 +555,9 @@
         "label": "Amazon ElastiCache"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "19"
   },
   {
@@ -542,7 +584,9 @@
         "label": "Access key"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BD"
+    ],
     "exam": "19"
   },
   {
@@ -565,7 +609,9 @@
         "label": "split an AWS bill across multiple forms of payment"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "19"
   },
   {
@@ -592,7 +638,9 @@
         "label": "Password policies"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "CE"
+    ],
     "exam": "19"
   },
   {
@@ -619,7 +667,9 @@
         "label": "Number of users in the account"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AC"
+    ],
     "exam": "19"
   },
   {
@@ -642,7 +692,9 @@
         "label": "Create and manage keys for multi-factor authentication"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "19"
   },
   {
@@ -669,7 +721,9 @@
         "label": "It provides proactive alerting whenever an Amazon EC2 instance has been compromised"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BC"
+    ],
     "exam": "19"
   },
   {
@@ -696,7 +750,9 @@
         "label": "AWS manages cost planning for virtual servers"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AC"
+    ],
     "exam": "19"
   },
   {
@@ -719,7 +775,9 @@
         "label": "Security"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "19"
   },
   {
@@ -754,7 +812,9 @@
         "label": "ttps://aws.amazon.com/blogs/networking-and-content-delivery/introducing-aws-client-vpn-to-securely-access-aws-and-on-premises-resources/>"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AD"
+    ],
     "exam": "19"
   },
   {
@@ -777,7 +837,9 @@
         "label": "Amazon QuickSight"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "19"
   },
   {
@@ -800,7 +862,9 @@
         "label": "Amazon CloudFront"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "19"
   },
   {
@@ -831,7 +895,9 @@
         "label": "ow log data can be published to Amazon CloudWatch Logs or Amazon S3. After you've created a flow log, you can retrieve and view its data in the chosen destination."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "19"
   },
   {
@@ -854,7 +920,9 @@
         "label": "AWS Lambda"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "19"
   },
   {
@@ -877,7 +945,9 @@
         "label": "Amazon Connect"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "19"
   },
   {
@@ -912,7 +982,9 @@
         "label": "frees you to focus on your applications, so you can give them the fast performance, high availability, security, and compatibility that they need."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "19"
   },
   {
@@ -935,7 +1007,9 @@
         "label": "Download the AWS Management Console for the new Region"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "19"
   },
   {
@@ -958,7 +1032,9 @@
         "label": "Reserved Instances"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "19"
   },
   {
@@ -993,7 +1069,9 @@
         "label": "ttps://docs.aws.amazon.com/kms/latest/developerguide/overview.html>"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "CE"
+    ],
     "exam": "19"
   },
   {
@@ -1016,7 +1094,9 @@
         "label": "AWS Migration Hub"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "19"
   },
   {
@@ -1043,7 +1123,9 @@
         "label": "AWS Secrets Manager"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BD"
+    ],
     "exam": "19"
   },
   {
@@ -1082,7 +1164,9 @@
         "label": "oudHSM allows you to securely generate, store, and manage cryptographic keys used for data encryption in a way that keys are accessible only by you."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "19"
   },
   {
@@ -1109,7 +1193,9 @@
         "label": "Patch management of an Amazon EC2 instance operating system"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BE"
+    ],
     "exam": "19"
   },
   {
@@ -1148,7 +1234,9 @@
         "label": "at way, whenever an environment is created, Elastic Beanstalk publishes this event to an SNS topic, which triggers a subscribing Lambda function, which then kicks off a CI job against your newly created Elastic Beanstalk environment."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "19"
   },
   {
@@ -1171,7 +1259,9 @@
         "label": "AWS manages user applications in the AWS Cloud"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "19"
   },
   {
@@ -1194,7 +1284,9 @@
         "label": "The source S3 bucket owner must have the source and destination AWS Regions disabled for their account"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "19"
   },
   {
@@ -1213,7 +1305,9 @@
         "label": "Managing application software updates"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "19"
   },
   {
@@ -1236,7 +1330,9 @@
         "label": "Reliability"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "19"
   },
   {
@@ -1263,7 +1359,9 @@
         "label": "AWS Price List API"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AD"
+    ],
     "exam": "19"
   },
   {
@@ -1286,7 +1384,9 @@
         "label": "establish a dedicated network connection to AWS"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "19"
   }
 ]

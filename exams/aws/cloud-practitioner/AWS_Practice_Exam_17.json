@@ -31,7 +31,9 @@
         "label": "kognition Image is based on the same proven, highly scalable, deep learning technology developed by Amazon's computer vision scientists to analyze billions of images daily for Prime Photos."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "17"
   },
   {
@@ -54,7 +56,9 @@
         "label": "Operating system administration"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "17"
   },
   {
@@ -77,7 +81,9 @@
         "label": "Managing the network infrastructure"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "17"
   },
   {
@@ -108,7 +114,9 @@
         "label": "e cost allocation tags to divide your resources into groups, and then estimate the costs for each group."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "17"
   },
   {
@@ -131,7 +139,9 @@
         "label": "Amazon EC2 dashboard"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "17"
   },
   {
@@ -170,7 +180,9 @@
         "label": "is data includes the estimated charges for every service in AWS that you use, in addition to the estimated overall total of your AWS charges."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "17"
   },
   {
@@ -193,7 +205,9 @@
         "label": "No Upfront Reserved Instances for a 3-year term"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "17"
   },
   {
@@ -228,7 +242,9 @@
         "label": "dia that stored customer data is not removed from AWS control until it has been securely decommissioned."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "17"
   },
   {
@@ -255,7 +271,9 @@
         "label": "S allows you to access as much or as little capacity as you need, and scale up or down as required with only a few minutes\u2019 notice"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "17"
   },
   {
@@ -286,7 +304,9 @@
         "label": "oudFront is integrated with AWS both physical locations that are directly connected to the AWS global infrastructure, as well as other AWS services."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "17"
   },
   {
@@ -321,7 +341,9 @@
         "label": "oudFormation -> Use templates to deploy code and infrastructure"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AD"
+    ],
     "exam": "17"
   },
   {
@@ -352,7 +374,9 @@
         "label": "is tool is built on an underlying calculation model, that generates a fair assessment of value that a customer may achieve given the data provided by the user."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "17"
   },
   {
@@ -379,7 +403,9 @@
         "label": "Backup recovery to an on-premises environment"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AB"
+    ],
     "exam": "17"
   },
   {
@@ -406,7 +432,9 @@
         "label": "Contact AWS Support."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AE"
+    ],
     "exam": "17"
   },
   {
@@ -429,7 +457,9 @@
         "label": "Deploying in any part of the world using AWS Regions"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "17"
   },
   {
@@ -464,7 +494,9 @@
         "label": "ere are two tiers of AWS Shield - Standard and Advanced."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "17"
   },
   {
@@ -499,7 +531,9 @@
         "label": "check if detailed monitoring is enabled, on your EC2 Console, Select the instance, on the lower plane, Select Monitoring."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "17"
   },
   {
@@ -530,7 +564,9 @@
         "label": "ing IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "17"
   },
   {
@@ -557,7 +593,9 @@
         "label": "Customers can reserve capacity in an Availability Zone."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AE"
+    ],
     "exam": "17"
   },
   {
@@ -584,7 +622,9 @@
         "label": "en the unhealthy Availability Zone returns to a healthy state, Auto Scaling automatically redistributes the application instances evenly across all of the designated Availability Zones."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "17"
   },
   {
@@ -615,7 +655,9 @@
         "label": "the purchasing account doesn't have any instances that match the terms of the Reserved Instance, the discount for the Reserved Instance is assigned to any matching usage on another account in the organization."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "17"
   },
   {
@@ -638,7 +680,9 @@
         "label": "4 hours"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "17"
   },
   {
@@ -665,7 +709,9 @@
         "label": "AWS Organizations"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AB"
+    ],
     "exam": "17"
   },
   {
@@ -700,7 +746,9 @@
         "label": "is gives you a single source of truth for your AWS and third party resources."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "17"
   },
   {
@@ -727,7 +775,9 @@
         "label": "Amazon Connect"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BD"
+    ],
     "exam": "17"
   },
   {
@@ -766,7 +816,9 @@
         "label": "rtual interfaces can be reconfigured at any time to meet your changing needs."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "17"
   },
   {
@@ -793,7 +845,9 @@
         "label": "Amazon ElastiCache"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A,B"
+    ],
     "exam": "17"
   },
   {
@@ -828,7 +882,9 @@
         "label": "u have complete control."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "17"
   },
   {
@@ -851,7 +907,9 @@
         "label": "AWS Total Cost of Ownership (TCO) Calculator"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "17"
   },
   {
@@ -878,7 +936,9 @@
         "label": "Users can deploy third-party software without testing."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AB"
+    ],
     "exam": "17"
   },
   {
@@ -905,7 +965,9 @@
         "label": "osely coupled architectures reduce interdependencies, so that a change or failure in a component does not cascade to other components."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "17"
   },
   {
@@ -932,7 +994,9 @@
         "label": "Configuration of the security group"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BE"
+    ],
     "exam": "17"
   },
   {
@@ -971,7 +1035,9 @@
         "label": "is enables you to simplify compliance auditing, security analysis, change management, and operational troubleshooting."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "17"
   },
   {
@@ -994,7 +1060,9 @@
         "label": "Amazon Inspector"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "17"
   },
   {
@@ -1021,7 +1089,9 @@
         "label": "S maintains the configuration of its infrastructure devices, but a customer is responsible for configuring their own guest operating systems, databases, and applications."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "17"
   },
   {
@@ -1052,7 +1122,9 @@
         "label": "oudFront is integrated with AWS both physical locations that are directly connected to the AWS global infrastructure, as well as other AWS services."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "17"
   },
   {
@@ -1075,7 +1147,9 @@
         "label": "High availability"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "17"
   },
   {
@@ -1098,7 +1172,9 @@
         "label": "AWS Abuse team"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "17"
   },
   {
@@ -1125,7 +1201,9 @@
         "label": "Users have control over the physical infrastructure."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AC"
+    ],
     "exam": "17"
   },
   {
@@ -1156,7 +1234,9 @@
         "label": "ether you are a growing startup or a large enterprise, Organizations helps you to centrally manage billing; control access, compliance, and security; and share resources across your AWS accounts."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "17"
   },
   {
@@ -1187,7 +1267,9 @@
         "label": "ether establishing new workflows, developing applications, or as part of ongoing improvement, take advantage of the recommendations provided by Trusted Advisor on a regular basis to help keep your solutions provisioned optimally."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "17"
   },
   {
@@ -1214,7 +1296,9 @@
         "label": "S Cost Explorer has an easy-to-use interface that lets you visualize, understand, and manage your AWS costs and usage over time."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "17"
   },
   {
@@ -1253,7 +1337,9 @@
         "label": "reements available in AWS Artifact include the Business Associate Addendum (BAA) and the Nondisclosure Agreement (NDA)."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "17"
   },
   {
@@ -1284,7 +1370,9 @@
         "label": "ttps://aws.amazon.com/cloudfront/>"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AC"
+    ],
     "exam": "17"
   },
   {
@@ -1315,7 +1403,9 @@
         "label": "the same time, you retain full control over the AWS resources powering your application and can access the underlying resources at any time."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "17"
   },
   {
@@ -1338,7 +1428,9 @@
         "label": "Amazon API Gateway"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "17"
   },
   {
@@ -1361,7 +1453,9 @@
         "label": "Durability"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "17"
   },
   {
@@ -1384,7 +1478,9 @@
         "label": "reduces operational expenditures."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "17"
   },
   {
@@ -1407,7 +1503,9 @@
         "label": "Firewall configuration"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "17"
   },
   {
@@ -1438,7 +1536,9 @@
         "label": "ery organization in AWS Organizations has a master (payer) account that pays the charges of all the member (linked)"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "17"
   }
 ]

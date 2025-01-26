@@ -19,7 +19,9 @@
         "label": "Global infrastructure"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "18"
   },
   {
@@ -42,7 +44,9 @@
         "label": "AWS Discussion Forums"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "18"
   },
   {
@@ -69,7 +73,9 @@
         "label": "High availability"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BC"
+    ],
     "exam": "18"
   },
   {
@@ -92,7 +98,9 @@
         "label": "All upfront payment"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "18"
   },
   {
@@ -115,7 +123,9 @@
         "label": "There will be decreased application latency that will improve the user experience."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "18"
   },
   {
@@ -138,7 +148,9 @@
         "label": "Use Amazon AppStream 2.0 for real-time pricing analytics."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "18"
   },
   {
@@ -165,7 +177,9 @@
         "label": "Leverage Amazon CloudFront to restrict access to static web content provided through the company's on-premises web servers."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BD"
+    ],
     "exam": "18"
   },
   {
@@ -200,7 +214,9 @@
         "label": "you use AWS Shield Advanced, you can use AWS WAF at no extra cost for those protected resources and can engage the DRT to create WAF rules."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "18"
   },
   {
@@ -223,7 +239,9 @@
         "label": "automate the infrastructure provisioning process."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "18"
   },
   {
@@ -254,7 +272,9 @@
         "label": "th multiple virtual interfaces, you can even establish private connectivity to multiple VPCs while maintaining network isolation."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "18"
   },
   {
@@ -289,7 +309,9 @@
         "label": "t unlike Apache Drill, Athena is limited to data only from Amazon's own S3 storage service. However, Athena is able to query a variety of file formats, including, but not limited to CSV, Parquet, JSON, etc."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "18"
   },
   {
@@ -324,7 +346,9 @@
         "label": "is gives you a single source of truth for your AWS and third party resources."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "18"
   },
   {
@@ -347,7 +371,9 @@
         "label": "AWS Snowball"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "18"
   },
   {
@@ -370,7 +396,9 @@
         "label": "In AWS Config, create a custom rule that invokes an AWS Lambda function to review rules for inbound access."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "18"
   },
   {
@@ -397,7 +425,9 @@
         "label": "AWS takes care application security patching."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "CD"
+    ],
     "exam": "18"
   },
   {
@@ -436,7 +466,9 @@
         "label": "ese findings can be reviewed directly or as part of detailed assessment reports which are available via the Amazon Inspector console or API."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "18"
   },
   {
@@ -459,7 +491,9 @@
         "label": "Use Amazon CloudWatch to monitor the use of services."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "18"
   },
   {
@@ -490,7 +524,9 @@
         "label": "th AWS Service Catalog, customers and partners can centrally manage commonly deployed IT services to help achieve consistent governance and meet compliance requirements while enabling users to self-provision approved services."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "18"
   },
   {
@@ -525,7 +561,9 @@
         "label": "Glacier Deep Archive can also be used for backup and disaster recovery use cases, and is a cost-effective and easy-to-manage alternative to magnetic tape systems, whether they are on-premises libraries or off-premises services."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "18"
   },
   {
@@ -552,7 +590,9 @@
         "label": "AWS holds responsibility for security in the cloud."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "CD"
+    ],
     "exam": "18"
   },
   {
@@ -587,7 +627,9 @@
         "label": "provides you with dashboards and alerts that give visibility into how this data is being accessed or moved."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "18"
   },
   {
@@ -630,7 +672,9 @@
         "label": "'s a hybrid storage option that connects on-premise storage including age-old tape backup systems to the cloud in a way that also provides one console to access all storage configurations."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "18"
   },
   {
@@ -653,7 +697,9 @@
         "label": "Configure the application using multiple NAT gateways."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "18"
   },
   {
@@ -676,7 +722,9 @@
         "label": "Agility"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "18"
   },
   {
@@ -707,7 +755,9 @@
         "label": "th multiple virtual interfaces, you can even establish private connectivity to multiple VPCs while maintaining network isolation."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "18"
   },
   {
@@ -738,7 +788,9 @@
         "label": "is shared model can help relieve the customer's operational burden as AWS operates, manages and controls the components from the host operating system and virtualization layer down to the physical security of the facilities in which the service operates."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "18"
   },
   {
@@ -761,7 +813,9 @@
         "label": "an API key."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "18"
   },
   {
@@ -784,7 +838,9 @@
         "label": "AWS Config"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "18"
   },
   {
@@ -811,7 +867,9 @@
         "label": "By the total number of Lambda functions in an AWS account."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AC"
+    ],
     "exam": "18"
   },
   {
@@ -838,7 +896,9 @@
         "label": "There are more Availability Zones than AWS Regions."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BE"
+    ],
     "exam": "18"
   },
   {
@@ -865,7 +925,9 @@
         "label": "S Shield Standard provides protection for all AWS customers from common, most frequently occurring network and transport layer DDoS attacks that target your web site or application at no additional charge."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "18"
   },
   {
@@ -888,7 +950,9 @@
         "label": "Writing specific test cases for third-party applications."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "18"
   },
   {
@@ -915,7 +979,9 @@
         "label": "Order AWS Snowball."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BC"
+    ],
     "exam": "18"
   },
   {
@@ -938,7 +1004,9 @@
         "label": "Some resources run on-premises and some run in the AWS Cloud."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "18"
   },
   {
@@ -961,7 +1029,9 @@
         "label": "AWS IAM"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "18"
   },
   {
@@ -988,7 +1058,9 @@
         "label": "S helps you reduce Total Cost of Ownership (TCO) by reducing the need to invest in large capital expenditures and providing a pay-as-you-go model that empowers you to invest in the capacity you need and use it only when the business requires it."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "18"
   },
   {
@@ -1011,7 +1083,9 @@
         "label": "Ensuring Amazon EBS volumes are backed up"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "18"
   },
   {
@@ -1038,7 +1112,9 @@
         "label": "Physical access to cloud data centers"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BC"
+    ],
     "exam": "18"
   },
   {
@@ -1065,7 +1141,9 @@
         "label": "The advertising costs associated with an ongoing enterprise-wide campaign."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BC"
+    ],
     "exam": "18"
   },
   {
@@ -1088,7 +1166,9 @@
         "label": "AWS Cost Explorer"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "18"
   },
   {
@@ -1111,7 +1191,9 @@
         "label": "Physical security of hardware"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "18"
   },
   {
@@ -1134,7 +1216,9 @@
         "label": "Using edge locations to put content closer to all users"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "18"
   },
   {
@@ -1157,7 +1241,9 @@
         "label": "Users do not need to address security and compliance issues."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "18"
   },
   {
@@ -1180,7 +1266,9 @@
         "label": "Amazon Connect"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "18"
   },
   {
@@ -1219,7 +1307,9 @@
         "label": "L Server DB instances use SQL Server Database Mirroring (DBM)."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "18"
   },
   {
@@ -1242,7 +1332,9 @@
         "label": "AWS Developer Forums"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "18"
   },
   {
@@ -1289,7 +1381,9 @@
         "label": "ese capabilities help simplify operational analysis and troubleshooting."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "18"
   },
   {
@@ -1312,7 +1406,9 @@
         "label": "Overprovisioning of resources"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "18"
   },
   {
@@ -1343,7 +1439,9 @@
         "label": "is is a more economical practice than purchasing enough on-premises servers to handle the peak load."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "18"
   },
   {
@@ -1366,7 +1464,9 @@
         "label": "Amazon AppStream 2.0"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "18"
   }
 ]

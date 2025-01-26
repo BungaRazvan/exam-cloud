@@ -19,7 +19,9 @@
         "label": "Patching specific applications"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "23"
   },
   {
@@ -46,7 +48,9 @@
         "label": "Amazon Kinesis"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AC"
+    ],
     "exam": "23"
   },
   {
@@ -69,7 +73,9 @@
         "label": "AWS Managed Services"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "23"
   },
   {
@@ -92,7 +98,9 @@
         "label": "AWS Pricing Calculator"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "23"
   },
   {
@@ -115,7 +123,9 @@
         "label": "Internet gateway"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "23"
   },
   {
@@ -138,7 +148,9 @@
         "label": "No Upfront Reserved Instance"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "23"
   },
   {
@@ -161,7 +173,9 @@
         "label": "Enable termination protection for the EC2 instance to avoid outages"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "23"
   },
   {
@@ -184,7 +198,9 @@
         "label": "Using an AWS Security Hub managed insight"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "23"
   },
   {
@@ -207,7 +223,9 @@
         "label": "Configuration of AWS infrastructure devices"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "23"
   },
   {
@@ -230,7 +248,9 @@
         "label": "Use an AWS service that is in scope for PCI compliance and apply PCI controls at the application layer"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "23"
   },
   {
@@ -253,7 +273,9 @@
         "label": "Amazon Simple Queue Service (Amazon SQS)"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "23"
   },
   {
@@ -276,7 +298,9 @@
         "label": "Migrate the Example Corp. VPCs, Amazon EC2 instances, and other resources into the AnyCompany AWS account."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "23"
   },
   {
@@ -299,7 +323,9 @@
         "label": "AWS CloudTrail"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "23"
   },
   {
@@ -322,7 +348,9 @@
         "label": "AWS OpsWorks"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "23"
   },
   {
@@ -345,7 +373,9 @@
         "label": "Fault tolerance checks"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "23"
   },
   {
@@ -372,7 +402,9 @@
         "label": "AWS Service Health Dashboard"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AC"
+    ],
     "exam": "23"
   },
   {
@@ -395,7 +427,9 @@
         "label": "AWS Artifact"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "23"
   },
   {
@@ -422,7 +456,9 @@
         "label": "Create an IAM policy with Amazon RDS access and attach it to the IAM user."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BE"
+    ],
     "exam": "23"
   },
   {
@@ -445,7 +481,9 @@
         "label": "AWS Trusted Advisor"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "23"
   },
   {
@@ -472,7 +510,9 @@
         "label": "Increasing the load of the application"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AD"
+    ],
     "exam": "23"
   },
   {
@@ -495,7 +535,9 @@
         "label": "Reserved Instances"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "23"
   },
   {
@@ -518,7 +560,9 @@
         "label": "AWS Config"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "23"
   },
   {
@@ -541,7 +585,9 @@
         "label": "Replacing failed DB instances"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "23"
   },
   {
@@ -564,7 +610,9 @@
         "label": "Code encryption"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "23"
   },
   {
@@ -587,7 +635,9 @@
         "label": "Amazon Macie"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "23"
   },
   {
@@ -610,7 +660,9 @@
         "label": "Amazon Redshift"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "23"
   },
   {
@@ -633,7 +685,9 @@
         "label": "Spot Instances"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "23"
   },
   {
@@ -656,7 +710,9 @@
         "label": "Internet gateway"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "23"
   },
   {
@@ -683,7 +739,9 @@
         "label": "AWS Lambda"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AE"
+    ],
     "exam": "23"
   },
   {
@@ -706,7 +764,9 @@
         "label": "AWS CodeStar"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "23"
   },
   {
@@ -729,7 +789,9 @@
         "label": "AWS Trusted Advisor"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "23"
   },
   {
@@ -752,7 +814,9 @@
         "label": "Amazon Route 53"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "23"
   },
   {
@@ -775,7 +839,9 @@
         "label": "Amazon Simple Queue Service (Amazon SQS)"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "23"
   },
   {
@@ -802,7 +868,9 @@
         "label": "Automatically recovering from failure"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "CE"
+    ],
     "exam": "23"
   },
   {
@@ -829,7 +897,9 @@
         "label": "AWS Lambda"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BD"
+    ],
     "exam": "23"
   },
   {
@@ -852,7 +922,9 @@
         "label": "Use AWS Direct Connect."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "23"
   },
   {
@@ -875,7 +947,9 @@
         "label": "AWS Certificate Manager"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "23"
   },
   {
@@ -898,7 +972,9 @@
         "label": "Amazon Inspector"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "23"
   },
   {
@@ -921,7 +997,9 @@
         "label": "Deploy the application in one Amazon EC2 instance in an Auto Scaling group."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "23"
   },
   {
@@ -944,7 +1022,9 @@
         "label": "EC2 On-Demand Instances"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "23"
   },
   {
@@ -967,7 +1047,9 @@
         "label": "Download the AWS Trusted Advisor report, then provide the report to the auditor."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "23"
   },
   {
@@ -994,7 +1076,9 @@
         "label": "Custom cost and usage budget creation"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AC"
+    ],
     "exam": "23"
   },
   {
@@ -1017,7 +1101,9 @@
         "label": "Dedicated Hosts"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "23"
   },
   {
@@ -1040,7 +1126,9 @@
         "label": "VPC Flow Logs"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "23"
   },
   {
@@ -1063,7 +1151,9 @@
         "label": "Deliver the content through AWS PrivateLink."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "23"
   },
   {
@@ -1086,7 +1176,9 @@
         "label": "apply an IAM policy only to IAM users who require it."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "23"
   },
   {
@@ -1109,7 +1201,9 @@
         "label": "Economies of scale"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "23"
   },
   {
@@ -1132,7 +1226,9 @@
         "label": "VPC peering"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "23"
   },
   {
@@ -1155,7 +1251,9 @@
         "label": "Amazon CloudWatch will automatically predict what resources are needed."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "23"
   },
   {
@@ -1178,7 +1276,9 @@
         "label": "IAM policy"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "23"
   }
 ]

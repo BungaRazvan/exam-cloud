@@ -27,7 +27,9 @@
         "label": "e calculators also give you the option to modify assumptions that best meet your business needs."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "16"
   },
   {
@@ -66,7 +68,9 @@
         "label": "e capacity reservation for a Reserved Instance applies only to the account the Reserved Instance was purchased on, regardless of whether Reserved Instance sharing is turned on or off."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "16"
   },
   {
@@ -97,7 +101,9 @@
         "label": "ery organization in AWS Organizations has a master (payer) account that pays the charges of all the member (linked)"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "16"
   },
   {
@@ -124,7 +130,9 @@
         "label": "azon CloudFront is a content delivery network (CDN) service that distributes data from multiple locations worldwide, providing low-latency access to end-users."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "16"
   },
   {
@@ -155,7 +163,9 @@
         "label": "us, the variable expenses are much lower than what you would pay to do it yourself because of the economies of scale."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "16"
   },
   {
@@ -186,7 +196,9 @@
         "label": "llowing procurement, assets are scanned and tracked, and assets undergoing maintenance are checked and monitored for"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "16"
   },
   {
@@ -209,7 +221,9 @@
         "label": "Provisioned IOPS"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "16"
   },
   {
@@ -240,7 +254,9 @@
         "label": "termine what users (and roles) need to do and then craft policies that allow them to perform only those tasks."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "16"
   },
   {
@@ -311,7 +327,9 @@
         "label": "partment"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BD"
+    ],
     "exam": "16"
   },
   {
@@ -334,7 +352,9 @@
         "label": "Obtaining industry certifications and independent third-party attestations."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "16"
   },
   {
@@ -361,7 +381,9 @@
         "label": "S offers premium services such as AWS Trusted Advisor, which provides real-time guidance to help you reduce cost, increase performance, and improve security."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "16"
   },
   {
@@ -392,7 +414,9 @@
         "label": "taching a target group to an Auto Scaling group enables you to scale each service dynamically based on demand."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "16"
   },
   {
@@ -427,7 +451,9 @@
         "label": "rewall configuration remains the responsibility of the end user, which integrates at the platform and application management level. For example, RDS utilizes security groups, which you would be responsible for configuring and implementing."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "CE"
+    ],
     "exam": "16"
   },
   {
@@ -470,7 +496,9 @@
         "label": "brings the security, manageability, durability, and scalability of AWS to existing enterprise environments through native integration with AWS encryption, identity management, monitoring, and storage services. Typical use cases include backup and archiving, disaster recovery, moving data to S3 for in-cloud workloads, and tiered storage."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "16"
   },
   {
@@ -493,7 +521,9 @@
         "label": "Updating the security group rules to block traffic to the vulnerable ports."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "16"
   },
   {
@@ -536,7 +566,9 @@
         "label": "nce the endpoint for your DB Instance remains the same after a failover, your application can resume database operation without the need for manual administrative intervention."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "16"
   },
   {
@@ -567,7 +599,9 @@
         "label": "termine what users (and roles) need to do and then craft policies that allow them to perform only those tasks."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "16"
   },
   {
@@ -606,7 +640,9 @@
         "label": "difying any underlying operations without affecting other components should be made possible."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "16"
   },
   {
@@ -641,7 +677,9 @@
         "label": "ditionally, with AWS, you can choose how network routing is delivered between Amazon VPC and your networks, leveraging either AWS or user-managed network equipment and routes."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "16"
   },
   {
@@ -664,7 +702,9 @@
         "label": "Doubling EC2 computing resources to increase system fault tolerance."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "16"
   },
   {
@@ -711,7 +751,9 @@
         "label": "ing Amazon Cognito, you can generate temporary access credentials for your clients to access AWS services, eliminating the need to store long-term credentials in client applications."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BD"
+    ],
     "exam": "16"
   },
   {
@@ -738,7 +780,9 @@
         "label": "improve control over your AWS environment, you can use AWS Organizations to create groups of accounts, and then attach policies to a group to ensure the correct policies are applied across the accounts without requiring custom scripts and manual processes."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "16"
   },
   {
@@ -761,7 +805,9 @@
         "label": "AWS Trusted Advisor"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "16"
   },
   {
@@ -788,7 +834,9 @@
         "label": "u can use AWS Artifact Reports to download AWS security and compliance documents, such as AWS ISO certifications, Payment Card Industry (PCI), and System and Organization Control (SOC) reports."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "16"
   },
   {
@@ -811,7 +859,9 @@
         "label": "Basic"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "16"
   },
   {
@@ -834,7 +884,9 @@
         "label": "Perform operations as code"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "16"
   },
   {
@@ -865,7 +917,9 @@
         "label": "erefore, your data cannot be accessed through the instance store of another instance."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "16"
   },
   {
@@ -888,7 +942,9 @@
         "label": "Users can avoid audits by using reports from AWS."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "16"
   },
   {
@@ -911,7 +967,9 @@
         "label": "Amazon Aurora"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "16"
   },
   {
@@ -962,7 +1020,9 @@
         "label": "arn from all operational failures"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "16"
   },
   {
@@ -985,7 +1045,9 @@
         "label": "AWS Config"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "16"
   },
   {
@@ -1020,7 +1082,9 @@
         "label": "u can increase or decrease your compute capacity depending on the demands of your application and only pay the specified per hourly rates for the instance you use."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "16"
   },
   {
@@ -1059,7 +1123,9 @@
         "label": "ur volume will grow in increments of 10 GB up to a maximum of 64 TB. You don't need to provision excess storage for your database to handle future growth."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "16"
   },
   {
@@ -1098,7 +1164,9 @@
         "label": "e VPCs can be in different regions (also known as an inter-region VPC peering connection)."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "16"
   },
   {
@@ -1125,7 +1193,9 @@
         "label": "S CodeCommit is a version control service hosted by Amazon Web Services that you can use to privately store and manage assets (such as documents, source code, and binary files) in the cloud."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "16"
   },
   {
@@ -1152,7 +1222,9 @@
         "label": "O calculator compare the cost of running your applications in an on-premises or colocation environment to AWS."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "16"
   },
   {
@@ -1191,7 +1263,9 @@
         "label": "owmobile includes GPS tracking, alarm monitoring, 24/7 video surveillance and an optional escort security vehicle while in transit."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "16"
   },
   {
@@ -1218,7 +1292,9 @@
         "label": "Variable cost"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "BE"
+    ],
     "exam": "16"
   },
   {
@@ -1261,7 +1337,9 @@
         "label": "twork Load Balancers and Classic Load Balancers are used to route TCP (or Layer 4) traffic."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "CE"
+    ],
     "exam": "16"
   },
   {
@@ -1300,7 +1378,9 @@
         "label": "u only pay for the services you consume, and once you stop using them, there are no additional costs or termination fees."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "16"
   },
   {
@@ -1339,7 +1419,9 @@
         "label": "oudFront can be used to deliver your entire website or application, including dynamic, static, streaming, and interactive content."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "16"
   },
   {
@@ -1378,7 +1460,9 @@
         "label": "reements available in AWS Artifact include the Business Associate Addendum (BAA) and the Nondisclosure Agreement (NDA)."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "16"
   },
   {
@@ -1401,7 +1485,9 @@
         "label": "Amazon Elastic Compute Cloud (Amazon EC2)"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "16"
   },
   {
@@ -1424,7 +1510,9 @@
         "label": "Access to a Solutions Architect"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "B"
+    ],
     "exam": "16"
   },
   {
@@ -1451,7 +1539,9 @@
         "label": "AWS Region is a geographic location where AWS provides multiple, physically separated and isolated Availability Zones which are connected with low latency, high throughput, and highly redundant networking."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "C"
+    ],
     "exam": "16"
   },
   {
@@ -1486,7 +1576,9 @@
         "label": "other way to keep costs down is to use AWS Identity and Access Management solutions (IAM) to manage governance of your cost drivers effectively and by the right teams."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A"
+    ],
     "exam": "16"
   },
   {
@@ -1513,7 +1605,9 @@
         "label": "ile is a time boxed, iterative approach to software delivery that builds software incrementally from the start of the project, instead of trying to deliver it all at once near the end."
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "16"
   },
   {
@@ -1536,7 +1630,9 @@
         "label": "Enterprise and Business Support"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "D"
+    ],
     "exam": "16"
   },
   {
@@ -1563,7 +1659,9 @@
         "label": "Amazon Inspector"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "AD"
+    ],
     "exam": "16"
   },
   {
@@ -1594,7 +1692,9 @@
         "label": "Hardware lifecycle costs"
       }
     ],
-    "correctAnswers": [],
+    "correctAnswers": [
+      "ACD"
+    ],
     "exam": "16"
   }
 ]
