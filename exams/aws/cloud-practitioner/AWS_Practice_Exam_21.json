@@ -916,14 +916,6 @@
       {
         "value": "D",
         "label": "AWS Well-Architected Tool"
-      },
-      {
-        "value": "C",
-        "label": "ntrol Tower automates the process of setting up a new baseline multi-account AWS environment that is secure, well-architected, and ready to use."
-      },
-      {
-        "value": "C",
-        "label": "ntrol Tower incorporates the knowledge that AWS Professional Service has gained over the course of thousands of successful customer engagements."
       }
     ],
     "correctAnswers": [

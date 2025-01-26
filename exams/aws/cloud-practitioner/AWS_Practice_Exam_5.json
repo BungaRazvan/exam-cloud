@@ -97,14 +97,6 @@
       {
         "value": "D",
         "label": "3 hours for the Linux instance and 4 hours, 23 minutes and 7 seconds for the CentOS instance."
-      },
-      {
-        "value": "P",
-        "label": "icing is per instance-hour consumed for each instance, from the time an instance is launched until it is terminated or stopped."
-      },
-      {
-        "value": "E",
-        "label": "ch partial instance-hour consumed will be billed per-second for Linux, Windows, Windows with SQL Enterprise, Windows with SQL Standard, and Windows with SQL Web Instances, and as a full hour for all other instance types."
       }
     ],
     "correctAnswers": [
