@@ -221,14 +221,6 @@
       {
         "value": "D",
         "label": "Amazon CloudFront"
-      },
-      {
-        "value": "A",
-        "label": "S Global Accelerator uses the AWS global network to optimize the path from your users to your applications, improving the performance of your traffic by as much as 60%."
-      },
-      {
-        "value": "A",
-        "label": "S Global Accelerator continually monitors the health of your application endpoints and redirects traffic to healthy endpoints in less than 30 seconds."
       }
     ],
     "correctAnswers": [
@@ -512,22 +504,6 @@
       {
         "value": "D",
         "label": "Amazon Elastic Block Store (Amazon EBS)"
-      },
-      {
-        "value": "A",
-        "label": "azon CloudFront employs a global network of edge locations and regional edge caches that cache copies of your content close to your viewers."
-      },
-      {
-        "value": "A",
-        "label": "azon CloudFront ensures that end-user requests are served by the closest edge location."
-      },
-      {
-        "value": "A",
-        "label": "a result, viewer requests travel a short distance, improving performance for your viewers."
-      },
-      {
-        "value": "F",
-        "label": "r files not cached at the edge locations and the regional edge caches, Amazon CloudFront keeps persistent connections with your origin servers so that those files can be fetched from the origin servers as quickly as possible."
       }
     ],
     "correctAnswers": [
@@ -686,14 +662,6 @@
       {
         "value": "E",
         "label": "Network ACLs"
-      },
-      {
-        "value": "<",
-        "label": "ttps://aws.amazon.com/waf/>"
-      },
-      {
-        "value": "<",
-        "label": "ttps://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html>"
       }
     ],
     "correctAnswers": [
@@ -1006,18 +974,6 @@
       {
         "value": "D",
         "label": "Break apart the application into loosely coupled components"
-      },
-      {
-        "value": "I",
-        "label": "a traditional computing environment, you provision capacity based on an estimate of a theoretical maximum peak."
-      },
-      {
-        "value": "T",
-        "label": "is can result in periods where expensive resources are sitting idle or occasions of insufficient capacity."
-      },
-      {
-        "value": "W",
-        "label": "th cloud computing, you can access as much or as little capacity as you need and dynamically scale to meet actual demand, while only paying for what you use."
       }
     ],
     "correctAnswers": [
@@ -1147,14 +1103,6 @@
       {
         "value": "D",
         "label": "AWS Firewall Manager"
-      },
-      {
-        "value": "<",
-        "label": "ttps://docs.aws.amazon.com/IAM/latest/UserGuide/console_controlling-access.html>"
-      },
-      {
-        "value": "<",
-        "label": "ttps://aws.amazon.com/iam/>"
       }
     ],
     "correctAnswers": [
@@ -1305,26 +1253,6 @@
       {
         "value": "D",
         "label": "Data centers"
-      },
-      {
-        "value": "W",
-        "label": "en your web traffic is geo-dispersed, it's not always feasible and certainly not cost effective to replicate your entire infrastructure across the globe."
-      },
-      {
-        "value": "A",
-        "label": "CDN provides you the ability to utilize its global network of edge locations to deliver a cached copy of web content such as videos, webpages, images and so on to your customers."
-      },
-      {
-        "value": "T",
-        "label": "reduce response time, the CDN utilizes the nearest edge location to the customer or originating request location in order to reduce the response time."
-      },
-      {
-        "value": "T",
-        "label": "roughput is dramatically increased given that the web assets are delivered from cache."
-      },
-      {
-        "value": "F",
-        "label": "r dynamic data, many CDNs can be configured to retrieve data from the origin servers."
       }
     ],
     "correctAnswers": [

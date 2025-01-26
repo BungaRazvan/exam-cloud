@@ -217,18 +217,6 @@
       {
         "value": "D",
         "label": "By replacing the repeated scaling of virtual servers with a simpler fixed-scale model"
-      },
-      {
-        "value": "A",
-        "label": "S does not require minimum spend commitments or long-term contracts."
-      },
-      {
-        "value": "Y",
-        "label": "u replace large upfront expenses with low variable payments that only apply to what you use."
-      },
-      {
-        "value": "W",
-        "label": "th AWS you are not bound to multi-year agreements or complicated licensing models."
       }
     ],
     "correctAnswers": [
@@ -283,14 +271,6 @@
       {
         "value": "D",
         "label": "Distribute the compute load across multiple resources"
-      },
-      {
-        "value": "U",
-        "label": "e load balancing for offloading encryption termination (TLS) to improve performance and to manage and route traffic effectively."
-      },
-      {
-        "value": "D",
-        "label": "stribute traffic across multiple resources or services to allow your workload to take advantage of the elasticity that AWS provides."
       }
     ],
     "correctAnswers": [
@@ -802,14 +782,6 @@
       {
         "value": "E",
         "label": "AWS Managed Services"
-      },
-      {
-        "value": "<",
-        "label": "ttps://aws.amazon.com/directconnect/>"
-      },
-      {
-        "value": "<",
-        "label": "ttps://aws.amazon.com/blogs/networking-and-content-delivery/introducing-aws-client-vpn-to-securely-access-aws-and-on-premises-resources/>"
       }
     ],
     "correctAnswers": [
@@ -885,14 +857,6 @@
       {
         "value": "D",
         "label": "VPC Flow Logs"
-      },
-      {
-        "value": "V",
-        "label": "C Flow Logs is a feature that enables you to capture information about the IP traffic going to and from network interfaces in your VPC."
-      },
-      {
-        "value": "F",
-        "label": "ow log data can be published to Amazon CloudWatch Logs or Amazon S3. After you've created a flow log, you can retrieve and view its data in the chosen destination."
       }
     ],
     "correctAnswers": [
@@ -968,18 +932,6 @@
       {
         "value": "D",
         "label": "Amazon ElastiCache"
-      },
-      {
-        "value": "A",
-        "label": "azon RDS makes it easy to set up, operate, and scale a relational database in the cloud."
-      },
-      {
-        "value": "I",
-        "label": "provides cost-efficient and resizable capacity while automating time-consuming administration tasks, such as hardware provisioning, database setup, patching, and backups."
-      },
-      {
-        "value": "I",
-        "label": "frees you to focus on your applications, so you can give them the fast performance, high availability, security, and compatibility that they need."
       }
     ],
     "correctAnswers": [
@@ -1059,14 +1011,6 @@
       {
         "value": "E",
         "label": "AWS CloudHSM"
-      },
-      {
-        "value": "<",
-        "label": "ttps://docs.aws.amazon.com/crypto/latest/userguide/awscryp-service-hsm.html>"
-      },
-      {
-        "value": "<",
-        "label": "ttps://docs.aws.amazon.com/kms/latest/developerguide/overview.html>"
       }
     ],
     "correctAnswers": [
@@ -1146,22 +1090,6 @@
       {
         "value": "D",
         "label": "AWS Directory Service"
-      },
-      {
-        "value": "T",
-        "label": "e AWS CloudHSM service helps you meet corporate, contractual, and regulatory compliance requirements for data security by using dedicated Hardware Security Module (HSM) instances within the AWS cloud."
-      },
-      {
-        "value": "A",
-        "label": "S and AWS Marketplace partners offer a variety of solutions for protecting sensitive data within the AWS platform, but for some applications and data subject to contractual or regulatory mandates for managing cryptographic keys, additional protection may be necessary."
-      },
-      {
-        "value": "C",
-        "label": "oudHSM complements existing data protection solutions and allows you to protect your encryption keys within HSMs that are designed and validated to government standards for secure key management."
-      },
-      {
-        "value": "C",
-        "label": "oudHSM allows you to securely generate, store, and manage cryptographic keys used for data encryption in a way that keys are accessible only by you."
       }
     ],
     "correctAnswers": [
@@ -1216,22 +1144,6 @@
       {
         "value": "D",
         "label": "Amazon Lumberyard"
-      },
-      {
-        "value": "A",
-        "label": "easy-to-use service for deploying and scaling web applications and web services developed in a number of programming languages."
-      },
-      {
-        "value": "Y",
-        "label": "u can configure event notifications for your Elastic Beanstalk environment so that notable events can be automatically published to an SNS topic, then pushed to topic subscribers."
-      },
-      {
-        "value": "A",
-        "label": "an example, you may use this event-driven architecture to coordinate your continuous integration pipeline (such as Jenkins CI)."
-      },
-      {
-        "value": "T",
-        "label": "at way, whenever an environment is created, Elastic Beanstalk publishes this event to an SNS topic, which triggers a subscribing Lambda function, which then kicks off a CI job against your newly created Elastic Beanstalk environment."
       }
     ],
     "correctAnswers": [

@@ -17,14 +17,6 @@
       {
         "value": "D",
         "label": "AWS Trusted Advisor"
-      },
-      {
-        "value": "A",
-        "label": "S TCO calculators allow you to estimate the cost savings when using AWS and provide a detailed set of reports that can be used in executive presentations."
-      },
-      {
-        "value": "T",
-        "label": "e calculators also give you the option to modify assumptions that best meet your business needs."
       }
     ],
     "correctAnswers": [
@@ -50,22 +42,6 @@
       {
         "value": "D",
         "label": "Amazon EC2 Instance Usage Report between AWS accounts"
-      },
-      {
-        "value": "T",
-        "label": "e way that Reserved Instance discounts apply to accounts in an organization's consolidated billing family depends on whether Reserved Instance sharing is turned on or off for the account."
-      },
-      {
-        "value": "B",
-        "label": "default, Reserved Instance sharing for all accounts in an organization is turned on."
-      },
-      {
-        "value": "Y",
-        "label": "u can change this setting by Turning Off Reserved Instance Sharing for an account."
-      },
-      {
-        "value": "T",
-        "label": "e capacity reservation for a Reserved Instance applies only to the account the Reserved Instance was purchased on, regardless of whether Reserved Instance sharing is turned on or off."
       }
     ],
     "correctAnswers": [
@@ -91,14 +67,6 @@
       {
         "value": "D",
         "label": "AWS Budgets"
-      },
-      {
-        "value": "Y",
-        "label": "u can use the consolidated billing feature in AWS Organizations to consolidate billing and payment for multiple AWS accounts or multiple Amazon Internet Services Pvt. Ltd (AISPL) accounts."
-      },
-      {
-        "value": "E",
-        "label": "ery organization in AWS Organizations has a master (payer) account that pays the charges of all the member (linked)"
       }
     ],
     "correctAnswers": [
@@ -124,10 +92,6 @@
       {
         "value": "D",
         "label": "Amazon Simple Storage Service (Amazon S3) transfer acceleration"
-      },
-      {
-        "value": "A",
-        "label": "azon CloudFront is a content delivery network (CDN) service that distributes data from multiple locations worldwide, providing low-latency access to end-users."
       }
     ],
     "correctAnswers": [
@@ -153,14 +117,6 @@
       {
         "value": "D",
         "label": "Platform as a service"
-      },
-      {
-        "value": "T",
-        "label": "e cloud allows you to trade capital expenses (such as data centers and physical servers) for variable expenses, and only pay for IT as you consume it."
-      },
-      {
-        "value": "P",
-        "label": "us, the variable expenses are much lower than what you would pay to do it yourself because of the economies of scale."
       }
     ],
     "correctAnswers": [
@@ -186,14 +142,6 @@
       {
         "value": "D",
         "label": "Users can gather asset metadata reliably with a few API calls."
-      },
-      {
-        "value": "A",
-        "label": "S assets are centrally managed through an inventory management system that stores and tracks owner, location, status, maintenance, and descriptive information for AWS-owned assets."
-      },
-      {
-        "value": "F",
-        "label": "llowing procurement, assets are scanned and tracked, and assets undergoing maintenance are checked and monitored for"
       }
     ],
     "correctAnswers": [
@@ -244,14 +192,6 @@
       {
         "value": "D",
         "label": "token access."
-      },
-      {
-        "value": "W",
-        "label": "en you create IAM policies, follow the standard security advice of granting least privilege, or granting only the permissions required to perform a task."
-      },
-      {
-        "value": "D",
-        "label": "termine what users (and roles) need to do and then craft policies that allow them to perform only those tasks."
       }
     ],
     "correctAnswers": [
@@ -281,50 +221,6 @@
       {
         "value": "E",
         "label": "Pay bills using purchase orders."
-      },
-      {
-        "value": "T",
-        "label": "gs are key-value pairs that allow you to organize your AWS resources into groups. You can use tags to:"
-      },
-      {
-        "value": "V",
-        "label": "sualize information about tagged resources in one place, in conjunction with Resource Groups."
-      },
-      {
-        "value": "V",
-        "label": "ew billing information using Cost Explorer and the AWS Cost and Usage report."
-      },
-      {
-        "value": "S",
-        "label": "nd notifications about spending limits using AWS Budgets."
-      },
-      {
-        "value": "U",
-        "label": "e logical groupings of your resources that make sense for your infrastructure or business."
-      },
-      {
-        "value": "F",
-        "label": "r example, you could organize your resources by:"
-      },
-      {
-        "value": "P",
-        "label": "oject"
-      },
-      {
-        "value": "C",
-        "label": "st center"
-      },
-      {
-        "value": "D",
-        "label": "velopment environment"
-      },
-      {
-        "value": "A",
-        "label": "plication"
-      },
-      {
-        "value": "D",
-        "label": "partment"
       }
     ],
     "correctAnswers": [
@@ -375,10 +271,6 @@
       {
         "value": "D",
         "label": "AWS Systems Manager"
-      },
-      {
-        "value": "A",
-        "label": "S offers premium services such as AWS Trusted Advisor, which provides real-time guidance to help you reduce cost, increase performance, and improve security."
       }
     ],
     "correctAnswers": [
@@ -404,14 +296,6 @@
       {
         "value": "D",
         "label": "Amazon EC2 Auto Scaling"
-      },
-      {
-        "value": "S",
-        "label": "pport for monitoring the health of each service independently, as health checks are defined at the target group level and many CloudWatch metrics are reported at the target group level."
-      },
-      {
-        "value": "A",
-        "label": "taching a target group to an Auto Scaling group enables you to scale each service dynamically based on demand."
       }
     ],
     "correctAnswers": [
@@ -441,14 +325,6 @@
       {
         "value": "E",
         "label": "Firewall management"
-      },
-      {
-        "value": "W",
-        "label": "th the basic Cloud infrastructure secured and maintained by AWS, the responsibility for what goes into the cloud falls on you. This covers both client and server side encryption and network traffic protection, security of the operating system, network, and firewall configuration, followed by application security and identity and access management."
-      },
-      {
-        "value": "F",
-        "label": "rewall configuration remains the responsibility of the end user, which integrates at the platform and application management level. For example, RDS utilizes security groups, which you would be responsible for configuring and implementing."
       }
     ],
     "correctAnswers": [
@@ -474,26 +350,6 @@
       {
         "value": "D",
         "label": "AWS Snowball Edge"
-      },
-      {
-        "value": "T",
-        "label": "e AWS Storage Gateway service enables hybrid cloud storage between on-premises environments and the AWS Cloud."
-      },
-      {
-        "value": "I",
-        "label": "seamlessly integrates on-premises enterprise applications and workflows with Amazon's block and object cloud storage services through industry standard storage protocols."
-      },
-      {
-        "value": "I",
-        "label": "provides low-latency performance by caching frequently accessed data on premises, while storing data securely and durably in Amazon cloud storage services."
-      },
-      {
-        "value": "I",
-        "label": "provides an optimized data transfer mechanism and bandwidth management, which tolerates unreliable networks and minimizes the amount of data being transferred."
-      },
-      {
-        "value": "I",
-        "label": "brings the security, manageability, durability, and scalability of AWS to existing enterprise environments through native integration with AWS encryption, identity management, monitoring, and storage services. Typical use cases include backup and archiving, disaster recovery, moving data to S3 for in-cloud workloads, and tiered storage."
       }
     ],
     "correctAnswers": [
@@ -544,26 +400,6 @@
       {
         "value": "D",
         "label": "Use services, not servers."
-      },
-      {
-        "value": "A",
-        "label": "azon RDS Multi-AZ deployments provide enhanced availability and durability for Database (DB) Instances, making them a natural fit for production database workloads."
-      },
-      {
-        "value": "W",
-        "label": "en you provision a Multi-AZ DB Instance, Amazon RDS automatically creates a primary DB Instance and synchronously replicates the data to a standby instance in a different Availability Zone (AZ)."
-      },
-      {
-        "value": "E",
-        "label": "ch AZ runs on its own physically distinct, independent infrastructure, and is engineered to be highly reliable."
-      },
-      {
-        "value": "I",
-        "label": "case of an infrastructure failure, Amazon RDS performs an automatic failover to the standby (or to a read replica in the case of Amazon Aurora), so that you can resume database operations as soon as the failover is complete."
-      },
-      {
-        "value": "S",
-        "label": "nce the endpoint for your DB Instance remains the same after a failover, your application can resume database operation without the need for manual administrative intervention."
       }
     ],
     "correctAnswers": [
@@ -589,14 +425,6 @@
       {
         "value": "D",
         "label": "It is granting only the permissions required to perform a given task."
-      },
-      {
-        "value": "W",
-        "label": "en you create IAM policies, follow the standard security advice of granting least privilege, or granting only the permissions required to perform a task."
-      },
-      {
-        "value": "D",
-        "label": "termine what users (and roles) need to do and then craft policies that allow them to perform only those tasks."
       }
     ],
     "correctAnswers": [
@@ -622,22 +450,6 @@
       {
         "value": "D",
         "label": "It allows companies to focus on their physical data center operations."
-      },
-      {
-        "value": "I",
-        "label": "systems should ideally be designed in a way that reduces inter-dependencies."
-      },
-      {
-        "value": "Y",
-        "label": "ur components need to be loosely coupled to avoid changes or failure in one of the components from affecting others."
-      },
-      {
-        "value": "Y",
-        "label": "ur infrastructure also needs to have well defined interfaces that allow the various components to interact with each other only through specific, technology-agnostic interfaces."
-      },
-      {
-        "value": "M",
-        "label": "difying any underlying operations without affecting other components should be made possible."
       }
     ],
     "correctAnswers": [
@@ -663,18 +475,6 @@
       {
         "value": "D",
         "label": "AWS Web Application Firewall (AWS WAF)"
-      },
-      {
-        "value": "A",
-        "label": "azon VPC provides multiple network connectivity options for you to leverage depending on your current network designs and requirements."
-      },
-      {
-        "value": "T",
-        "label": "ese connectivity options include leveraging either the internet or an AWS Direct Connect connection as the network backbone and terminating the connection into either AWS or user-managed network endpoints."
-      },
-      {
-        "value": "A",
-        "label": "ditionally, with AWS, you can choose how network routing is delivered between Amazon VPC and your networks, leveraging either AWS or user-managed network equipment and routes."
       }
     ],
     "correctAnswers": [
@@ -729,26 +529,6 @@
       {
         "value": "E",
         "label": "Enable AWS Organizations"
-      },
-      {
-        "value": "Y",
-        "label": "ur root account should always be protected by Multi-Factor Authentication (MFA)."
-      },
-      {
-        "value": "T",
-        "label": "is additional layer of security helps protect against unauthorized logins to your account by requiring two factors: something you know (a password) and something you have (for example, an MFA device)."
-      },
-      {
-        "value": "A",
-        "label": "S supports virtual and hardware MFA devices and U2F security keys."
-      },
-      {
-        "value": "C",
-        "label": "gnito can be used as an Identity Provider (IdP), where it stores and maintains users and credentials securely for your applications, or it can be integrated with OpenID Connect, SAML, and other popular web identity providers like Amazon.com."
-      },
-      {
-        "value": "U",
-        "label": "ing Amazon Cognito, you can generate temporary access credentials for your clients to access AWS services, eliminating the need to store long-term credentials in client applications."
       }
     ],
     "correctAnswers": [
@@ -774,10 +554,6 @@
       {
         "value": "D",
         "label": "AWS Organizations"
-      },
-      {
-        "value": "T",
-        "label": "improve control over your AWS environment, you can use AWS Organizations to create groups of accounts, and then attach policies to a group to ensure the correct policies are applied across the accounts without requiring custom scripts and manual processes."
       }
     ],
     "correctAnswers": [
@@ -828,10 +604,6 @@
       {
         "value": "D",
         "label": "A security assessment of the applications deployed in the AWS Cloud"
-      },
-      {
-        "value": "Y",
-        "label": "u can use AWS Artifact Reports to download AWS security and compliance documents, such as AWS ISO certifications, Payment Card Industry (PCI), and System and Organization Control (SOC) reports."
       }
     ],
     "correctAnswers": [
@@ -907,14 +679,6 @@
       {
         "value": "D",
         "label": "Amazon S3"
-      },
-      {
-        "value": "W",
-        "label": "en you stop or terminate an instance, every block of storage in the instance store is reset."
-      },
-      {
-        "value": "T",
-        "label": "erefore, your data cannot be accessed through the instance store of another instance."
       }
     ],
     "correctAnswers": [
@@ -990,34 +754,6 @@
       {
         "value": "D",
         "label": "Design for failure"
-      },
-      {
-        "value": "T",
-        "label": "ere are six design principles for operational excellence in the cloud:"
-      },
-      {
-        "value": "P",
-        "label": "rform operations as code"
-      },
-      {
-        "value": "A",
-        "label": "notate documentation"
-      },
-      {
-        "value": "M",
-        "label": "ke frequent, small, reversible changes"
-      },
-      {
-        "value": "R",
-        "label": "fine operations procedures frequently"
-      },
-      {
-        "value": "A",
-        "label": "ticipate failure"
-      },
-      {
-        "value": "L",
-        "label": "arn from all operational failures"
       }
     ],
     "correctAnswers": [
@@ -1068,18 +804,6 @@
       {
         "value": "D",
         "label": "Dedicated Instances"
-      },
-      {
-        "value": "W",
-        "label": "th On-Demand instances, you pay for compute capacity by the hour or the second depending on which instances you run."
-      },
-      {
-        "value": "N",
-        "label": "longer-term commitments or upfront payments are needed."
-      },
-      {
-        "value": "Y",
-        "label": "u can increase or decrease your compute capacity depending on the demands of your application and only pay the specified per hourly rates for the instance you use."
       }
     ],
     "correctAnswers": [
@@ -1105,22 +829,6 @@
       {
         "value": "D",
         "label": "Amazon Aurora"
-      },
-      {
-        "value": "A",
-        "label": "azon Aurora is a relational database service that combines the speed and availability of high-end commercial databases with the simplicity and cost-effectiveness of open source databases."
-      },
-      {
-        "value": "T",
-        "label": "e MySQL- compatible edition of Aurora delivers up to 5X the throughput of standard MySQL running on the same hardware, and enables existing MySQL applications and tools to run without requiring modification."
-      },
-      {
-        "value": "A",
-        "label": "azon Aurora will automatically grow the size of your database volume as your database storage needs grow."
-      },
-      {
-        "value": "Y",
-        "label": "ur volume will grow in increments of 10 GB up to a maximum of 64 TB. You don't need to provision excess storage for your database to handle future growth."
       }
     ],
     "correctAnswers": [
@@ -1146,22 +854,6 @@
       {
         "value": "D",
         "label": "AWS Direct Connect"
-      },
-      {
-        "value": "A",
-        "label": "VPC peering connection is a networking connection between two VPCs that enables you to route traffic between them using private IPv4 addresses or IPv6 addresses."
-      },
-      {
-        "value": "I",
-        "label": "stances in either VPC can communicate with each other as if they are within the same network."
-      },
-      {
-        "value": "Y",
-        "label": "u can create a VPC peering connection between your own VPCs, or with a VPC in another AWS account."
-      },
-      {
-        "value": "T",
-        "label": "e VPCs can be in different regions (also known as an inter-region VPC peering connection)."
       }
     ],
     "correctAnswers": [
@@ -1187,10 +879,6 @@
       {
         "value": "D",
         "label": "AWS CodeCommit"
-      },
-      {
-        "value": "A",
-        "label": "S CodeCommit is a version control service hosted by Amazon Web Services that you can use to privately store and manage assets (such as documents, source code, and binary files) in the cloud."
       }
     ],
     "correctAnswers": [
@@ -1216,10 +904,6 @@
       {
         "value": "D",
         "label": "Cost Explorer"
-      },
-      {
-        "value": "T",
-        "label": "O calculator compare the cost of running your applications in an on-premises or colocation environment to AWS."
       }
     ],
     "correctAnswers": [
@@ -1245,22 +929,6 @@
       {
         "value": "D",
         "label": "AWS Snowmobile"
-      },
-      {
-        "value": "A",
-        "label": "S Snowmobile is an exabyte-scale data transfer service that can move extremely large amounts of data to AWS in a fast, secure, and cost-effective manner."
-      },
-      {
-        "value": "Y",
-        "label": "u can transfer up to 100PB per Snowmobile, a 45-foot long ruggedized shipping container, pulled by a semi-trailer truck. - Snowmobile makes it easy to move massive volumes of data to the cloud, including video libraries, image repositories, or even a complete data center migration."
-      },
-      {
-        "value": "A",
-        "label": "l data is encrypted with 256-bit encryption and you can manage your encryption keys with AWS Key Management Service (AWS KMS)."
-      },
-      {
-        "value": "S",
-        "label": "owmobile includes GPS tracking, alarm monitoring, 24/7 video surveillance and an optional escort security vehicle while in transit."
       }
     ],
     "correctAnswers": [
@@ -1319,22 +987,6 @@
       {
         "value": "E",
         "label": "Application Load Balancers"
-      },
-      {
-        "value": "E",
-        "label": "astic Load Balancing supports the following types of load balancers: Application Load Balancers, Network Load Balancers, and Classic Load Balancers."
-      },
-      {
-        "value": "A",
-        "label": "azon ECS services can use either type of load balancer."
-      },
-      {
-        "value": "A",
-        "label": "plication Load Balancers are used to route HTTP/HTTPS (or Layer 7) traffic."
-      },
-      {
-        "value": "N",
-        "label": "twork Load Balancers and Classic Load Balancers are used to route TCP (or Layer 4) traffic."
       }
     ],
     "correctAnswers": [
@@ -1360,22 +1012,6 @@
       {
         "value": "D",
         "label": "AWS has no limits on the number of resources that can be created."
-      },
-      {
-        "value": "A",
-        "label": "S offers you a pay-as-you-go approach for pricing for over 160 cloud services."
-      },
-      {
-        "value": "W",
-        "label": "th AWS you pay only for the individual services you need, for as long as you use them, and without requiring long-term contracts or complex licensing."
-      },
-      {
-        "value": "A",
-        "label": "S pricing is similar to how you pay for utilities like water and electricity."
-      },
-      {
-        "value": "Y",
-        "label": "u only pay for the services you consume, and once you stop using them, there are no additional costs or termination fees."
       }
     ],
     "correctAnswers": [
@@ -1401,22 +1037,6 @@
       {
         "value": "D",
         "label": "A virtual private gateway over AWS Direct Connect"
-      },
-      {
-        "value": "Y",
-        "label": "u can deliver content and decrease end-user latency of your web application using Amazon CloudFront."
-      },
-      {
-        "value": "C",
-        "label": "oudFront speeds up content delivery by leveraging its global network of data centers, known as edge locations, to reduce delivery time by caching your content close to your end users."
-      },
-      {
-        "value": "C",
-        "label": "oudFront fetches your content from an origin, such as an Amazon S3 bucket, an Amazon EC2 instance, an Amazon Elastic Load"
-      },
-      {
-        "value": "C",
-        "label": "oudFront can be used to deliver your entire website or application, including dynamic, static, streaming, and interactive content."
       }
     ],
     "correctAnswers": [
@@ -1442,22 +1062,6 @@
       {
         "value": "D",
         "label": "AWS Artifact"
-      },
-      {
-        "value": "A",
-        "label": "S Artifact is your go-to, central resource for compliance-related information that matters to you."
-      },
-      {
-        "value": "I",
-        "label": "provides on-demand access to AWS' security and compliance reports and select online agreements."
-      },
-      {
-        "value": "R",
-        "label": "ports available in AWS Artifact include our Service Organization Control (SOC) reports, Payment Card Industry (PCI) reports, and certifications from accreditation bodies across geographies and compliance verticals that validate the implementation and operating effectiveness of AWS security controls."
-      },
-      {
-        "value": "A",
-        "label": "reements available in AWS Artifact include the Business Associate Addendum (BAA) and the Nondisclosure Agreement (NDA)."
       }
     ],
     "correctAnswers": [
@@ -1533,10 +1137,6 @@
       {
         "value": "D",
         "label": "Store application artifacts using AWS Artifact and replicate them across multiple AWS Regions."
-      },
-      {
-        "value": "A",
-        "label": "AWS Region is a geographic location where AWS provides multiple, physically separated and isolated Availability Zones which are connected with low latency, high throughput, and highly redundant networking."
       }
     ],
     "correctAnswers": [
@@ -1562,18 +1162,6 @@
       {
         "value": "D",
         "label": "It implements a fixed monthly computing budget."
-      },
-      {
-        "value": "Y",
-        "label": "u can continue to optimize your spend and keep your development costs low by making sure you revisit your architecture often, to adjust to your startup growth."
-      },
-      {
-        "value": "M",
-        "label": "nage your cost further by leveraging different options such as S3 CloudFront for caching & offloading to reduce cost of EC2 computing, as well as Elastic Load Balancing which prepares you for massive scale, high reliability and uninterrupted growth."
-      },
-      {
-        "value": "A",
-        "label": "other way to keep costs down is to use AWS Identity and Access Management solutions (IAM) to manage governance of your cost drivers effectively and by the right teams."
       }
     ],
     "correctAnswers": [
@@ -1599,10 +1187,6 @@
       {
         "value": "D",
         "label": "Agility"
-      },
-      {
-        "value": "A",
-        "label": "ile is a time boxed, iterative approach to software delivery that builds software incrementally from the start of the project, instead of trying to deliver it all at once near the end."
       }
     ],
     "correctAnswers": [

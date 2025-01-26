@@ -17,18 +17,6 @@
       {
         "value": "D",
         "label": "Amazon Rekognition uses Amazon Mechanical Turk to allow humans to bid on object detection jobs."
-      },
-      {
-        "value": "R",
-        "label": "kognition Image is an image recognition service that detects objects, scenes, and faces; extracts text; recognizes celebrities; and identifies inappropriate content in images."
-      },
-      {
-        "value": "I",
-        "label": "also allows you to search and compare faces."
-      },
-      {
-        "value": "R",
-        "label": "kognition Image is based on the same proven, highly scalable, deep learning technology developed by Amazon's computer vision scientists to analyze billions of images daily for Prime Photos."
       }
     ],
     "correctAnswers": [
@@ -104,14 +92,6 @@
       {
         "value": "D",
         "label": "AWS Budgets"
-      },
-      {
-        "value": "T",
-        "label": "forecast your costs, use the AWS Cost Explorer."
-      },
-      {
-        "value": "U",
-        "label": "e cost allocation tags to divide your resources into groups, and then estimate the costs for each group."
       }
     ],
     "correctAnswers": [
@@ -162,22 +142,6 @@
       {
         "value": "D",
         "label": "AWS CloudTrail"
-      },
-      {
-        "value": "Y",
-        "label": "u can monitor your estimated AWS charges by using Amazon CloudWatch."
-      },
-      {
-        "value": "W",
-        "label": "en you enable the monitoring of estimated charges for your AWS account, the estimated charges are calculated and sent several times daily to CloudWatch as metric data."
-      },
-      {
-        "value": "B",
-        "label": "lling metric data is stored in the US East (N. Virginia) Region and represents worldwide charges."
-      },
-      {
-        "value": "T",
-        "label": "is data includes the estimated charges for every service in AWS that you use, in addition to the estimated overall total of your AWS charges."
       }
     ],
     "correctAnswers": [
@@ -228,18 +192,6 @@
       {
         "value": "D",
         "label": "Configuring security settings on Amazon EC2 instances"
-      },
-      {
-        "value": "M",
-        "label": "dia storage devices used to store customer data are classified by AWS as Critical and treated accordingly, as high impact, throughout their life-cycles."
-      },
-      {
-        "value": "A",
-        "label": "S has exacting standards on how to install, service, and eventually destroy the devices when they are no longer useful. - When a storage device has reached the end of its useful life, AWS decommissions media using techniques detailed in NIST 800-88."
-      },
-      {
-        "value": "M",
-        "label": "dia that stored customer data is not removed from AWS control until it has been securely decommissioned."
       }
     ],
     "correctAnswers": [
@@ -265,10 +217,6 @@
       {
         "value": "D",
         "label": "AWS manages compliance needs."
-      },
-      {
-        "value": "A",
-        "label": "S allows you to access as much or as little capacity as you need, and scale up or down as required with only a few minutes\u2019 notice"
       }
     ],
     "correctAnswers": [
@@ -294,14 +242,6 @@
       {
         "value": "D",
         "label": "Amazon CloudFront"
-      },
-      {
-        "value": "A",
-        "label": "azon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer- friendly environment."
-      },
-      {
-        "value": "C",
-        "label": "oudFront is integrated with AWS both physical locations that are directly connected to the AWS global infrastructure, as well as other AWS services."
       }
     ],
     "correctAnswers": [
@@ -331,14 +271,6 @@
       {
         "value": "E",
         "label": "AWS Config"
-      },
-      {
-        "value": "E",
-        "label": "S -> automates deploying code and provisioning infrastructure"
-      },
-      {
-        "value": "C",
-        "label": "oudFormation -> Use templates to deploy code and infrastructure"
       }
     ],
     "correctAnswers": [
@@ -364,14 +296,6 @@
       {
         "value": "D",
         "label": "AWS Well-Architected Tool"
-      },
-      {
-        "value": "T",
-        "label": "e TCO Calculator provides directional guidance on possible realized savings when deploying AWS."
-      },
-      {
-        "value": "T",
-        "label": "is tool is built on an underlying calculation model, that generates a fair assessment of value that a customer may achieve given the data provided by the user."
       }
     ],
     "correctAnswers": [
@@ -480,18 +404,6 @@
       {
         "value": "D",
         "label": "AWS Shield"
-      },
-      {
-        "value": "A",
-        "label": "S Shield is a managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS."
-      },
-      {
-        "value": "A",
-        "label": "S Shield provides always-on detection and automatic inline mitigation's that minimize application downtime and latency, so there is no need to engage AWS Support to benefit from DDoS protection."
-      },
-      {
-        "value": "T",
-        "label": "ere are two tiers of AWS Shield - Standard and Advanced."
       }
     ],
     "correctAnswers": [
@@ -517,18 +429,6 @@
       {
         "value": "D",
         "label": "Amazon Simple Notification Service (Amazon SNS)"
-      },
-      {
-        "value": "W",
-        "label": "th Basic monitoring you get data on your cloudwatch metrics every 5 minutes."
-      },
-      {
-        "value": "E",
-        "label": "abling detailed monitoring, you will get the data every one minute."
-      },
-      {
-        "value": "T",
-        "label": "check if detailed monitoring is enabled, on your EC2 Console, Select the instance, on the lower plane, Select Monitoring."
       }
     ],
     "correctAnswers": [
@@ -554,14 +454,6 @@
       {
         "value": "D",
         "label": "An authentication credential associated with a multi-factor authentication (MFA) token"
-      },
-      {
-        "value": "A",
-        "label": "S Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely."
-      },
-      {
-        "value": "U",
-        "label": "ing IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources."
       }
     ],
     "correctAnswers": [
@@ -616,10 +508,6 @@
       {
         "value": "D",
         "label": "They are able to distribute incoming requests across a tier of web server instances."
-      },
-      {
-        "value": "W",
-        "label": "en the unhealthy Availability Zone returns to a healthy state, Auto Scaling automatically redistributes the application instances evenly across all of the designated Availability Zones."
       }
     ],
     "correctAnswers": [
@@ -645,14 +533,6 @@
       {
         "value": "D",
         "label": "By using AWS Budgets"
-      },
-      {
-        "value": "T",
-        "label": "e account that originally purchased the Reserved Instance receives the discount first."
-      },
-      {
-        "value": "I",
-        "label": "the purchasing account doesn't have any instances that match the terms of the Reserved Instance, the discount for the Reserved Instance is assigned to any matching usage on another account in the organization."
       }
     ],
     "correctAnswers": [
@@ -732,18 +612,6 @@
       {
         "value": "D",
         "label": "AWS Glue"
-      },
-      {
-        "value": "A",
-        "label": "S CloudFormation provides a common language for you to model and provision AWS and third party application resources in your cloud environment."
-      },
-      {
-        "value": "A",
-        "label": "S CloudFormation allows you to use programming languages or a simple text file to model and provision, in an automated and secure manner, all the resources needed for your applications across all regions and accounts."
-      },
-      {
-        "value": "T",
-        "label": "is gives you a single source of truth for your AWS and third party resources."
       }
     ],
     "correctAnswers": [
@@ -798,22 +666,6 @@
       {
         "value": "D",
         "label": "Amazon Connect"
-      },
-      {
-        "value": "A",
-        "label": "S Direct Connect lets you establish a dedicated network connection between your network and one of the AWS Direct Connect locations."
-      },
-      {
-        "value": "U",
-        "label": "ing industry standard 802.1q VLANs, this dedicated connection can be partitioned into multiple virtual interfaces."
-      },
-      {
-        "value": "T",
-        "label": "is allows you to use the same connection to access public resources such as objects stored in Amazon S3 using public IP address space, and private resources such as Amazon EC2 instances running within an Amazon Virtual Private Cloud (VPC) using private IP space, while maintaining network separation between the public and private environments."
-      },
-      {
-        "value": "V",
-        "label": "rtual interfaces can be reconfigured at any time to meet your changing needs."
       }
     ],
     "correctAnswers": [
@@ -868,18 +720,6 @@
       {
         "value": "D",
         "label": "Amazon API Gateway"
-      },
-      {
-        "value": "A",
-        "label": "azon Virtual Private Cloud (Amazon VPC) is a logically isolated, private section of the AWS Cloud to launch resources in a virtual data center in the cloud."
-      },
-      {
-        "value": "A",
-        "label": "azon VPC allows you to leverage multiple Availability Zones (AZ) within a region so that you can build greater fault tolerance within your workloads."
-      },
-      {
-        "value": "Y",
-        "label": "u have complete control."
       }
     ],
     "correctAnswers": [
@@ -959,10 +799,6 @@
       {
         "value": "D",
         "label": "Use commercial database software."
-      },
-      {
-        "value": "L",
-        "label": "osely coupled architectures reduce interdependencies, so that a change or failure in a component does not cascade to other components."
       }
     ],
     "correctAnswers": [
@@ -1017,22 +853,6 @@
       {
         "value": "D",
         "label": "AWS Config"
-      },
-      {
-        "value": "A",
-        "label": "S Config is a service that enables you to assess, audit, and evaluate the configurations of your AWS resources."
-      },
-      {
-        "value": "C",
-        "label": "nfig continuously monitors and records your AWS resource configurations and allows you to automate the evaluation of recorded configurations against desired configurations."
-      },
-      {
-        "value": "W",
-        "label": "th Config, you can review changes in configurations and relationships between AWS resources, dive into detailed resource configuration histories, and determine your overall compliance against the configurations specified in your internal guidelines."
-      },
-      {
-        "value": "T",
-        "label": "is enables you to simplify compliance auditing, security analysis, change management, and operational troubleshooting."
       }
     ],
     "correctAnswers": [
@@ -1083,10 +903,6 @@
       {
         "value": "D",
         "label": "It is not part of the AWS shared responsibility model."
-      },
-      {
-        "value": "A",
-        "label": "S maintains the configuration of its infrastructure devices, but a customer is responsible for configuring their own guest operating systems, databases, and applications."
       }
     ],
     "correctAnswers": [
@@ -1112,14 +928,6 @@
       {
         "value": "D",
         "label": "Amazon Pinpoint"
-      },
-      {
-        "value": "A",
-        "label": "azon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer- friendly environment."
-      },
-      {
-        "value": "C",
-        "label": "oudFront is integrated with AWS both physical locations that are directly connected to the AWS global infrastructure, as well as other AWS services."
       }
     ],
     "correctAnswers": [
@@ -1224,14 +1032,6 @@
       {
         "value": "D",
         "label": "AWS Organizations"
-      },
-      {
-        "value": "A",
-        "label": "S Organizations helps you centrally govern your environment as you grow and scale your workloads on AWS."
-      },
-      {
-        "value": "W",
-        "label": "ether you are a growing startup or a large enterprise, Organizations helps you to centrally manage billing; control access, compliance, and security; and share resources across your AWS accounts."
       }
     ],
     "correctAnswers": [
@@ -1257,14 +1057,6 @@
       {
         "value": "D",
         "label": "It is another name for AWS Technical Account Managers who provide recommendations on cost optimization, performance, and security."
-      },
-      {
-        "value": "A",
-        "label": "S Trusted Advisor is an online tool that provides you real time guidance to help you provision your resources following AWS best practices."
-      },
-      {
-        "value": "W",
-        "label": "ether establishing new workflows, developing applications, or as part of ongoing improvement, take advantage of the recommendations provided by Trusted Advisor on a regular basis to help keep your solutions provisioned optimally."
       }
     ],
     "correctAnswers": [
@@ -1290,10 +1082,6 @@
       {
         "value": "D",
         "label": "Consolidated billing"
-      },
-      {
-        "value": "A",
-        "label": "S Cost Explorer has an easy-to-use interface that lets you visualize, understand, and manage your AWS costs and usage over time."
       }
     ],
     "correctAnswers": [
@@ -1319,22 +1107,6 @@
       {
         "value": "D",
         "label": "Amazon CloudWatch"
-      },
-      {
-        "value": "A",
-        "label": "S Artifact is your go-to, central resource for compliance-related information that matters to you."
-      },
-      {
-        "value": "I",
-        "label": "provides on-demand access to AWS' security and compliance reports and select online agreements."
-      },
-      {
-        "value": "R",
-        "label": "ports available in AWS Artifact include our Service Organization Control (SOC) reports, Payment Card Industry (PCI) reports, and certifications from accreditation bodies across geographies and compliance verticals that validate the implementation and operating effectiveness of AWS security controls."
-      },
-      {
-        "value": "A",
-        "label": "reements available in AWS Artifact include the Business Associate Addendum (BAA) and the Nondisclosure Agreement (NDA)."
       }
     ],
     "correctAnswers": [
@@ -1364,10 +1136,6 @@
       {
         "value": "E",
         "label": "Elastic Load Balancing can distribute application web traffic to multiple AWS Regions around the world, which reduces latency."
-      },
-      {
-        "value": "<",
-        "label": "ttps://aws.amazon.com/cloudfront/>"
       }
     ],
     "correctAnswers": [
@@ -1393,14 +1161,6 @@
       {
         "value": "D",
         "label": "Amazon CloudFront"
-      },
-      {
-        "value": "U",
-        "label": "load your code and Elastic Beanstalk automatically handles the deployment, from capacity provisioning, load balancing, auto-scaling to application health monitoring."
-      },
-      {
-        "value": "A",
-        "label": "the same time, you retain full control over the AWS resources powering your application and can access the underlying resources at any time."
       }
     ],
     "correctAnswers": [
@@ -1526,14 +1286,6 @@
       {
         "value": "D",
         "label": "Amazon Forecast"
-      },
-      {
-        "value": "Y",
-        "label": "u can use the consolidated billing feature in AWS Organizations to consolidate billing and payment for multiple AWS accounts or multiple Amazon Internet Services Pvt. Ltd (AISPL) accounts."
-      },
-      {
-        "value": "E",
-        "label": "ery organization in AWS Organizations has a master (payer) account that pays the charges of all the member (linked)"
       }
     ],
     "correctAnswers": [

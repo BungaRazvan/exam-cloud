@@ -67,6 +67,10 @@ def extract(no, markdown_content):
         elif line.startswith("- "):
             # Extract option text and value
             option_value = line[2:3]  # First character after '- '
+
+            if line[3] != ".":
+                continue
+
             option_label = line[4:].strip()
             current_question["options"].append(
                 {"value": option_value, "label": option_label}
@@ -78,6 +82,7 @@ def extract(no, markdown_content):
         elif correct_answer_prefix_2 in line:
             correct_answers = line.split(correct_answer_prefix_2)[1].strip()
             current_question["correctAnswers"] = correct_answers.split(", ")
+            print(line, correct_answers.split(", "))
 
     # Add the last question if exists
     if current_question:

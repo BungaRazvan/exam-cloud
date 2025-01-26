@@ -225,14 +225,6 @@
       {
         "value": "E",
         "label": "Amazon CloudFront"
-      },
-      {
-        "value": "<",
-        "label": "ttps://aws.amazon.com/getting-started/tutorials/deliver-content-faster/>"
-      },
-      {
-        "value": "<",
-        "label": "ttps://aws.amazon.com/cloudfront/>"
       }
     ],
     "correctAnswers": [
@@ -283,14 +275,6 @@
       {
         "value": "D",
         "label": "They do not require the customer to optimize instance type or size selections."
-      },
-      {
-        "value": "A",
-        "label": "S Managed Services takes care of all of your patching and backup activities to help keep your resources current and secure. When updates or patches are released by OS vendors, AWS Managed Services applies them in a timely and consistent manner to minimize the impact on your business"
-      },
-      {
-        "value": "C",
-        "label": "itical security patches are applied immediately, while others are applied based on the patch schedule you request. Backups of Stacks are automated using Amazon Elastic Block Store (EBS) and RDS snapshots, and can be restored in the event of a failure or outage, ensuring business continuity"
       }
     ],
     "correctAnswers": [
@@ -341,18 +325,6 @@
       {
         "value": "D",
         "label": "IAM policy"
-      },
-      {
-        "value": "A",
-        "label": "cess keys are long-term credentials for an IAM user or the AWS account root user."
-      },
-      {
-        "value": "Y",
-        "label": "u can use access keys to sign programmatic requests to the AWS CLI or API (directly or using the AWS SDK)."
-      },
-      {
-        "value": "F",
-        "label": "r more information, see Signing AWS API Requests in the Amazon Web Services General Reference."
       }
     ],
     "correctAnswers": [
@@ -382,10 +354,6 @@
       {
         "value": "E",
         "label": "Amazon S3 copyrighted content detection"
-      },
-      {
-        "value": "P",
-        "label": "netration testing is not correct, because it can be done by customers on their own resources."
       }
     ],
     "correctAnswers": [
@@ -411,18 +379,6 @@
       {
         "value": "D",
         "label": "Amazon RDS"
-      },
-      {
-        "value": "A",
-        "label": "azon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale a relational database in the cloud."
-      },
-      {
-        "value": "I",
-        "label": "provides cost-efficient and resizable capacity while automating time-consuming administration tasks such as hardware provisioning, database setup, patching and backups."
-      },
-      {
-        "value": "I",
-        "label": "frees you to focus on your applications so you can give them the fast performance, high availability, security and compatibility they need."
       }
     ],
     "correctAnswers": [
@@ -448,26 +404,6 @@
       {
         "value": "D",
         "label": "Amazon EFS"
-      },
-      {
-        "value": "A",
-        "label": "azon Elastic File System (Amazon EFS) provides a simple, scalable, fully managed elastic NFS file system for use with AWS Cloud services and on-premises resources."
-      },
-      {
-        "value": "I",
-        "label": "is built to scale on demand to petabytes without disrupting applications, growing and shrinking automatically as you add and remove files, eliminating the need to provision and manage capacity to accommodate growth."
-      },
-      {
-        "value": "A",
-        "label": "azon EFS is designed to provide the throughput, IOPS, and low latency needed for Linux workloads."
-      },
-      {
-        "value": "T",
-        "label": "roughput and IOPS scale as a file system grows and can burst to higher throughput levels for short periods of time to support the unpredictable performance needs of file workloads."
-      },
-      {
-        "value": "F",
-        "label": "r the most demanding workloads, Amazon EFS can support performance over 10 GB/sec and up to 500,000 IOPS."
       }
     ],
     "correctAnswers": [
@@ -493,14 +429,6 @@
       {
         "value": "D",
         "label": "Implement elasticity"
-      },
-      {
-        "value": "\"",
-        "label": "rovisioning for peaks\" is a characteristic of a traditional computing environment, per the AWS Best Practices: \"you provision capacity based on an estimate of a theoretical maximum peak.\""
-      },
-      {
-        "value": "<",
-        "label": "ttps://d1.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf>"
       }
     ],
     "correctAnswers": [
@@ -526,22 +454,6 @@
       {
         "value": "D",
         "label": "AWS EBS"
-      },
-      {
-        "value": "A",
-        "label": "azon S3 Glacier is a secure, durable, and low-cost storage class of S3 for data archiving and long-term backup. Customers can store large or small amounts of data for as little as $0.004 per gigabyte per month."
-      },
-      {
-        "value": "T",
-        "label": "e S3 Glacier storage class is ideal for archives where data is regularly retrieved and some of the data may be needed in minutes."
-      },
-      {
-        "value": "A",
-        "label": "azon RDS is a relational database service that hosts databases. It helps you create and manage databases."
-      },
-      {
-        "value": "A",
-        "label": "azon Snowball is a petabyte-scale data transfer service that provides cost efficient data transfer to AWS from tamper proof physical devices. Similarly, Elastic block storage offers persistent block storage volumes for EC2 instances."
       }
     ],
     "correctAnswers": [
@@ -567,30 +479,6 @@
       {
         "value": "D",
         "label": "Updating operating systems"
-      },
-      {
-        "value": "A",
-        "label": "S Compliance enables customers to establish and operate in an AWS security control environment The shared responsibility model is part of AWS Compliance"
-      },
-      {
-        "value": "T",
-        "label": "e Security of the cloud is managed by Amazon AWS provider"
-      },
-      {
-        "value": "T",
-        "label": "e Security in the cloud is responsibility of the customer"
-      },
-      {
-        "value": "T",
-        "label": "e customer is responsible for their information and data, their secure transmission, integrity, and encryption Also, the customer is responsible for managing, support, patching and control of the guest operating system and AWS services provided like EC2"
-      },
-      {
-        "value": "A",
-        "label": "S customers retain control and ownership of their data"
-      },
-      {
-        "value": "T",
-        "label": "e AWS network provides significant protection against traditional network security issues and the customer can implement further protection"
       }
     ],
     "correctAnswers": [
@@ -616,10 +504,6 @@
       {
         "value": "D",
         "label": "Amazon CloudSearch"
-      },
-      {
-        "value": "A",
-        "label": "S Marketplace is a digital catalog with thousands of software listings from independent software vendors that make it easy to find, test, buy, and deploy software that runs on AWS."
       }
     ],
     "correctAnswers": [
@@ -645,14 +529,6 @@
       {
         "value": "D",
         "label": "Choice of specific cloud hardware vendors."
-      },
-      {
-        "value": "D",
-        "label": "veloper and IT staff productivity accounted for nearly 30% of overall financial benefits."
-      },
-      {
-        "value": "T",
-        "label": "e remaining benefits were driven by the flexibility and agility of Amazon cloud infrastructure services, which make it easier to trial new business models, support revenue-generating applications, and provide more reliable services to end users."
       }
     ],
     "correctAnswers": [
@@ -678,18 +554,6 @@
       {
         "value": "D",
         "label": "No Upfront Reserved Instances"
-      },
-      {
-        "value": "U",
-        "label": "e Dedicated Hosts to launch Amazon EC2 instances on physical servers that are dedicated for your use."
-      },
-      {
-        "value": "D",
-        "label": "dicated Hosts give you additional visibility and control over how instances are placed on a physical server, and you can reliably use the same physical server over time."
-      },
-      {
-        "value": "A",
-        "label": "a result, Dedicated Hosts enable you to use your existing server-bound software licenses like Windows Server and address corporate compliance and regulatory requirements."
       }
     ],
     "correctAnswers": [
@@ -715,18 +579,6 @@
       {
         "value": "D",
         "label": "AWS CloudFormation"
-      },
-      {
-        "value": "A",
-        "label": "S CloudFormation provides a common language for you to describe and provision all the infrastructure resources in your cloud environment."
-      },
-      {
-        "value": "C",
-        "label": "oudFormation allows you to use a simple text file to model and provision, in an automated and secure manner, all the resources needed for your applications across all regions and accounts."
-      },
-      {
-        "value": "T",
-        "label": "is file serves as the single source of truth for your cloud environment."
       }
     ],
     "correctAnswers": [
@@ -752,22 +604,6 @@
       {
         "value": "D",
         "label": "Amazon Inspector"
-      },
-      {
-        "value": "A",
-        "label": "S Config is a service that enables you to assess, audit, and evaluate the configurations of your AWS resources."
-      },
-      {
-        "value": "C",
-        "label": "nfig continuously monitors and records your AWS resource configurations and allows you to automate the evaluation of recorded configurations against desired configurations."
-      },
-      {
-        "value": "W",
-        "label": "th Config, you can review changes in configurations and relationships between AWS resources, dive into detailed resource configuration histories, and determine your overall compliance against the configurations specified in your internal guidelines."
-      },
-      {
-        "value": "T",
-        "label": "is enables you to simplify compliance auditing, security analysis, change management, and operational troubleshooting."
       }
     ],
     "correctAnswers": [
@@ -793,18 +629,6 @@
       {
         "value": "D",
         "label": "A rule repository of a web application firewall with automated vulnerability prevention features."
-      },
-      {
-        "value": "A",
-        "label": "azon CloudWatch is basically a metrics repository."
-      },
-      {
-        "value": "A",
-        "label": "AWS service -- such as Amazon EC2 -- puts metrics into the repository, and you retrieve statistics based on those metrics."
-      },
-      {
-        "value": "I",
-        "label": "you put your own custom metrics into the repository, you can retrieve statistics on these metrics as well."
       }
     ],
     "correctAnswers": [
@@ -830,34 +654,6 @@
       {
         "value": "D",
         "label": "AWS Trusted Advisor"
-      },
-      {
-        "value": "u",
-        "label": "e the consolidated billing feature in AWS Organizations to consolidate billing and payment for multiple AWS accounts or multiple Amazon Internet Services Pvt. Ltd (AISPL) accounts."
-      },
-      {
-        "value": "E",
-        "label": "ery organization in AWS Organizations has a master account that pays the charges of all the member accounts."
-      },
-      {
-        "value": "C",
-        "label": "nsolidated billing has the following benefits:"
-      },
-      {
-        "value": "O",
-        "label": "e bill You get one bill for multiple accounts."
-      },
-      {
-        "value": "E",
-        "label": "sy tracking You can track the charges across multiple accounts and download the combined cost and usage data."
-      },
-      {
-        "value": "C",
-        "label": "mbined usage You can combine the usage across all accounts in the organization to share the volume pricing discounts and Reserved Instance discounts. This can result in a lower charge for your project, department, or company than with individual standalone accounts. For more information, see Volume Discounts."
-      },
-      {
-        "value": "N",
-        "label": "extra fee Consolidated billing is offered at no additional cost."
       }
     ],
     "correctAnswers": [
@@ -887,14 +683,6 @@
       {
         "value": "E",
         "label": "AWS X-Ray"
-      },
-      {
-        "value": "<",
-        "label": "ttps://docs.aws.amazon.com/codedeploy/latest/userguide/instances-on-premises.html>"
-      },
-      {
-        "value": "<",
-        "label": "ttps://aws.amazon.com/blogs/aws/opsworks-on-prem-and-existing-instances/>"
       }
     ],
     "correctAnswers": [
@@ -920,10 +708,6 @@
       {
         "value": "D",
         "label": "Convertible Reserved Instances"
-      },
-      {
-        "value": "I",
-        "label": "the new model, the Spot prices are more predictable, updated less frequently, and are determined by supply and demand for Amazon EC2 spare capacity, not bid prices."
       }
     ],
     "correctAnswers": [
@@ -1003,22 +787,6 @@
       {
         "value": "D",
         "label": "AWS Trusted Advisor"
-      },
-      {
-        "value": "A",
-        "label": "S Artifact is your go-to, central resource for compliance-related information that matters to you."
-      },
-      {
-        "value": "I",
-        "label": "provides on-demand access to AWS's security and compliance reports and select online agreements."
-      },
-      {
-        "value": "T",
-        "label": "e AWS SOC 2 report is particularly helpful for completing questionnaires because it provides a comprehensive description of the implementation and operating effectiveness of AWS security controls."
-      },
-      {
-        "value": "A",
-        "label": "other useful document is the Executive Briefing within the AWS FedRAMP Partner Package."
       }
     ],
     "correctAnswers": [
@@ -1069,14 +837,6 @@
       {
         "value": "D",
         "label": "Eliminates the need for tagging"
-      },
-      {
-        "value": "I",
-        "label": "you have multiple standalone accounts, your charges might decrease if you add the accounts to an organization."
-      },
-      {
-        "value": "A",
-        "label": "S combines usage from all accounts in the organization to qualify you for volume pricing discounts."
       }
     ],
     "correctAnswers": [
@@ -1102,10 +862,6 @@
       {
         "value": "D",
         "label": "Request and wait for approval from AWS support, and then conduct testing."
-      },
-      {
-        "value": "A",
-        "label": "S customers are welcome to carry out security assessments or penetration tests against their AWS infrastructure without prior approval for 8 services."
       }
     ],
     "correctAnswers": [
@@ -1131,30 +887,6 @@
       {
         "value": "D",
         "label": "Amazon AppStream 2.0"
-      },
-      {
-        "value": "T",
-        "label": "use Amazon EC2, you simply:"
-      },
-      {
-        "value": "S",
-        "label": "lect a pre-configured, templated Amazon Machine Image (AMI) to get up and running immediately. Or create an AMI containing your applications, libraries, data, and associated configuration settings."
-      },
-      {
-        "value": "C",
-        "label": "nfigure security and network access on your Amazon EC2 instance."
-      },
-      {
-        "value": "C",
-        "label": "oose which instance type(s) you want, then start, terminate, and monitor as many instances of your AMI as needed, using the web service APIs or the variety of management tools provided."
-      },
-      {
-        "value": "D",
-        "label": "termine whether you want to run in multiple locations, utilize static IP endpoints, or attach persistent block storage to your instances."
-      },
-      {
-        "value": "P",
-        "label": "y only for the resources that you actually consume, like instance-hours or data transfer."
       }
     ],
     "correctAnswers": [
@@ -1180,18 +912,6 @@
       {
         "value": "D",
         "label": "Apply an IAM policy to an Amazon Cognito user pool."
-      },
-      {
-        "value": "I",
-        "label": "stead of defining permissions for individual IAM users, it's usually more convenient to create groups that relate to job functions (administrators, developers, accounting, etc.)."
-      },
-      {
-        "value": "N",
-        "label": "xt, define the relevant permissions for each group. Finally, assign IAM users to those groups. All the users in an IAM group inherit the permissions assigned to the group."
-      },
-      {
-        "value": "T",
-        "label": "at way, you can make changes for everyone in a group in just one place. As people move around in your company, you can"
       }
     ],
     "correctAnswers": [
@@ -1217,14 +937,6 @@
       {
         "value": "D",
         "label": "AWS Billing dashboard"
-      },
-      {
-        "value": "T",
-        "label": "e Cost & Usage Report is your one-stop-shop for accessing the most granular data about your AWS costs and usage."
-      },
-      {
-        "value": "Y",
-        "label": "u can also load your cost and usage information into Amazon Athena, Amazon Redshift, AWS QuickSight, or a tool of your choice."
       }
     ],
     "correctAnswers": [
@@ -1279,22 +991,6 @@
       {
         "value": "D",
         "label": "Implement vertical scaling."
-      },
-      {
-        "value": "L",
-        "label": "ose coupling between services can also be done through asynchronous integration. It involves one component that generates events and another that consumes them."
-      },
-      {
-        "value": "T",
-        "label": "e two components do not integrate through direct point-to-point interaction, but usually through an intermediate durable storage layer."
-      },
-      {
-        "value": "T",
-        "label": "is approach decouples the two components and introduces additional resiliency."
-      },
-      {
-        "value": "S",
-        "label": ", for example, if a process that is reading messages from the queue fails, messages can still be added to the queue to be processed when the system recovers."
       }
     ],
     "correctAnswers": [
@@ -1324,18 +1020,6 @@
       {
         "value": "E",
         "label": "Activate multi-factor authentication (MFA) for privileged users."
-      },
-      {
-        "value": "I",
-        "label": "you decided to create service accounts (that is, accounts used for programmatic access by applications running outside of the AWS environment) and generate access keys for them, you should create a dedicated service account for each use case."
-      },
-      {
-        "value": "T",
-        "label": "is will allow you to restrict the associated policy to only the permissions needed for the particular use case, limiting the blast radius if the credentials are compromised."
-      },
-      {
-        "value": "F",
-        "label": "r example, if a monitoring tool and a release management tool both require access to your AWS environment, create two separate service accounts with two separate policies that define the minimum set of permissions for each tool."
       }
     ],
     "correctAnswers": [
@@ -1361,14 +1045,6 @@
       {
         "value": "D",
         "label": "Amazon Elastic Block Storage (Amazon EBS)"
-      },
-      {
-        "value": "A",
-        "label": "S Storage Gateway is a hybrid cloud storage service that gives you on-premises access to virtually unlimited cloud storage. Customers use Storage Gateway to simplify storage management and reduce costs for key hybrid cloud storage use cases."
-      },
-      {
-        "value": "T",
-        "label": "ese include moving tape backups to the cloud, reducing on-premises storage with cloud-backed file shares, providing low latency access to data in AWS for on- premises applications, as well as various migration, archiving,"
       }
     ],
     "correctAnswers": [
@@ -1394,10 +1070,6 @@
       {
         "value": "D",
         "label": "AWS Fargate"
-      },
-      {
-        "value": "T",
-        "label": "e customer is responsible for managing, support, patching and control of the guest operating system and AWS services provided like EC2."
       }
     ],
     "correctAnswers": [
@@ -1423,14 +1095,6 @@
       {
         "value": "D",
         "label": "Provision extra capacity."
-      },
-      {
-        "value": "D",
-        "label": "ta Center resilience is practiced through Availability Zones across data centers that reduce the impact of failures."
-      },
-      {
-        "value": "F",
-        "label": "ult isolation improvement can be made to traditional horizontal scaling by sharding (a method of grouping instances into groups called shards, instead of sending the traffic from all users to every node like in the traditional IT structure.)"
       }
     ],
     "correctAnswers": [
@@ -1456,10 +1120,6 @@
       {
         "value": "D",
         "label": "Basic"
-      },
-      {
-        "value": "T",
-        "label": "e enterprise support plans supports technical account manager. Developer and business support plans are devoid of this facility."
       }
     ],
     "correctAnswers": [
@@ -1510,18 +1170,6 @@
       {
         "value": "D",
         "label": "Amazon EC2 Instance Store"
-      },
-      {
-        "value": "A",
-        "label": "azon ElastiCache for Redis is a great choice for implementing a highly available, distributed, and secure in-memory cache to decrease access latency, increase throughput, and ease the load off your relational or NoSQL databases and applications."
-      },
-      {
-        "value": "E",
-        "label": "astiCache can serve frequently requested items at sub- millisecond response times, and enables you to easily scale for higher loads without growing the costlier backend databases."
-      },
-      {
-        "value": "D",
-        "label": "tabase query results caching, persistent session caching, and full-page caching are all popular examples of caching with ElastiCache for Redis."
       }
     ],
     "correctAnswers": [
@@ -1547,10 +1195,6 @@
       {
         "value": "D",
         "label": "Auditing physical data center assets"
-      },
-      {
-        "value": "O",
-        "label": "course, Amazon is responsible for auditing physical data center assets and resources since it is the property of Amazon Inc. Customers have no access to physical sites, hence they are not responsible for maintaining physical data center assets."
       }
     ],
     "correctAnswers": [
@@ -1580,22 +1224,6 @@
       {
         "value": "E",
         "label": "AWS Classroom Training"
-      },
-      {
-        "value": "A",
-        "label": "S Training and Certification builds your competence, confidence, and credibility through practical cloud skills that help you innovate and build your future."
-      },
-      {
-        "value": "O",
-        "label": "r content is built by experts at AWS and updated regularly so you're always learning the latest and keeping your cloud skills fresh."
-      },
-      {
-        "value": "A",
-        "label": "azon offer both digital and classroom training including private on-site training. You can choose to learn online at your own pace or learn from an accredited AWS instructor."
-      },
-      {
-        "value": "W",
-        "label": "ether you're just starting out, building on existing IT skills, or sharpening your cloud knowledge, AWS Training and Certification can help you be more effective and do more in the cloud."
       }
     ],
     "correctAnswers": [
@@ -1626,30 +1254,6 @@
       {
         "value": "E",
         "label": "Elastic Load Balancing"
-      },
-      {
-        "value": "A",
-        "label": "azon Virtual Private Cloud (Amazon VPC) lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define."
-      },
-      {
-        "value": "Y",
-        "label": "u have complete control over your virtual networking environment, including selection of your own IP address range, creation of subnets, and configuration of route tables and network gateways."
-      },
-      {
-        "value": "Y",
-        "label": "u can use both IPv4 and IPv6 in your VPC for secure and easy access to resources and applications."
-      },
-      {
-        "value": "Y",
-        "label": "u can easily customize the network configuration for your Amazon VPC."
-      },
-      {
-        "value": "F",
-        "label": "r example, you can create a public-facing subnet for your web servers that has access to the Internet, and place your backend systems such as databases or application servers in a private-facing subnet with no Internet access."
-      },
-      {
-        "value": "Y",
-        "label": "u can leverage multiple layers of security, including security groups and network access control lists, to help control access to Amazon EC2 instances in each subnet."
       }
     ],
     "correctAnswers": [

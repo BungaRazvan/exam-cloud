@@ -200,18 +200,6 @@
       {
         "value": "D",
         "label": "AWS WAF"
-      },
-      {
-        "value": "A",
-        "label": "S WAF is a web application firewall that helps protect web applications from common web exploits that could affect application availability, compromise security, or consume excessive resources."
-      },
-      {
-        "value": "Y",
-        "label": "u can use AWS WAF to define customizable web security rules that control which traffic accesses your web applications."
-      },
-      {
-        "value": "I",
-        "label": "you use AWS Shield Advanced, you can use AWS WAF at no extra cost for those protected resources and can engage the DRT to create WAF rules."
       }
     ],
     "correctAnswers": [
@@ -262,14 +250,6 @@
       {
         "value": "D",
         "label": "Amazon Connect"
-      },
-      {
-        "value": "Y",
-        "label": "u can use AWS Direct Connect to establish a private virtual interface from your on-premise network directly to your Amazon VPC, providing you with a private, high bandwidth network connection between your network and your VPC."
-      },
-      {
-        "value": "W",
-        "label": "th multiple virtual interfaces, you can even establish private connectivity to multiple VPCs while maintaining network isolation."
       }
     ],
     "correctAnswers": [
@@ -295,18 +275,6 @@
       {
         "value": "D",
         "label": "Amazon Athena"
-      },
-      {
-        "value": "A",
-        "label": "azon Athena is defined as \"an interactive query service that makes it easy to analyze data directly in Amazon Simple Storage Service (Amazon S3) using standard SQL.\" So, it's another SQL query engine for large data sets stored in S3."
-      },
-      {
-        "value": "T",
-        "label": "is is very similar to other SQL query engines, such as Apache Drill."
-      },
-      {
-        "value": "B",
-        "label": "t unlike Apache Drill, Athena is limited to data only from Amazon's own S3 storage service. However, Athena is able to query a variety of file formats, including, but not limited to CSV, Parquet, JSON, etc."
       }
     ],
     "correctAnswers": [
@@ -332,18 +300,6 @@
       {
         "value": "D",
         "label": "create reports for billing."
-      },
-      {
-        "value": "A",
-        "label": "S CloudFormation provides a common language for you to model and provision AWS and third party application resources in your cloud environment."
-      },
-      {
-        "value": "A",
-        "label": "S CloudFormation allows you to use programming languages or a simple text file to model and provision, in an automated and secure manner, all the resources needed for your applications across all regions and accounts."
-      },
-      {
-        "value": "T",
-        "label": "is gives you a single source of truth for your AWS and third party resources."
       }
     ],
     "correctAnswers": [
@@ -448,22 +404,6 @@
       {
         "value": "D",
         "label": "Amazon Inspector"
-      },
-      {
-        "value": "A",
-        "label": "azon Inspector is an automated security assessment service that helps improve the security and compliance of applications deployed on AWS."
-      },
-      {
-        "value": "A",
-        "label": "azonInspector automatically assesses applications for exposure, vulnerabilities, and deviations from best practices."
-      },
-      {
-        "value": "A",
-        "label": "ter performing an assessment, Amazon Inspector produces a detailed list of security findings prioritized by level of severity."
-      },
-      {
-        "value": "T",
-        "label": "ese findings can be reviewed directly or as part of detailed assessment reports which are available via the Amazon Inspector console or API."
       }
     ],
     "correctAnswers": [
@@ -514,14 +454,6 @@
       {
         "value": "D",
         "label": "AWS CodeDeploy"
-      },
-      {
-        "value": "A",
-        "label": "S Service Catalog Delivery Partners are APN Consulting Partners who help create catalogs of IT services that are approved by the customer's organization for use on AWS."
-      },
-      {
-        "value": "W",
-        "label": "th AWS Service Catalog, customers and partners can centrally manage commonly deployed IT services to help achieve consistent governance and meet compliance requirements while enabling users to self-provision approved services."
       }
     ],
     "correctAnswers": [
@@ -547,18 +479,6 @@
       {
         "value": "D",
         "label": "Amazon S3 Glacier"
-      },
-      {
-        "value": "S",
-        "label": "Glacier Deep Archive is Amazon S3's lowest-cost storage class and supports long-term retention and digital preservation for data that may be accessed once or twice in a year."
-      },
-      {
-        "value": "I",
-        "label": "is designed for customers --particularly those in highly-regulated industries, such as the Financial Services, Healthcare, and Public Sectors -- that retain data sets for 7-10 years or longer to meet regulatory compliance requirements."
-      },
-      {
-        "value": "S",
-        "label": "Glacier Deep Archive can also be used for backup and disaster recovery use cases, and is a cost-effective and easy-to-manage alternative to magnetic tape systems, whether they are on-premises libraries or off-premises services."
       }
     ],
     "correctAnswers": [
@@ -613,18 +533,6 @@
       {
         "value": "D",
         "label": "AWS Shield"
-      },
-      {
-        "value": "A",
-        "label": "azon Macie is a security service that uses machine learning to automatically discover, classify, and protect sensitive data in AWS."
-      },
-      {
-        "value": "M",
-        "label": "cie recognizes sensitive data such as personally identifiable information (PII) or intellectual property."
-      },
-      {
-        "value": "I",
-        "label": "provides you with dashboards and alerts that give visibility into how this data is being accessed or moved."
       }
     ],
     "correctAnswers": [
@@ -650,26 +558,6 @@
       {
         "value": "D",
         "label": "It connects on-premises data storage to the AWS Cloud."
-      },
-      {
-        "value": "M",
-        "label": "ving data to the cloud is not quite as simple as flipping a switch."
-      },
-      {
-        "value": "F",
-        "label": "r companies that have managed their own data centers or server rooms for decades, there are a few steps to consider --and it's not always wise to pull the plug on an internal infrastructure quite so quickly."
-      },
-      {
-        "value": "I",
-        "label": "a startup uses on-premise business servers and then experiences unexpected growth, abandoning those servers doesn't make sense (even if the long-term plan is to do exactly that)."
-      },
-      {
-        "value": "A",
-        "label": "S Storage Gateway is a way to bridge this gap for companies of any size."
-      },
-      {
-        "value": "I",
-        "label": "'s a hybrid storage option that connects on-premise storage including age-old tape backup systems to the cloud in a way that also provides one console to access all storage configurations."
       }
     ],
     "correctAnswers": [
@@ -745,14 +633,6 @@
       {
         "value": "D",
         "label": "AWS Data Pipeline"
-      },
-      {
-        "value": "Y",
-        "label": "u can use AWS Direct Connect to establish a private virtual interface from your on-premise network directly to your Amazon VPC, providing you with a private, high bandwidth network connection between your network and your VPC."
-      },
-      {
-        "value": "W",
-        "label": "th multiple virtual interfaces, you can even establish private connectivity to multiple VPCs while maintaining network isolation."
       }
     ],
     "correctAnswers": [
@@ -778,14 +658,6 @@
       {
         "value": "D",
         "label": "AWS shares responsibility with the relevant governing body."
-      },
-      {
-        "value": "S",
-        "label": "curity and Compliance is a shared responsibility between AWS and the customer."
-      },
-      {
-        "value": "T",
-        "label": "is shared model can help relieve the customer's operational burden as AWS operates, manages and controls the components from the host operating system and virtualization layer down to the physical security of the facilities in which the service operates."
       }
     ],
     "correctAnswers": [
@@ -919,10 +791,6 @@
       {
         "value": "D",
         "label": "Data encryption"
-      },
-      {
-        "value": "A",
-        "label": "S Shield Standard provides protection for all AWS customers from common, most frequently occurring network and transport layer DDoS attacks that target your web site or application at no additional charge."
       }
     ],
     "correctAnswers": [
@@ -1052,10 +920,6 @@
       {
         "value": "D",
         "label": "By having AWS manage applications"
-      },
-      {
-        "value": "A",
-        "label": "S helps you reduce Total Cost of Ownership (TCO) by reducing the need to invest in large capital expenditures and providing a pay-as-you-go model that empowers you to invest in the capacity you need and use it only when the business requires it."
       }
     ],
     "correctAnswers": [
@@ -1289,22 +1153,6 @@
       {
         "value": "D",
         "label": "Enhanced monitoring"
-      },
-      {
-        "value": "A",
-        "label": "azon RDS provides high availability and failover support for DB instances using Multi-AZ deployments."
-      },
-      {
-        "value": "A",
-        "label": "azon RDS uses several different technologies to provide failover support."
-      },
-      {
-        "value": "M",
-        "label": "lti-AZ deployments for Oracle, PostgreSQL, MySQL, and MariaDB DB instances use Amazon's failover technology."
-      },
-      {
-        "value": "S",
-        "label": "L Server DB instances use SQL Server Database Mirroring (DBM)."
       }
     ],
     "correctAnswers": [
@@ -1355,30 +1203,6 @@
       {
         "value": "D",
         "label": "AWS CloudHSM"
-      },
-      {
-        "value": "A",
-        "label": "S CloudTrail is a service that enables governance, compliance, operational auditing, and risk auditing of your AWS account."
-      },
-      {
-        "value": "W",
-        "label": "th CloudTrail, you can log, continuously monitor, and retain account activity related to actions across your AWS infrastructure."
-      },
-      {
-        "value": "C",
-        "label": "oudTrail provides event history of your AWS account activity, including actions taken through the AWS Management Console, AWS SDKs, command line tools, and other AWS services."
-      },
-      {
-        "value": "T",
-        "label": "is event history simplifies security analysis, resource change tracking, and troubleshooting."
-      },
-      {
-        "value": "I",
-        "label": "addition, you can use CloudTrail to detect unusual activity in your AWS accounts."
-      },
-      {
-        "value": "T",
-        "label": "ese capabilities help simplify operational analysis and troubleshooting."
       }
     ],
     "correctAnswers": [
@@ -1429,14 +1253,6 @@
       {
         "value": "D",
         "label": "Customers can permanently run enough instances to handle peak workloads."
-      },
-      {
-        "value": "T",
-        "label": "e ability to launch instances on-demand when needed allows customers launch and terminate instances in response to a varying workload."
-      },
-      {
-        "value": "T",
-        "label": "is is a more economical practice than purchasing enough on-premises servers to handle the peak load."
       }
     ],
     "correctAnswers": [
