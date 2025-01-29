@@ -60,7 +60,6 @@ const SingleAnswer: React.FC<AnswerProps> = (props) => {
     nextQuestion,
   } = props;
 
-  console.log(userAnswer);
   const [formSubmitted, setFormSubmitted] = useState(false);
 
   const FormSchema = z.object({

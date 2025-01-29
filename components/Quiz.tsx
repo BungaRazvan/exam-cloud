@@ -3,7 +3,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Question from "./Question";
 import { isEqual, sortBy, shuffle } from "lodash";
-import { QuizProps } from "@/lib/types";
+import { QuestionType, QuizProps } from "@/lib/types";
 import Score from "./Score";
 import Answers from "./Answers";
 
@@ -18,7 +18,9 @@ const Quiz: React.FC<QuizProps> = (props) => {
     onEndQuiz,
   } = props;
   const [quizQuestions, setQuizQuestions] = useState(questions);
-  const [answersedQuestion, setAnswersedQuestion] = useState([]);
+  const [answersedQuestion, setAnswersedQuestion] = useState<QuestionType[]>(
+    []
+  );
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
 
@@ -56,7 +58,7 @@ const Quiz: React.FC<QuizProps> = (props) => {
     }));
 
     setQuizQuestions(shuffled);
-  }, [questions]);
+  }, [quizQuestions]);
 
   // Compute step size for scoring adjustment
   const step = (maxScore - minScore) / quizQuestions.length;
@@ -156,6 +158,7 @@ const Quiz: React.FC<QuizProps> = (props) => {
             handleAnswer={handleAnswer}
             nextQuestion={nextQuestion}
             examMode={examMode}
+            readonly={false}
           />
         )}
       </div>

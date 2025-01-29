@@ -7,9 +7,16 @@ interface ScoreScreenProps {
   passingScore: number; // Passing threshold (e.g., 700)
   examMode: boolean;
   onRetry: () => void; // Function to handle retry (reset score and quiz state)
+  toggleAnswers: () => void;
 }
 
-const Result: React.FC<ScoreScreenProps> = (props) => {
+interface ResultProps {
+  score: number; // Scaled score (100–1,000)
+  maxScore: number; // Maximum score (1,000)
+  hasPassed: boolean;
+}
+
+const Result: React.FC<ResultProps> = (props) => {
   const { score, maxScore, hasPassed } = props;
   const percentage = ((score - 100) / (maxScore - 100)) * 100; // Normalized percentage
 
@@ -69,12 +76,7 @@ const ScoreScreen: React.FC<ScoreScreenProps> = (props) => {
 
   return (
     <>
-      <Result
-        score={score}
-        maxScore={maxScore}
-        passingScore={passingScore}
-        hasPassed={hasPassed}
-      />
+      <Result score={score} maxScore={maxScore} hasPassed={hasPassed} />
 
       <div className="flex justify-around">
         {!hasPassed && (

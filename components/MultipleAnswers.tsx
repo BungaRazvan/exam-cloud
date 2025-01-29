@@ -26,7 +26,7 @@ const FormSchema = z.object({
 });
 
 const CheckboxOption: React.FC<AnswerOptionProps> = (props) => {
-  const { item, index, field, correctAnswers, formSubmitted } = props;
+  const { item, index, field, correctAnswers, formSubmitted, readonly } = props;
   const letter = String.fromCharCode(65 + index);
 
   function onCheckedChange(
@@ -65,7 +65,7 @@ const CheckboxOption: React.FC<AnswerOptionProps> = (props) => {
           "text-red-500":
             field.value?.includes(item.value) &&
             !correctAnswers.includes(item.value) &&
-            formSubmitted,
+            (formSubmitted || readonly),
           "text-green-500":
             correctAnswers.includes(item.value) && formSubmitted,
         })}
@@ -83,6 +83,7 @@ const MultipleAnswers: React.FC<AnswerProps> = (props) => {
     questionText,
     correctAnswers,
     userAnswer,
+    readonly,
     handleAnswer,
     nextQuestion,
   } = props;
@@ -137,6 +138,7 @@ const MultipleAnswers: React.FC<AnswerProps> = (props) => {
                       field={field}
                       correctAnswers={correctAnswers}
                       formSubmitted={formSubmitted}
+                      readonly={readonly}
                     />
                   )}
                 />
@@ -145,11 +147,14 @@ const MultipleAnswers: React.FC<AnswerProps> = (props) => {
             </FormItem>
           )}
         />
-        <Button className="text-xl mr-2" type="submit">
-          Submit
-        </Button>
 
-        {!examMode && (
+        {!readonly && (
+          <Button className="text-xl mr-2" type="submit">
+            Submit
+          </Button>
+        )}
+
+        {(!examMode || !readonly) && (
           <Button className="text-xl" type="button" onClick={onNext}>
             Next
           </Button>

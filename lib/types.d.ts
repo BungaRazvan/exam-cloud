@@ -9,14 +9,18 @@ export type QuestionType = {
   text: string;
   options: AnswerOptionType[];
   correctAnswers: string[];
+  userAnswer?: string[];
+  correct: boolean;
   exam: string;
 };
 
 export type AnswerProps = {
   items: AnswerOptionType[];
+  correctAnswers: string[];
+  userAnswer?: string[];
   questionText: string;
   examMode: boolean;
-  correctAnswers: string[];
+  readonly: boolean;
   handleAnswer: (answer: str) => void;
   nextQuestion: () => void;
 };
@@ -27,12 +31,14 @@ export type AnswerOptionProps = {
   field: FieldValues;
   correctAnswers: string[];
   formSubmitted: boolean;
+  readonly: boolean;
 };
 
 export type QuestionProps = {
   question: QuestionType;
   number: numeber;
   examMode: boolean;
+  readonly: boolean;
   handleAnswer: (answer: str) => void;
   nextQuestion: () => void;
 };
