@@ -25,10 +25,9 @@ const PractiseExamPage: React.FC<PractiseExamProps> = async (props) => {
   return (
     <QuizWrapper
       questions={questions}
-      isTimed={false}
       examId={id}
       resultPath={awsCloudPractitionerResultsPath}
-      displayCorrectAnswers={true}
+      examMode={false}
     />
   );
 };
