@@ -5,7 +5,6 @@ interface ScoreScreenProps {
   score: number; // Scaled score (100–1,000)
   maxScore: number; // Maximum score (1,000)
   passingScore: number; // Passing threshold (e.g., 700)
-  examMode: boolean;
   onRetry: () => void; // Function to handle retry (reset score and quiz state)
   toggleAnswers: () => void;
 }
@@ -69,8 +68,7 @@ const Result: React.FC<ResultProps> = (props) => {
 };
 
 const ScoreScreen: React.FC<ScoreScreenProps> = (props) => {
-  const { score, maxScore, passingScore, examMode, onRetry, toggleAnswers } =
-    props;
+  const { score, maxScore, passingScore, onRetry, toggleAnswers } = props;
 
   const hasPassed = score >= passingScore;
 
@@ -90,27 +88,14 @@ const ScoreScreen: React.FC<ScoreScreenProps> = (props) => {
           </Button>
         )}
 
-        {!examMode && (
-          <Button
-            style={{ margin: "0px !important" }}
-            className="p-5 text-white text-xl"
-            onClick={toggleAnswers}
-            variant={"outline"}
-          >
-            Answers
-          </Button>
-        )}
-
-        {examMode && (
-          <Button
-            style={{ margin: "0px !important" }}
-            className="p-5 text-white text-xl"
-            onClick={onRetry}
-            variant={"outline"}
-          >
-            Answers
-          </Button>
-        )}
+        <Button
+          style={{ margin: "0px !important" }}
+          className="p-5 text-white text-xl"
+          onClick={toggleAnswers}
+          variant={"outline"}
+        >
+          Answers
+        </Button>
       </div>
     </>
   );

@@ -17,7 +17,7 @@ const Quiz: React.FC<QuizProps> = (props) => {
     examMode,
     onEndQuiz,
   } = props;
-  const [quizQuestions, setQuizQuestions] = useState(questions);
+  const [quizQuestions, setQuizQuestions] = useState<QuestionType[]>([]);
   const [answersedQuestion, setAnswersedQuestion] = useState<QuestionType[]>(
     []
   );
@@ -52,13 +52,13 @@ const Quiz: React.FC<QuizProps> = (props) => {
   }, [timeLeft, examMode]);
 
   useEffect(() => {
-    const shuffled = quizQuestions.map((question) => ({
+    const shuffled = questions.map((question) => ({
       ...question,
       options: shuffle(question.options),
     }));
 
     setQuizQuestions(shuffled);
-  }, [quizQuestions]);
+  }, [questions]);
 
   // Compute step size for scoring adjustment
   const step = (maxScore - minScore) / quizQuestions.length;
@@ -124,6 +124,10 @@ const Quiz: React.FC<QuizProps> = (props) => {
     setShowAnswers(false);
   };
 
+  if (!quizQuestions.length) {
+    return;
+  }
+
   return (
     <div className="flex items-center justify-center h-[90vh]">
       <div className="m-auto">
@@ -140,7 +144,6 @@ const Quiz: React.FC<QuizProps> = (props) => {
               passingScore={passingScore}
               onRetry={onRetry}
               toggleAnswers={() => setShowAnswers(!showAnswers)}
-              examMode={examMode}
             />
 
             {showAnswers && (
