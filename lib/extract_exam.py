@@ -82,6 +82,16 @@ def extract(no, markdown_content):
         elif correct_answer_prefix_2 in line:
             correct_answers = line.split(correct_answer_prefix_2)[1].strip()
             current_question["correctAnswers"] = correct_answers.split(", ")
+
+            if (len(correct_answers) != len(correct_answers.split(', '))):
+                answers = []
+
+                for index in range(len(correct_answers)):
+                    print(index, correct_answers)
+                    answers.append(correct_answers[index])
+                
+                current_question['correctAnswers'] = answers
+
             print(line, correct_answers.split(", "))
 
     # Add the last question if exists

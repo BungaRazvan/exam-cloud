@@ -53,7 +53,7 @@ const CheckboxOption: React.FC<AnswerOptionProps> = (props) => {
     <FormItem className="flex flex-row items-center space-x-3 space-y-0">
       <FormControl>
         <Checkbox
-          disabled={formSubmitted}
+          disabled={formSubmitted || readonly}
           checked={field.value?.includes(item.value)}
           onCheckedChange={(checked) => {
             onCheckedChange(field, checked, item);
@@ -67,7 +67,7 @@ const CheckboxOption: React.FC<AnswerOptionProps> = (props) => {
             !correctAnswers.includes(item.value) &&
             (formSubmitted || readonly),
           "text-green-500":
-            correctAnswers.includes(item.value) && formSubmitted,
+            correctAnswers.includes(item.value) && (formSubmitted || readonly),
         })}
       >
         {letter}. {item.label}
@@ -154,7 +154,7 @@ const MultipleAnswers: React.FC<AnswerProps> = (props) => {
           </Button>
         )}
 
-        {(!examMode || !readonly) && (
+        {!examMode && !readonly && (
           <Button className="text-xl" type="button" onClick={onNext}>
             Next
           </Button>

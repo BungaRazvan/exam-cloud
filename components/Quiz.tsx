@@ -18,9 +18,8 @@ const Quiz: React.FC<QuizProps> = (props) => {
     onEndQuiz,
   } = props;
   const [quizQuestions, setQuizQuestions] = useState<QuestionType[]>([]);
-  const [answersedQuestion, setAnswersedQuestion] = useState<QuestionType[]>(
-    []
-  );
+  const [answersedQuestion, setAnswersedQuestion] =
+    useState<QuestionType[]>(questions);
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
 
@@ -57,7 +56,7 @@ const Quiz: React.FC<QuizProps> = (props) => {
       options: shuffle(question.options),
     }));
 
-    setQuizQuestions(shuffled);
+    setQuizQuestions([shuffled[0]]);
   }, [questions]);
 
   // Compute step size for scoring adjustment
@@ -129,43 +128,57 @@ const Quiz: React.FC<QuizProps> = (props) => {
   }
 
   return (
-    <div className="flex items-center justify-center h-[90vh]">
-      <div className="m-auto">
-        {examMode && !showScore && (
-          <h3 className="justify-end">
-            Time Left: {Math.floor(timeLeft! / 60)}:{timeLeft! % 60}
-          </h3>
-        )}
-        {showScore ? (
-          <>
-            <Score
-              score={score}
-              maxScore={maxScore}
-              passingScore={passingScore}
-              onRetry={onRetry}
-              toggleAnswers={() => setShowAnswers(!showAnswers)}
-            />
+    <>
+      {showScore ? (
+        <>
+          <div
+            className="flex items-center justify-center h-[70vh]"
+            style={{ marginTop: "20vh" }}
+          >
+            <div className="m-auto">
+              <Score
+                score={score}
+                maxScore={maxScore}
+                passingScore={passingScore}
+                onRetry={onRetry}
+                toggleAnswers={() => setShowAnswers(!showAnswers)}
+              />
+            </div>
+          </div>
 
+          <div
+            className="flex items-center justify-center"
+            style={{ overflow: "auto", flexDirection: "column" }}
+          >
             {showAnswers && (
               <Answers
                 answersedQuestion={answersedQuestion}
                 examMode={examMode}
               />
             )}
-          </>
-        ) : (
-          <Question
-            key={"Question"}
-            question={quizQuestions[currentQuestionIndex]}
-            number={currentQuestionIndex + 1}
-            handleAnswer={handleAnswer}
-            nextQuestion={nextQuestion}
-            examMode={examMode}
-            readonly={false}
-          />
-        )}
-      </div>
-    </div>
+          </div>
+        </>
+      ) : (
+        <div className="flex items-center justify-center h-[90vh]">
+          <div className="m-auto">
+            {examMode && !showScore && (
+              <h3 className="justify-end">
+                Time Left: {Math.floor(timeLeft! / 60)}:{timeLeft! % 60}
+              </h3>
+            )}
+            <Question
+              key={"Question"}
+              question={quizQuestions[currentQuestionIndex]}
+              number={currentQuestionIndex + 1}
+              handleAnswer={handleAnswer}
+              nextQuestion={nextQuestion}
+              examMode={examMode}
+              readonly={false}
+            />
+          </div>
+        </div>
+      )}
+    </>
   );
 };
 

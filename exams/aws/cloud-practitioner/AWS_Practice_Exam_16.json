@@ -224,7 +224,8 @@
       }
     ],
     "correctAnswers": [
-      "BD"
+      "B",
+      "D"
     ],
     "exam": "16"
   },
@@ -328,7 +329,8 @@
       }
     ],
     "correctAnswers": [
-      "CE"
+      "C",
+      "E"
     ],
     "exam": "16"
   },
@@ -532,7 +534,8 @@
       }
     ],
     "correctAnswers": [
-      "BD"
+      "B",
+      "D"
     ],
     "exam": "16"
   },
@@ -961,7 +964,8 @@
       }
     ],
     "correctAnswers": [
-      "BE"
+      "B",
+      "E"
     ],
     "exam": "16"
   },
@@ -990,7 +994,8 @@
       }
     ],
     "correctAnswers": [
-      "CE"
+      "C",
+      "E"
     ],
     "exam": "16"
   },
@@ -1244,7 +1249,8 @@
       }
     ],
     "correctAnswers": [
-      "AD"
+      "A",
+      "D"
     ],
     "exam": "16"
   },
@@ -1277,7 +1283,9 @@
       }
     ],
     "correctAnswers": [
-      "ACD"
+      "A",
+      "C",
+      "D"
     ],
     "exam": "16"
   }

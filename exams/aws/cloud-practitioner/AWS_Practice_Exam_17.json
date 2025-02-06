@@ -274,7 +274,8 @@
       }
     ],
     "correctAnswers": [
-      "AD"
+      "A",
+      "D"
     ],
     "exam": "17"
   },
@@ -328,7 +329,8 @@
       }
     ],
     "correctAnswers": [
-      "AB"
+      "A",
+      "B"
     ],
     "exam": "17"
   },
@@ -357,7 +359,8 @@
       }
     ],
     "correctAnswers": [
-      "AE"
+      "A",
+      "E"
     ],
     "exam": "17"
   },
@@ -486,7 +489,8 @@
       }
     ],
     "correctAnswers": [
-      "AE"
+      "A",
+      "E"
     ],
     "exam": "17"
   },
@@ -590,7 +594,8 @@
       }
     ],
     "correctAnswers": [
-      "AB"
+      "A",
+      "B"
     ],
     "exam": "17"
   },
@@ -644,7 +649,8 @@
       }
     ],
     "correctAnswers": [
-      "BD"
+      "B",
+      "D"
     ],
     "exam": "17"
   },
@@ -698,7 +704,9 @@
       }
     ],
     "correctAnswers": [
-      "A,B"
+      "A",
+      ",",
+      "B"
     ],
     "exam": "17"
   },
@@ -777,7 +785,8 @@
       }
     ],
     "correctAnswers": [
-      "AB"
+      "A",
+      "B"
     ],
     "exam": "17"
   },
@@ -831,7 +840,8 @@
       }
     ],
     "correctAnswers": [
-      "BE"
+      "B",
+      "E"
     ],
     "exam": "17"
   },
@@ -1010,7 +1020,8 @@
       }
     ],
     "correctAnswers": [
-      "AC"
+      "A",
+      "C"
     ],
     "exam": "17"
   },
@@ -1139,7 +1150,8 @@
       }
     ],
     "correctAnswers": [
-      "AC"
+      "A",
+      "C"
     ],
     "exam": "17"
   },
