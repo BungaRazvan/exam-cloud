@@ -18,8 +18,9 @@ const Quiz: React.FC<QuizProps> = (props) => {
     onEndQuiz,
   } = props;
   const [quizQuestions, setQuizQuestions] = useState<QuestionType[]>([]);
-  const [answersedQuestion, setAnswersedQuestion] =
-    useState<QuestionType[]>(questions);
+  const [answersedQuestion, setAnswersedQuestion] = useState<QuestionType[]>(
+    []
+  );
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
 
@@ -56,7 +57,7 @@ const Quiz: React.FC<QuizProps> = (props) => {
       options: shuffle(question.options),
     }));
 
-    setQuizQuestions([shuffled[0]]);
+    setQuizQuestions(shuffled);
   }, [questions]);
 
   // Compute step size for scoring adjustment
